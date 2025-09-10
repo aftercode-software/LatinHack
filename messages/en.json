@@ -71,5 +71,107 @@
   "AlertBar": {
     "projects-closed": "Projects closed: {date}",
     "days-left": "{days} days left."
+  },
+  "Timeline": {
+    "title": "Timeline",
+    "phases": {
+      "kickoff": {
+        "title": "Kickoff",
+        "date": "Sep 27"
+      },
+      "workshops": {
+        "title": "Workshops",
+        "date": "From Sep 27 to Oct 12"
+      },
+      "submission": {
+        "title": "Submission",
+        "date": "Oct 12"
+      }
+    },
+    "participation": {
+      "title": "Participation",
+      "remote": "Remote (all LATAM)",
+      "inPerson": "In-person (1 day per country)"
+    },
+    "venues": {
+      "title": "Venues",
+      "countries": {
+        "argentina": {
+          "country": "Argentina",
+          "city": "Buenos Aires",
+          "date": "Oct 5",
+          "button": "View venue",
+          "link": "link"
+        },
+        "brazil": {
+          "country": "Brazil",
+          "city": "São Paulo",
+          "date": "Oct 6",
+          "button": "View venue",
+          "link": "link"
+        },
+        "colombia": {
+          "country": "Colombia",
+          "city": "Bogotá",
+          "date": "Oct 7",
+          "button": "View venue",
+          "link": "link"
+        },
+        "mexico": {
+          "country": "Mexico",
+          "city": "Mexico City",
+          "date": "Oct 8",
+          "button": "View venue",
+          "link": "link"
+        }
+      }
+    },
+    "microCopy": "You can participate 100% remotely. In-person meetings are optional (1 day only per country)."
+  }, 
+  "PrizesAndOpportunities": {
+    "title": "Prizes and Opportunities",
+    "objective": "Complete value proposition without confusion",
+    "items": {
+      "prize1": {
+        "title": "15,000 USDT",
+        "description": "First place cash prize"
+      },
+      "prize2": {
+        "title": "6-week mentorship",
+        "description": "Expert guidance for your project"
+      },
+      "prize3": {
+        "title": "Travel grants",
+        "description": "Sub0 Buenos Aires conference"
+      }
+    },
+    "footer": {
+      "highlight": "USD 21,000+",
+      "description": "includes cash + scholarships + mentorship program."
+    }
+  },
+  "WorkshopsAndResources": {
+    "title": "Workshops and Resources",
+    "objective": "Enable new builders"
+    ,
+    "workshops": {
+      "schedule": "Workshops (ES) with {date, plural, =0 {no date yet} =1 {date/time} other {dates/times}} or \"soon\":",
+      "topics": {
+        "topic1": {
+          "title": "What is web3?",
+          "calendar": "Add to calendar",
+          "calendarLink": "link"
+        },
+        "topic2": {
+          "title": "How to develop web3 apps?",
+          "calendar": "Add to calendar",
+          "calendarLink": "link"
+        }
+      }
+    },
+    "resources": {
+      "button": "View Resources",
+      "description": "(repos, guides, templates)."
+    }
   }
 }

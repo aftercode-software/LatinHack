@@ -87,5 +87,106 @@
     },
     "primary-button": "Crear cuenta",
     "secondary-button": "Unirse al Discord"
+  },
+  "Timeline": {
+    "title": "Formato",
+    "phases": {
+      "kickoff": {
+        "title": "Lanzamiento",
+        "date": "27 Sep"
+      },
+      "workshops": {
+        "title": "Workshops",
+        "date": "Del 27 Sep al 12 Oct"
+      },
+      "submission": {
+        "title": "Entrega",
+        "date": "12 Oct"
+      }
+    },
+    "participation": {
+      "title": "Participación",
+      "remote": "Remoto (toda LATAM)",
+      "inPerson": "Presencial (1 día por país)"
+    },
+    "venues": {
+      "title": "Sedes",
+      "countries": {
+        "argentina": {
+          "country": "Argentina",
+          "city": "Buenos Aires",
+          "date": "5 Oct",
+          "button": "Ver sede",
+          "link": "link"
+        },
+        "brazil": {
+          "country": "Brasil",
+          "city": "São Paulo",
+          "date": "6 Oct",
+          "button": "Ver sede",
+          "link": "link"
+        },
+        "colombia": {
+          "country": "Colombia",
+          "city": "Bogotá",
+          "date": "7 Oct",
+          "button": "Ver sede",
+          "link": "link"
+        },
+        "mexico": {
+          "country": "México",
+          "city": "Ciudad de México",
+          "date": "8 Oct",
+          "button": "Ver sede",
+          "link": "link"
+        }
+      }
+    },
+    "microCopy": "Puedes participar 100% remoto. Los encuentros presenciales son opcionales (solo 1 día por país)."
+  },
+  "PrizesAndOpportunities": {
+    "title": "Premios y Oportunidades",
+    "objective": "Propuesta de valor completa sin confusión",
+    "items": {
+      "prize1": {
+        "title": "15.000 USDT",
+        "description": "Premio en efectivo primer lugar"
+      },
+      "prize2": {
+        "title": "Mentoría 6 semanas",
+        "description": "Guía experta para tu proyecto"
+      },
+      "prize3": {
+        "title": "Becas de viaje",
+        "description": "Conferencia Sub0 Buenos Aires"
+      }
+    },
+    "footer": {
+      "highlight": "USD 21.000+",
+      "description": "incluye efectivo + becas + programa de mentoría."
+    }
+  },
+  "WorkshopsAndResources": {
+    "title": "Workshops y Recursos",
+    "objective": "Habilitar a constructores",
+    "workshops": {
+      "schedule": "Workshops (ES) con {date, plural, =0 {aún sin fecha} =1 {fecha/hora} other {fechas/horas}} o \"pronto\":",
+      "topics": {
+        "topic1": {
+          "title": "¿Qué es web3?",
+          "calendar": "Agregar al calendario",
+          "calendarLink": "link"
+        },
+        "topic2": {
+          "title": "¿Cómo desarrollar apps web3?",
+          "calendar": "Agregar al calendario",
+          "calendarLink": "link"
+        }
+      }
+    },
+    "resources": {
+      "button": "Ver Recursos",
+      "description": "(repos, guías, plantillas)."
+    }
   }
 }

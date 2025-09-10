@@ -72,4 +72,106 @@
     "projects-closed": "Fechamento de projetos: {date}",
     "days-left": "Faltam {days} dias."
   }
+  ,
+    "Timeline": {
+      "title": "Cronograma",
+      "phases": {
+        "kickoff": {
+          "title": "Início",
+          "date": "27 de Set"
+        },
+        "workshops": {
+          "title": "Workshops",
+          "date": "De 27 de Set a 12 de Out"
+        },
+        "submission": {
+          "title": "Entrega",
+          "date": "12 de Out"
+        }
+      },
+      "participation": {
+        "title": "Participação",
+        "remote": "Remoto (toda LATAM)",
+        "inPerson": "Presencial (1 dia por país)"
+      },
+      "venues": {
+        "title": "Locais",
+        "countries": {
+          "argentina": {
+            "country": "Argentina",
+            "city": "Buenos Aires",
+            "date": "5 de Out",
+            "button": "Ver local",
+            "link": "link"
+          },
+          "brazil": {
+            "country": "Brasil",
+            "city": "São Paulo",
+            "date": "6 de Out",
+            "button": "Ver local",
+            "link": "link"
+          },
+          "colombia": {
+            "country": "Colômbia",
+            "city": "Bogotá",
+            "date": "7 de Out",
+            "button": "Ver local",
+            "link": "link"
+          },
+          "mexico": {
+            "country": "México",
+            "city": "Cidade do México",
+            "date": "8 de Out",
+            "button": "Ver local",
+            "link": "link"
+          }
+        }
+      },
+      "microCopy": "Você pode participar 100% remotamente. Encontros presenciais são opcionais (apenas 1 dia por país)."
+    },
+    "PrizesAndOpportunities": {
+      "title": "Prêmios e Oportunidades",
+      "objective": "Proposta de valor completa sem confusão",
+      "items": {
+        "prize1": {
+          "title": "15.000 USDT",
+          "description": "Prêmio em dinheiro do primeiro lugar"
+        },
+        "prize2": {
+          "title": "Mentoria de 6 semanas",
+          "description": "Orientação especializada para seu projeto"
+        },
+        "prize3": {
+          "title": "Bolsas de viagem",
+          "description": "Conferência Sub0 Buenos Aires"
+        }
+      },
+      "footer": {
+        "highlight": "USD 21.000+",
+        "description": "inclui dinheiro + bolsas + programa de mentoria."
+      }
+    },
+    "WorkshopsAndResources": {
+      "title": "Workshops e Recursos",
+      "objective": "Capacitar construtores",
+      "workshops": {
+        "schedule": "Workshops (PT) com {date, plural, =0 {ainda sem data} =1 {data/hora} other {datas/horas}} ou \"pronto\":",
+        "topics": {
+          "topic1": {
+            "title": "O que é web3?",
+            "calendar": "Adicionar ao calendário",
+            "calendarLink": "link"
+          },
+          "topic2": {
+            "title": "Como desenvolver apps web3?",
+            "calendar": "Adicionar ao calendário",
+            "calendarLink": "link"
+          }
+        }
+      },
+      "resources": {
+        "button": "Ver Recursos",
+        "description": "(repos, guias, templates)."
+      }
+    }
 }
