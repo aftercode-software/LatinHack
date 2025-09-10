@@ -1,5 +1,75 @@
 {
-  "HomePage": {
-    "title": "Hello world!"
+  "Navbar": {
+    "home": "Home",
+    "how-it-works": "How it works",
+    "contact": "Contact"
+  },
+  "Hero": {
+    "title": "Create your app in 15 days.",
+    "date": "From Sep 27 to Oct 12",
+    "prizes": {
+      "first": "USD 21,000",
+      "second": "Trip to Miami",
+      "long": "Includes 15,000 USDT + 6-week mentorship + travel grants to Sub0 Buenos Aires + all-expenses-paid trip to Miami to see the GOAT"
+    },
+    "primary-button": "Register NOW",
+    "secondary-button": "Join the Discord"
+  },
+  "HowItWorks": {
+    "title": "How it works",
+    "steps": {
+      "step1": {
+        "title": "Create your account",
+        "description": "access to your panel and progress."
+      },
+      "step2": {
+        "title": "Join the Discord",
+        "description": "announcements, support, team."
+      },
+      "step3": {
+        "title": "Create your project",
+        "description": "receive feedback, mentors and evaluation."
+      }
+    },
+    "primary-button": "Create account"
+  },
+  "FAQ": {
+    "title": "Frequently asked questions",
+    "questions": {
+      "question1": {
+        "title": "What is Latin Hack?",
+        "answer": "Latin Hack is a Latin American hackathon that takes place in Buenos Aires, Argentina."
+      },
+      "question2": {
+        "title": "Where can I participate?",
+        "answer": "Remotely from anywhere in LATAM. Presencial sedes 1 day in AR/BR/CO/MX."
+      },
+      "question3": {
+        "title": "How can I register?",
+        "answer": "By creating your account (CTA on the page) and joining the Discord."
+      },
+      "question4": {
+        "title": "What are the prizes?",
+        "answer": "15.000 USDT + mentorship 6 weeks + travel grants to Sub0 Buenos Aires + all-expenses-paid trip to Miami to see the GOAT"
+      },
+      "question5": {
+        "title": "What is the language of the workshops?",
+        "answer": "English."
+      },
+      "question6": {
+        "title": "How many people per team?",
+        "answer": "TBD"
+      },
+      "question7": {
+        "title": "Can I participate alone?",
+        "answer": "Yes, but you will need to join a team."
+      }
+    },
+    "primary-button": "Create account",
+    "secondary-button": "Join the Discord"
+  },
+  "AlertBar": {
+    "projects-closed": "Projects closed: {date}",
+    "days-left": "{days} days left."
   }
 }

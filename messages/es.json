@@ -1,5 +1,91 @@
 {
-  "HomePage": {
-    "title": "Hola mundo!"
+  "Navbar": {
+    "home": "Inicio",
+    "how-it-works": "Cómo funciona",
+    "contact": "Contacto"
+  },
+  "Hero": {
+    "title": "Crea tu app en 15 días.",
+    "date": "Del 27 Sep al 12 Oct",
+    "prizes": {
+      "first": "USD 21.000",
+      "second": "Viaje a Miami",
+      "long": "Incluye 15.000 USDT + mentoría 6 semanas + becas de viaje a Sub0 Buenos Aires + viaje a Miami todo pago para ver al GOAT"
+    },
+    "primary-button": "Registrate YA",
+    "secondary-button": "Unirte al Discord"
+  },
+  "AlertBar": {
+    "projects-closed": "Cierre de proyectos: {date}",
+    "days-left": "Quedan {days} días."
+  },
+  "HowItWorks": {
+    "title": "Cómo funciona",
+    "steps": {
+      "step1": {
+        "title": "Creá tu cuenta",
+        "description": "acceso a tu panel y progreso."
+      },
+      "step2": {
+        "title": "Sumate al Discord",
+        "description": "anuncios, soporte, equipo."
+      },
+      "step3": {
+        "title": "Creá tu proyecto",
+        "description": "recibe feedback, mentores y evaluación."
+      }
+    },
+    "primary-button": "Crear cuenta"
+  },
+  "FAQ": {
+    "title": "Preguntas frecuentes",
+    "questions": {
+      "question1": {
+        "title": "¿Cuándo es el hackathon?",
+        "answer": "Del 27 Sep al 12 Oct 2025."
+      },
+      "question2": {
+        "title": "¿Dónde participo?",
+        "answer": "Remoto desde cualquier punto de LATAM. Sedes presenciales 1 día en AR/BR/CO/MX."
+      },
+      "question3": {
+        "title": "¿Cómo me inscribo?",
+        "answer": "Creando tu cuenta (CTA de la página) y uniéndote al Discord."
+      },
+      "question4": {
+        "title": "¿Qué premios hay?",
+        "answer": "15.000 USDT + mentoría 6 semanas + becas de viaje a Sub0 BA (noviembre). El total destacado es USD 21.000+ incluyendo todas las oportunidades."
+      },
+      "question5": {
+        "title": "¿En qué idioma están los workshops?",
+        "answer": "Español."
+      },
+      "question6": {
+        "title": "¿Cuántas personas por equipo?",
+        "answer": "TBD"
+      },
+      "question7": {
+        "title": "¿Costo de participación?",
+        "answer": "TBD"
+      },
+      "question8": {
+        "title": "¿Quién puede competir (elegibilidad)?",
+        "answer": "TBD"
+      },
+      "question9": {
+        "title": "¿Propiedad intelectual de los proyectos?",
+        "answer": "TBD"
+      },
+      "question10": {
+        "title": "¿Criterios de evaluación y jurados?",
+        "answer": "TBD"
+      },
+      "question11": {
+        "title": "¿Puedo participar solo?",
+        "answer": "TBD"
+      }
+    },
+    "primary-button": "Crear cuenta",
+    "secondary-button": "Unirse al Discord"
   }
 }

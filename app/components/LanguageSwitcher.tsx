@@ -20,10 +20,10 @@ export default function LanguageSwitcher() {
       </button>
       <button
         onClick={() => {
-          setUserLocale("br");
+          setUserLocale("pt");
         }}
       >
-        Set to BR
+        Set to PT-BR
       </button>
     </div>
   );

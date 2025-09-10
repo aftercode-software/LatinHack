@@ -1,0 +1,75 @@
+{
+  "Navbar": {
+    "home": "Início",
+    "how-it-works": "Como funciona",
+    "contact": "Contato"
+  },
+  "Hero": {
+    "title": "Crie sua app em 15 dias.",
+    "date": "De 27 de Set a 12 de Out",
+    "prizes": {
+      "first": "USD 21.000",
+      "second": "Viagem para Miami",
+      "long": "Inclui 15.000 USDT + mentoria de 6 semanas + bolsas de viagem para o Sub0 Buenos Aires + viagem para Miami com tudo pago para ver o GOAT"
+    },
+    "primary-button": "Registre-se JÁ",
+    "secondary-button": "Entrar no Discord"
+  },
+  "HowItWorks": {
+    "title": "Como funciona",
+    "steps": {
+      "step1": {
+        "title": "Crie sua conta",
+        "description": "acesso ao seu painel e progresso."
+      },
+      "step2": {
+        "title": "Entrar no Discord",
+        "description": "anuncios, suporte, equipe."
+      },
+      "step3": {
+        "title": "Crie seu projeto",
+        "description": "receba feedback, mentores e avaliação."
+      }
+    },
+    "primary-button": "Criar conta"
+  },
+  "FAQ": {
+    "title": "Perguntas frequentes",
+    "questions": {
+      "question1": {
+        "title": "O que é Latin Hack?",
+        "answer": "Latin Hack é um hackathon latinoamericano que se celebra em Buenos Aires, Argentina."
+      },
+      "question2": {
+        "title": "Onde posso participar?",
+        "answer": "Remoto desde qualquer ponto da LATAM. Sedes presenciais 1 dia em AR/BR/CO/MX."
+      },
+      "question3": {
+        "title": "Como me inscrever?",
+        "answer": "Criando sua conta (CTA da página) e se juntando ao Discord."
+      },
+      "question4": {
+        "title": "Quais são os prêmios?",
+        "answer": "15.000 USDT + mentoria 6 semanas + bolsas de viagem para o Sub0 Buenos Aires + viagem a Miami todo pago para ver o GOAT"
+      },
+      "question5": {
+        "title": "Em que idioma estão os workshops?",
+        "answer": "Português."
+      },
+      "question6": {
+        "title": "Quantas pessoas por equipe?",
+        "answer": "TBD"
+      },
+      "question7": {
+        "title": "Posso participar sozinho?",
+        "answer": "Sim, mas precisará se juntar a um time."
+      }
+    },
+    "primary-button": "Criar conta",
+    "secondary-button": "Entrar no Discord"
+  },
+  "AlertBar": {
+    "projects-closed": "Fechamento de projetos: {date}",
+    "days-left": "Faltam {days} dias."
+  }
+}

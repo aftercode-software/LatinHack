@@ -1,12 +1,16 @@
-import { useTranslations } from "next-intl";
-import LanguageSwitcher from "./components/LanguageSwitcher";
+import AlertBar from "./components/alert-bar/AlertBar";
+import Container from "./components/Container";
+import FAQ from "./components/faq/FAQ";
+import Hero from "./components/hero/Hero";
+import HowItWorks from "./components/how-it-works/HowItWorks";
 
 export default function Home() {
-  const t = useTranslations("HomePage");
   return (
-    <div className="flex flex-col items-center justify-center h-screen">
-      <h1 className="text-4xl">{t("title")}</h1>
-      <LanguageSwitcher />
-    </div>
+    <Container className="">
+      <AlertBar />
+      <Hero />
+      <HowItWorks />
+      <FAQ />
+    </Container>
   );
 }
