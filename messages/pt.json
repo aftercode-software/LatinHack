@@ -173,5 +173,34 @@
         "button": "Ver Recursos",
         "description": "(repos, guias, templates)."
       }
+    },
+    
+  "Platforms": {
+    "title": "Plataformas / Seu painel de progresso",
+    "microcopy": "O progresso, as entregas e o status da equipe ficam na sua conta. A conversa acontece no Discord.",
+    "cards": {
+      "account": {
+        "title": "Sua conta no Latin Hack",
+        "desc": "Painel com progresso, entregas, equipe e feedback.",
+        "cta": "Criar conta"
+      },
+      "discord": {
+        "title": "Discord",
+        "desc": "Anúncios, suporte técnico e networking.",
+        "cta": "Entrar no Discord",
+        "secondary": "Abrir canal"
+      }
     }
+  
+  },
+  "MidCTA": {
+    "copy": "Pronto para construir?",
+    "cta": "Criar conta"
+  },
+  "Sponsors": {
+    "title": "Sponsors e parceiros",
+    "subtitle": "Confiança e ecossistema: quem nos acompanha.",
+    "empty": "Anunciaremos os parceiros em breve."
+  }
+
 }

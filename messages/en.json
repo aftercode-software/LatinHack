@@ -173,5 +173,31 @@
       "button": "View Resources",
       "description": "(repos, guides, templates)."
     }
+  },
+  "Platforms": {
+    "title": "Platforms / Your progress panel",
+    "microcopy": "Progress, submissions and team status live in your account. Conversation happens in Discord.",
+    "cards": {
+      "account": {
+        "title": "Your Latin Hack account",
+        "desc": "Dashboard with progress, submissions, team and feedback.",
+        "cta": "Create account"
+      },
+      "discord": {
+        "title": "Discord",
+        "desc": "Announcements, technical support and networking.",
+        "cta": "Join the Discord",
+        "secondary": "Open channel"
+      }
+    }
+  },
+  "MidCTA": {
+    "copy": "Ready to build?",
+    "cta": "Create account"
+  },
+  "Sponsors": {
+    "title": "Sponsors & partners",
+    "subtitle": "Trust and ecosystem: who backs us.",
+    "empty": "We'll announce partners soon."
   }
 }
