@@ -8,7 +8,7 @@ export default function Navbar() {
   return (
     <nav>
       <Container className="flex justify-between items-center">
-        <img src="https://placehold.co/200x150" alt="logo" />
+        <img src="https://placehold.co/200x120" alt="logo" />
         <LanguageSwitcher />
 
         <ul>

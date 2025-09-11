@@ -20,8 +20,8 @@ export default function HowItWorks() {
   return (
     <section>
       <h2>{t("title")}</h2>
-      <div>
-        <ol className="list-decimal">
+      <div className="w-full">
+        <ol className="list-decimal flex justify-between">
           {steps.map((step) => (
             <li key={step.title}>
               <StepCard title={step.title} description={step.description} />

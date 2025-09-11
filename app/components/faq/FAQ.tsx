@@ -33,7 +33,7 @@ export default function FAQ() {
     },
   ];
   return (
-    <section>
+    <section className="mt-10">
       <h2>{t("title")}</h2>
       <div>
         <ol className="list-decimal">

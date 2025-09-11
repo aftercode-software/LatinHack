@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { NextIntlClientProvider } from "next-intl";
 import { Geist, Geist_Mono } from "next/font/google";
+import AlertBar from "./components/alert-bar/AlertBar";
 import Navbar from "./components/navbar/Navbar";
 import "./globals.css";
 
@@ -29,6 +30,8 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <AlertBar />
+
         <Navbar />
         <NextIntlClientProvider>{children}</NextIntlClientProvider>
       </body>
