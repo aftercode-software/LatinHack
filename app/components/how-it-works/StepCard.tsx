@@ -9,7 +9,7 @@ export default function StepCard({
 }) {
   return (
     <div className="flex gap-2">
-      <h3>{title}</h3> -{">"} <p>{description}</p>
+      <h3 className="font-bold font-anybody"> {title}</h3> -{">"} <p className="font-anybody">{description}</p>
     </div>
   );
 }
