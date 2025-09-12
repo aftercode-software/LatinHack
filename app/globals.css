@@ -14,6 +14,9 @@
   --font-mono: var(--font-geist-mono), ui-monospace, SFMono-Regular, Menlo, monospace;
 
   --font-anybody: var(--font-anybody), ui-sans-serif, system-ui, sans-serif;
+  --font-anybody-condensed: var(--font-anybody-condensed), ui-sans-serif, system-ui, sans-serif;
+  --font-anybody-semi: var(--font-anybody-semi), ui-sans-serif, system-ui, sans-serif;
+  --font-anybody-expanded: var(--font-anybody-expanded), ui-sans-serif, system-ui, sans-serif;
   --font-roboto: var(--font-roboto), ui-sans-serif, system-ui, sans-serif;
   --font-roboto-mono: var(--font-roboto-mono), ui-monospace, SFMono-Regular, Menlo, monospace;
   --font-myriadpro: var(--font-myriadpro), ui-sans-serif, system-ui, sans-serif;
@@ -21,7 +24,7 @@
   --font-snneo: var(--font-snneo), ui-sans-serif, system-ui, sans-serif;
 
 
-   --color-blue: oklch(0.1965 0.1316 265.74);
+  --color-blue: oklch(0.1965 0.1316 265.74);
 
   --color-green: oklch(86.644% 0.29483 142.5);
   --color-green-50: oklch(93.54% 0.11827 144.56);

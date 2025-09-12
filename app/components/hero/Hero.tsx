@@ -5,7 +5,7 @@ export default function Hero() {
   const t = useTranslations("Hero");
   return (
     <section className="h-[60vh] flex flex-col items-center justify-center gap-4">
-      <h1 className="uppercase">
+      <h1 className="uppercase font-anybody-condensed text-3xl">
         {" "}
         {t.rich("title", {
           b: (chunks) => <b className="font-bold">{chunks}</b>,
@@ -13,10 +13,10 @@ export default function Hero() {
       </h1>
       <img src={"/logo.png"} alt="logo" />
       <span>{t("date")}</span>
-      <h2 className="text-4xl uppercase font-bold">{t("subtitle")}</h2>
+      <h2 className="text-4xl uppercase font-bold ">{t("subtitle")}</h2>
 
       <div className="items-center justify-center flex flex-col">
-        <section className="flex gap-4">
+        <section className="flex gap-4 font-anybody">
           <p>{t("prizes.first")}</p>
           <p>{t("prizes.second")} 🐐⚽️</p>
         </section>
