@@ -5,7 +5,8 @@
     "contact": "Contacto"
   },
   "Hero": {
-    "title": "Crea tu app en 15 días.",
+    "title": "un evento de <b>nerdconf</b>",
+    "subtitle": "Crea tu app en 15 días",
     "date": "Del 27 Sep al 12 Oct",
     "prizes": {
       "first": "USD 21.000",
