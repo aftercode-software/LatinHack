@@ -7,14 +7,18 @@ export default function Hero() {
   const t = useTranslations("Hero");
   return (
     <section className="relative flex flex-col items-center justify-center gap-4 py-30">
-      <header className="flex flex-col items-center relative -space-y-10">
-        <h1 className="uppercase font-light font-anybody text-3xl text-green text-center">
+      <header className="flex flex-col items-center relative md:-space-y-10">
+        <h1 className="uppercase font-light font-anybody text-2xl md:text-3xl text-green text-center">
           {t.rich("title", {
             b: (chunks) => <b className="font-bold">{chunks}</b>,
           })}
         </h1>
-        <img src="/logo.png" alt="logo" className="max-w-4xl -my-2" />
-        <span className="font-roboto-mono text-green-50 uppercase text-2xl -mt-8">
+        <img
+          src="/logo.png"
+          alt="logo"
+          className="max-w-xl md:max-w-4xl -my-2"
+        />
+        <span className="font-roboto-mono text-green-50 uppercase text-xl md:text-2xl md:-mt-8">
           {t("date")}
         </span>
       </header>
