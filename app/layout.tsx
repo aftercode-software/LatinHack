@@ -167,6 +167,18 @@ const ocra = localFont({
   display: "swap",
 });
 
+const upheaval = localFont({
+  src: [
+    {
+      path: "./fonts/upheaval/UpheavalPro-Regular.otf",
+      weight: "400",
+      style: "normal",
+    },
+  ],
+  variable: "--font-upheaval",
+  display: "swap",
+});
+
 const snNeoNoire = localFont({
   src: [
     {
@@ -204,13 +216,14 @@ export default function RootLayout({
           robotoMono.variable,
           myriadPro.variable,
           ocra.variable,
+          upheaval.variable,
           snNeoNoire.variable,
           "antialiased",
         ].join(" ")}
       >
         <NextIntlClientProvider>
-          <AlertBar />
-          <Navbar />
+          {/* <AlertBar /> */}
+          {/* <Navbar /> */}
           {children}
         </NextIntlClientProvider>
       </body>

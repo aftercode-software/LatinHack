@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { useTranslations } from "next-intl";
 
 import MidCTA from "./components/call-to-action/MidCTA";
@@ -16,17 +17,23 @@ export default function Home() {
   const t = useTranslations("MidCTA");
 
   return (
-    <Container className="">
-      <Hero />
-      <CountDown />
-      <HowItWorks />
-      <Timeline />
-      <PrizesAndOpportunities />
-      <WorkshopsAndResources />
-      <Platform />
-      <MidCTA title={t("copy")} ctaLabel={t("cta")} ctaHref="/signup" />
-      <Sponsors />
-      <FAQ />
-    </Container>
+    <main className="relative">
+      <img
+        src={"/backgrounds/space.webp"}
+        className="absolute w-full h-full object-cover"
+      />
+      <Container className="relative">
+        <Hero />
+
+        <HowItWorks />
+        <Timeline />
+        <PrizesAndOpportunities />
+        <WorkshopsAndResources />
+        <Platform />
+        <MidCTA title={t("copy")} ctaLabel={t("cta")} ctaHref="/signup" />
+        <Sponsors />
+        <FAQ />
+      </Container>
+    </main>
   );
 }

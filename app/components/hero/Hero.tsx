@@ -1,47 +1,61 @@
 /* eslint-disable @next/next/no-img-element */
 import { useTranslations } from "next-intl";
+import Prizes from "./PrizesAndButtons";
+import { CountDown } from "./CountDown";
 
 export default function Hero() {
   const t = useTranslations("Hero");
   return (
-    <section className="h-[60vh] relative flex flex-col items-center justify-center gap-4 my-40">
-      <h1 className="uppercase font-light font-anybody text-3xl text-green text-center">
-        {" "}
-        {t.rich("title", {
-          b: (chunks) => <b className="font-bold">{chunks}</b>,
-        })}
-      </h1>
-      <img src={"/logo.png"} alt="logo" />
-      <span className="font-roboto-mono uppercase text-xl">{t("date")}</span>
-      <h2 className="uppercase font-bold font-anybody-condensed text-4xl text-center md:text-6xl pixel-text">
-        {t("subtitle")}
-      </h2>
+    <section className="relative flex flex-col items-center justify-center gap-4 py-30">
+      <header className="flex flex-col items-center relative -space-y-10">
+        <h1 className="uppercase font-light font-anybody text-3xl text-green text-center">
+          {t.rich("title", {
+            b: (chunks) => <b className="font-bold">{chunks}</b>,
+          })}
+        </h1>
+        <img src="/logo.png" alt="logo" className="max-w-4xl -my-2" />
+        <span className="font-roboto-mono text-green-50 uppercase text-2xl -mt-8">
+          {t("date")}
+        </span>
+      </header>
 
-      <div className="flex flex-col items-center border-[1px] border-green border-dash-wide">
-        <section className="w-full text-center bg-gradient-to-b from-black to-green-800 py-4 font-anybody font-bold">
-          <p className="relative z-10 text-xl sm:text-3xl uppercase">
-            {t("prizes.first")} <span>+</span> {t("prizes.second")}
-          </p>
-        </section>
-
-        <p
-          className="md:mt-3 max-w-2xl px-8 py-4 md:py-6 text-center font-roboto-mono text-base sm:text-xl
-      text-white/90 uppercase tracking-tight
-      
+      <section className="relative isolate py-12 md:py-0">
+        <img
+          src="/globe.webp"
+          alt=""
+          className="
+      pointer-events-none select-none 
+      absolute left-1/2 top-1/2
+      -translate-x-1/2 -translate-y-[45%]
+      w-[140vw] max-w-[1300px] aspect-square object-contain
+      opacity-90 
     "
-        >
-          {t("prizes.long")}
-        </p>
-      </div>
+        />
 
-      <div className="space-y-4 relative p-2 bg-black md:-top-8 flex flex-col border-[1px] border-green rounded-md w-full max-w-lg">
-        <button className="bg-gradient-to-b from-white to-green rounded-sm py-3 font-bold text-black uppercase font-anybody-expanded">
-          {t("primary-button")}
-        </button>
-        <button className="text-green uppercase font-anybody underline">
-          {t("secondary-button")}
-        </button>
-      </div>
+        <span
+          className="
+      pointer-events-none
+      absolute left-1/2 top-1/2 -z-10
+      -translate-x-1/2 -translate-y-1/2
+      w-[150vw] max-w-[1300px] aspect-square rounded-full
+      bg-[radial-gradient(closest-side,rgba(16,255,0,0.35),transparent_70%)]
+      blur-2xl opacity-70
+    "
+        />
+
+        <div className="relative z-10 flex flex-col items-center animate-[slideDown_1s_ease-out]">
+          <h2 className="uppercase font-bold font-upheaval text-4xl md:text-8xl text-center pixel-text text-white drop-shadow-[0_0_20px_rgba(0,255,255,0.8)]">
+            {t("subtitle")}
+          </h2>
+          <Prizes />
+          <img
+            src="/flechon.png"
+            alt=""
+            className="w-30 object-contain animate-bounce"
+          />
+          <CountDown />
+        </div>
+      </section>
     </section>
   );
 }
