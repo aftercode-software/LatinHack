@@ -8,8 +8,33 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+
+  --font-sans: var(--font-anybody), var(--font-geist-sans), ui-sans-serif, system-ui, sans-serif;
+  --font-heading: var(--font-anybody), ui-sans-serif, system-ui, sans-serif;
+  --font-mono: var(--font-geist-mono), ui-monospace, SFMono-Regular, Menlo, monospace;
+
+  --font-anybody: var(--font-anybody), ui-sans-serif, system-ui, sans-serif;
+  --font-roboto: var(--font-roboto), ui-sans-serif, system-ui, sans-serif;
+  --font-roboto-mono: var(--font-roboto-mono), ui-monospace, SFMono-Regular, Menlo, monospace;
+  --font-myriadpro: var(--font-myriadpro), ui-sans-serif, system-ui, sans-serif;
+  --font-ocra: var(--font-ocra), ui-monospace, SFMono-Regular, Menlo, monospace;
+  --font-snneo: var(--font-snneo), ui-sans-serif, system-ui, sans-serif;
+
+
+   --color-blue: oklch(0.1965 0.1316 265.74);
+
+  --color-green: oklch(86.644% 0.29483 142.5);
+  --color-green-50: oklch(93.54% 0.11827 144.56);
+  --color-green-100: oklch(92.009% 0.15146 144.22);
+  --color-green-200: oklch(89.578% 0.2101 143.57);
+  --color-green-300: oklch(87.941% 0.25501 143.02);
+  --color-green-400: oklch(86.989% 0.28381 142.65);
+  --color-green-500: oklch(86.644% 0.29483 142.5);
+  --color-green-600: oklch(71.887% 0.24461 142.5);
+  --color-green-700: oklch(56.322% 0.19165 142.5);
+  --color-green-800: oklch(39.577% 0.13467 142.5);
+  --color-green-900: oklch(20.733% 0.07055 142.5);
+  --color-green-950: oklch(8.398% 0.02858 142.5);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -22,5 +47,4 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
 }
