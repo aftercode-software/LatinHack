@@ -208,9 +208,11 @@ export default function RootLayout({
           "antialiased",
         ].join(" ")}
       >
-        <AlertBar />
-        <Navbar />
-        <NextIntlClientProvider>{children}</NextIntlClientProvider>
+        <NextIntlClientProvider>
+          <AlertBar />
+          <Navbar />
+          {children}
+        </NextIntlClientProvider>
       </body>
     </html>
   );
