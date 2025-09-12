@@ -9,12 +9,16 @@
     "subtitle": "Crea tu app en 15 días",
     "date": "Del 27 Sep al 12 Oct",
     "prizes": {
-      "first": "USD 21.000",
+      "first": "USDT 21.000",
       "second": "Viaje a Miami",
       "long": "Incluye 15.000 USDT + mentoría 6 semanas + becas de viaje a Sub0 Buenos Aires + viaje a Miami todo pago para ver al GOAT"
     },
     "primary-button": "Registrate YA",
     "secondary-button": "Unirte al Discord"
+  },
+  "CountDown": {
+    "title": "Cierre de proyectos",
+    "daysLeft": "QUEDAN {daysLeft} DÍAS"
   },
   "AlertBar": {
     "projects-closed": "Cierre de proyectos: {date}",

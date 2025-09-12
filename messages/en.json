@@ -9,12 +9,16 @@
     "subtitle": "Create your app in 15 days",
     "date": "From Sep 27 to Oct 12",
     "prizes": {
-      "first": "USD 21,000",
+      "first": "USDT 21,000",
       "second": "Trip to Miami",
       "long": "Includes 15,000 USDT + 6-week mentorship + travel grants to Sub0 Buenos Aires + all-expenses-paid trip to Miami to see the GOAT"
     },
     "primary-button": "Register NOW",
     "secondary-button": "Join the Discord"
+  },
+  "CountDown": {
+    "title": "Project submission deadline",
+    "daysLeft": "{daysLeft} DAYS LEFT"
   },
   "HowItWorks": {
     "title": "How it works",

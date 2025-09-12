@@ -9,12 +9,16 @@
     "subtitle": "Crie sua app em 15 dias",
     "date": "De 27 de Set a 12 de Out",
     "prizes": {
-      "first": "USD 21.000",
+      "first": "USDT 21.000",
       "second": "Viagem para Miami",
       "long": "Inclui 15.000 USDT + mentoria de 6 semanas + bolsas de viagem para o Sub0 Buenos Aires + viagem para Miami com tudo pago para ver o GOAT"
     },
     "primary-button": "Registre-se JÁ",
     "secondary-button": "Entrar no Discord"
+  },
+  "CountDown": {
+    "title": "Prazo de entrega do projeto",
+    "daysLeft": "{daysLeft} DIAS RESTANTES"
   },
   "HowItWorks": {
     "title": "Como funciona",
