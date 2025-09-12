@@ -10,6 +10,7 @@ import Platform from "./components/progress-panel/Platform";
 import Sponsors from "./components/sponsors/Sponsors";
 import Timeline from "./components/timeline/Timeline";
 import WorkshopsAndResources from "./components/workshop/WorkshopsAndResources";
+import { CountDown } from "./components/hero/CountDown";
 
 export default function Home() {
   const t = useTranslations("MidCTA");
@@ -17,6 +18,7 @@ export default function Home() {
   return (
     <Container className="">
       <Hero />
+      <CountDown />
       <HowItWorks />
       <Timeline />
       <PrizesAndOpportunities />
