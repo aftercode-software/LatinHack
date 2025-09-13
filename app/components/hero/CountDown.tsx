@@ -42,7 +42,7 @@ export function CountDown({
           </button> */}
 
           <div className="grid grid-cols-1 md:grid-cols-2 border-dash-wide divide-dashed">
-            <aside className="flex flex-col px-6 py-4 md:border-r-green border-b-green border-solid border-b-[1px] md:border-r-[1px] bg-black/70">
+            <aside className="flex flex-col px-6 py-4 border-2 border-dashed border-green bg-black/70">
               <p className="text-white font-anybody uppercase text-2xl font-light text-center md:text-left">
                 {t("title")}
               </p>
@@ -50,7 +50,7 @@ export function CountDown({
                 {deadlineISO}
               </p>
             </aside>
-            <aside className="flex justify-center items-center px-6 py-4 bg-black/70">
+            <aside className="flex justify-center items-center px-6 py-4 border-x-2 border-b-2 md:border-y-2 md:border-l-0 border-dashed border-green bg-black/70">
               <p className="text-center font-anybody-condensed text-green text-6xl">
                 {t("daysLeft", { daysLeft })}
               </p>

@@ -1,12 +1,12 @@
 /* eslint-disable @next/next/no-img-element */
 import { useTranslations } from "next-intl";
-import Prizes from "./PrizesAndButtons";
 import { CountDown } from "./CountDown";
+import Prizes from "./PrizesAndButtons";
 
 export default function Hero() {
   const t = useTranslations("Hero");
   return (
-    <section className="relative flex flex-col items-center justify-center gap-4 py-30">
+    <section className="relative flex flex-col items-center justify-center gap-4 pt-20">
       <header className="flex flex-col items-center relative md:-space-y-10">
         <h1 className="uppercase font-light font-anybody text-2xl md:text-3xl text-green text-center">
           {t.rich("title", {
@@ -28,23 +28,23 @@ export default function Hero() {
           src="/globe.webp"
           alt=""
           className="
-      pointer-events-none select-none 
-      absolute left-1/2 top-1/2
-      -translate-x-1/2 -translate-y-[45%]
-      w-[140vw] max-w-[1300px] aspect-square object-contain
-      opacity-90 
-    "
+            pointer-events-none select-none 
+            absolute left-1/2 top-1/2
+            -translate-x-1/2 -translate-y-[45%]
+            w-[140vw] max-w-[1300px] aspect-square object-contain
+            opacity-90 
+          "
         />
 
         <span
           className="
-      pointer-events-none
-      absolute left-1/2 top-1/2 -z-10
-      -translate-x-1/2 -translate-y-1/2
-      w-[150vw] max-w-[1300px] aspect-square rounded-full
-      bg-[radial-gradient(closest-side,rgba(16,255,0,0.35),transparent_70%)]
-      blur-2xl opacity-70
-    "
+            pointer-events-none
+            absolute left-1/2 top-1/2 -z-10
+            -translate-x-1/2 -translate-y-1/2
+            w-[150vw] max-w-[1300px] aspect-square rounded-full
+            bg-[radial-gradient(closest-side,rgba(16,255,0,0.35),transparent_70%)]
+            blur-2xl opacity-70
+          "
         />
 
         <div className="relative z-10 flex flex-col items-center animate-[slideDown_1s_ease-out]">

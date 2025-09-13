@@ -132,33 +132,30 @@
       }
     },
     "microCopy": "You can participate 100% remotely. In-person meetings are optional (1 day only per country)."
-  }, 
+  },
   "PrizesAndOpportunities": {
     "title": "Prizes and Opportunities",
     "objective": "Complete value proposition without confusion",
     "items": {
       "prize1": {
-        "title": "15,000 USDT",
-        "description": "First place cash prize"
+        "title": "15.000 USDT",
+        "description": "Cash prize for winning teams"
       },
       "prize2": {
-        "title": "6-week mentorship",
-        "description": "Expert guidance for your project"
+        "title": "Mentorship",
+        "description": "6-week mentorship for winning teams"
       },
       "prize3": {
-        "title": "Travel grants",
-        "description": "Sub0 Buenos Aires conference"
+        "title": "Trips",
+        "description": "Scholarship for Polkadot sub0 in Buenos Aires, Argentina (Nov. 2025)"
       }
     },
-    "footer": {
-      "highlight": "USD 21,000+",
-      "description": "includes cash + scholarships + mentorship program."
-    }
+    "goat": "WE'RE GOING TO SEE THE G.O.A.T.",
+    "footnote": "TOTAL: USD 21,000. Includes cash + scholarships + mentorship program."
   },
   "WorkshopsAndResources": {
     "title": "Workshops and Resources",
-    "objective": "Enable new builders"
-    ,
+    "objective": "Enable new builders",
     "workshops": {
       "schedule": "Workshops (ES) with {date, plural, =0 {no date yet} =1 {date/time} other {dates/times}} or \"soon\":",
       "topics": {

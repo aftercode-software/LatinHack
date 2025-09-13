@@ -1,16 +1,58 @@
 import { useTranslations } from "next-intl";
+import Title from "../Title";
+import GoatSection from "./GoatSection";
+import PrizeCard from "./PrizeCard";
 
 export default function PrizesAndOpportunities() {
   const t = useTranslations("PrizesAndOpportunities");
+
+  const prizes = [
+    {
+      title: t("items.prize1.title"),
+      iconImage: "/prizes/trophy-solid.svg",
+      description: t("items.prize1.description"),
+    },
+    {
+      title: t("items.prize2.title"),
+      iconImage: "/prizes/users-solid.svg",
+      description: t("items.prize2.description"),
+    },
+    {
+      title: t("items.prize3.title"),
+      iconImage: "/prizes/plane-solid.svg",
+      description: t("items.prize3.description"),
+    },
+  ];
+
   return (
-    <section className="my-10">
+    <section className="margin-section">
       <div className="text-left mb-4">
-        <h2 className="text-4xl font-bold mb-4">{t("title")}</h2>
-        <p className="text-lg text-gray-600">{t("objective")}</p>
+        <Title>{t("title")}</Title>
       </div>
 
-      <div className="grid md:grid-cols-3 gap-8 mb-12">
-        <div className="text-center p-6 rounded-lg border">
+      <div className="grid xl:grid-cols-3 gap-8 mb-12">
+        {prizes.map((prize) => (
+          <PrizeCard
+            key={prize.title}
+            prize={prize.title}
+            iconImage={prize.iconImage}
+            description={prize.description}
+          />
+        ))}
+      </div>
+      <GoatSection title={t("goat")} />
+      <div className="text-center border-2 border-dashed border-green mt-8 py-6 bg-black/20">
+        <p className="text-white text-3xl uppercase font-anybody">
+          {t("footnote")}
+        </p>
+      </div>
+    </section>
+  );
+}
+
+/*
+
+<div className="text-center p-6 rounded-lg border">
           <div className="text-4xl mb-4">🏆</div>
           <h3 className="text-xl font-semibold mb-2">
             {t("items.prize1.title")}
@@ -33,14 +75,4 @@ export default function PrizesAndOpportunities() {
           </h3>
           <p className="text-gray-600">{t("items.prize3.description")}</p>
         </div>
-      </div>
-
-      <div className="text-center">
-        <div className="text-3xl font-bold text-gray-200 mb-2">
-          {t("footer.highlight")}
-        </div>
-        <p className="text-gray-600">{t("footer.description")}</p>
-      </div>
-    </section>
-  );
-}
+        */
