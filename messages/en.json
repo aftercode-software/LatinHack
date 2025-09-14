@@ -2,6 +2,9 @@
   "Navbar": {
     "button": "Create account"
   },
+  "UI": {
+    "language": "Language"
+  },
   "Hero": {
     "title": "a <b>nerdconf</b> event",
     "subtitle": "Create your app in 15 days",

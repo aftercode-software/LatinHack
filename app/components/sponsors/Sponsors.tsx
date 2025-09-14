@@ -1,28 +1,33 @@
 "use client";
 
 import { useTranslations } from "next-intl";
+import Title from "../Title";
 
 export default function Sponsors() {
   const t = useTranslations("Sponsors");
 
   const sponsors = [
-    { name: "Acme Cloud", logoSrc: "/logos/acme.svg", href: "https://acme.com" },
-    { name: "Dev Community", logoSrc: "/logos/dev.svg", href: "https://dev.to" },
-    { name: "HostCorp", logoSrc: "/logos/host.svg" },
-  ];
+    { name: "Polkadot", logoSrc: "/polkadot.svg", href: "https://polkadot.network" },
+    { name: "Aselleraction", logoSrc: "/aselleraction.svg", href: "https://aselleraction.com" },
+    { name: "IBM", logoSrc: "/ibm.svg", href: "https://aselleraction.com" },
+  { name: "Seed", logoSrc: "/seed.svg", href: "https://aselleraction.com" },
+  { name: "Ruta", logoSrc: "/ruta.svg" , href: "https://aselleraction.com"},
+  { name: "Offramp", logoSrc: "/offramp.svg", href: "https://aselleraction.com" },
+  { name: "Vercel", logoSrc: "/vercellogo.svg", href: "https://aselleraction.com" },
+  { name: "Meta", logoSrc: "/meta.svg", href: "https://aselleraction.com" },
+];
 
   return (
     <section className="my-10" id="sponsors">
       <div className="mx-auto max-w-6xl px-4">
         <div className="text-center mb-6">
-          <h2 className="text-3xl font-bold mb-2">{t("title")}</h2>
-          <p className="text-gray-600">{t("subtitle")}</p>
+        <Title>{t("title")}</Title>
         </div>
 
         {sponsors.length === 0 ? (
           <p className="text-gray-500 text-center">{t("empty")}</p>
         ) : (
-          <div className="flex flex-col md:flex-row md:flex-wrap items-center justify-center gap-6">
+          <div className="flex flex-col md:flex-row md:flex-wrap items-center justify-center gap-16">
             {sponsors.map((s) =>
               s.href ? (
                 <a
