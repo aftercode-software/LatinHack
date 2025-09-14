@@ -3,7 +3,7 @@ import { setUserLocale } from "../services/locale";
 
 export default function LanguageSwitcher() {
   return (
-    <div className="space-x-2 *:bg-blue-500 *:text-white *:p-2 *:rounded-md">
+    <div className="space-x-2 *:bg-green-500 *:text-black *:font-bold *:p-2 *:rounded-md">
       <button
         onClick={() => {
           setUserLocale("en");

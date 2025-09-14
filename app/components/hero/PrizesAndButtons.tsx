@@ -6,8 +6,8 @@ export default function Prizes() {
   return (
     <section>
       <div className="mt-4 md:mt-10 w-full max-w-3xl border-2 border-dashed border-green">
-        <section className="w-full text-center bg-gradient-to-b from-green-950/90 to-green-600/50 py-4 font-anybody font-bold border-b-2 border-green/70">
-          <p className="relative z-10 text-xl sm:text-3xl uppercase">
+        <section className="flex items-center justify-center w-full text-center bg-gradient-to-b from-green-950/90 to-green-600/50 py-4 font-anybody font-bold border-b-2 border-green/70 border-dashed">
+          <p className="text-xl sm:text-3xl uppercase text-white leading-6 -mb-2">
             {t("prizes.first")} <span>+</span> {t("prizes.second")}
           </p>
         </section>

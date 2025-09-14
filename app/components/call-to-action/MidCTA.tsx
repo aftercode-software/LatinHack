@@ -1,5 +1,6 @@
 "use client";
 
+import { cn } from "@/lib/utils";
 import Link from "next/link";
 
 type MidCTAProps = {
@@ -16,12 +17,20 @@ export default function ({
   className = "",
 }: MidCTAProps) {
   return (
-    <section className={`my-10 bg-neutral-50 dark:bg-neutral-950/40 ${className}`}>
-      <div className="mx-auto max-w-4xl px-4 py-8 text-center">
-        <h3 className="text-3xl font-semibold mb-4">{title}</h3>
+    <section
+      className={cn(
+        "my-10 relative flex justify-center items-center",
+        className
+      )}
+    >
+      <img src="/cta/astronaut.png" alt="" className="w-full md:w-[40%]" />
+      <div className="w-full px-4 py-8 text-center absolute bottom-1/5 left-1/2 -translate-x-1/2 space-y-8">
+        <h2 className="uppercase font-bold font-upheaval text-6xl md:text-8xl text-center pixel-text text-white drop-shadow-[0_0_20px_rgba(0,255,255,0.8)]">
+          {title}
+        </h2>
         <Link
           href={ctaHref}
-          className="inline-flex items-center justify-center rounded px-4 py-2 text-sm font-semibold bg-black text-white hover:opacity-90"
+          className="md:px-20 px-10 py-2 md:py-4 text-3xl md:text-4xl font-medium bg-black/70 font-upheaval text-white hover:opacity-90 border-2 border-dashed border-green "
         >
           {ctaLabel}
         </Link>

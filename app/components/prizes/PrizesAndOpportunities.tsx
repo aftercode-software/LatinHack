@@ -20,12 +20,24 @@ export default function PrizesAndOpportunities() {
     {
       title: t("items.prize3.title"),
       iconImage: "/prizes/plane-solid.svg",
-      description: t("items.prize3.description"),
+      description: t.rich("items.prize3.description", {
+        polkadot: (chunks) => (
+          <span className="font-bold text-pink-600">{chunks}</span>
+        ),
+        sub0: (chunks) => (
+          <span className="font-bold text-green">{chunks}</span>
+        ),
+      }),
     },
   ];
 
   return (
     <section className="margin-section">
+      <img
+        src="/flechon.png"
+        alt=""
+        className="w-60 mx-auto object-contain animate-bounce"
+      />
       <div className="text-left mb-4">
         <Title>{t("title")}</Title>
       </div>
@@ -49,30 +61,3 @@ export default function PrizesAndOpportunities() {
     </section>
   );
 }
-
-/*
-
-<div className="text-center p-6 rounded-lg border">
-          <div className="text-4xl mb-4">🏆</div>
-          <h3 className="text-xl font-semibold mb-2">
-            {t("items.prize1.title")}
-          </h3>
-          <p className="text-gray-600">{t("items.prize1.description")}</p>
-        </div>
-
-        <div className="text-center p-6 rounded-lg border">
-          <div className="text-4xl mb-4">👥</div>
-          <h3 className="text-xl font-semibold mb-2">
-            {t("items.prize2.title")}
-          </h3>
-          <p className="text-gray-600">{t("items.prize2.description")}</p>
-        </div>
-
-        <div className="text-center p-6 rounded-lg border">
-          <div className="text-4xl mb-4">✈️</div>
-          <h3 className="text-xl font-semibold mb-2">
-            {t("items.prize3.title")}
-          </h3>
-          <p className="text-gray-600">{t("items.prize3.description")}</p>
-        </div>
-        */

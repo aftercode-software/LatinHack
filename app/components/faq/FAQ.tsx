@@ -1,50 +1,30 @@
-import { useTranslations } from "next-intl";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
+import { useMessages, useTranslations } from "next-intl";
+import Title from "../Title";
 
 export default function FAQ() {
   const t = useTranslations("FAQ");
-  const questions = [
-    {
-      title: t("questions.question1.title"),
-      answer: t("questions.question1.answer"),
-    },
-    {
-      title: t("questions.question2.title"),
-      answer: t("questions.question2.answer"),
-    },
-    {
-      title: t("questions.question3.title"),
-      answer: t("questions.question3.answer"),
-    },
-    {
-      title: t("questions.question4.title"),
-      answer: t("questions.question4.answer"),
-    },
-    {
-      title: t("questions.question5.title"),
-      answer: t("questions.question5.answer"),
-    },
-    {
-      title: t("questions.question6.title"),
-      answer: t("questions.question6.answer"),
-    },
-    {
-      title: t("questions.question7.title"),
-      answer: t("questions.question7.answer"),
-    },
-  ];
+
+  const messages = useMessages();
+
+  const questions = Object.values(messages.FAQ.questions);
+
   return (
     <section className="mt-10">
-      <h2>{t("title")}</h2>
-      <div>
-        <ol className="list-decimal">
-          {questions.map((question) => (
-            <li key={question.title}>
-              <p>{question.title}</p>
-              <p>{question.answer}</p>
-            </li>
-          ))}
-        </ol>
-      </div>
+      <Title>{t("title")}</Title>
+      <Accordion type="single" collapsible>
+        {questions.map((question: any, i) => (
+          <AccordionItem value={question.title} key={question.title + i}>
+            <AccordionTrigger>{question.title}</AccordionTrigger>
+            <AccordionContent>{question.answer}</AccordionContent>
+          </AccordionItem>
+        ))}
+      </Accordion>
     </section>
   );
 }

@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import { useTranslations } from "next-intl";
 
+import BasicCTA from "./components/call-to-action/BasicCTA";
 import MidCTA from "./components/call-to-action/MidCTA";
 import Container from "./components/Container";
 import FAQ from "./components/faq/FAQ";
@@ -11,6 +12,7 @@ import PrizesAndOpportunities from "./components/prizes/PrizesAndOpportunities";
 import Platform from "./components/progress-panel/Platform";
 import Sponsors from "./components/sponsors/Sponsors";
 import Timeline from "./components/timeline/Timeline";
+import Venues from "./components/venues/Venues";
 import WorkshopsAndResources from "./components/workshop/WorkshopsAndResources";
 
 export default function Home() {
@@ -18,20 +20,18 @@ export default function Home() {
 
   return (
     <main className="relative">
-      <img
-        src={"/backgrounds/space.webp"}
-        className="absolute w-full h-full object-cover"
-      />
       <Container className="relative">
         <Hero />
         <HowItWorks />
         <Timeline />
+        <Venues />
         <PrizesAndOpportunities />
         <WorkshopsAndResources />
-        <Platform />
+        {/* <Platform /> */}
         <MidCTA title={t("copy")} ctaLabel={t("cta")} ctaHref="/signup" />
         <Sponsors />
         <FAQ />
+        <BasicCTA />
       </Container>
     </main>
   );

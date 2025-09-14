@@ -1,8 +1,6 @@
 {
   "Navbar": {
-    "home": "Home",
-    "how-it-works": "How it works",
-    "contact": "Contact"
+    "button": "Create account"
   },
   "Hero": {
     "title": "a <b>nerdconf</b> event",
@@ -39,7 +37,7 @@
     "primary-button": "Create account"
   },
   "FAQ": {
-    "title": "Frequently asked questions",
+    "title": "F.A.Q.",
     "questions": {
       "question1": {
         "title": "What is Latin Hack?",
@@ -97,41 +95,41 @@
       "title": "Participation",
       "remote": "Remote (all LATAM)",
       "inPerson": "In-person (1 day per country)"
-    },
-    "venues": {
-      "title": "Venues",
-      "countries": {
-        "argentina": {
-          "country": "Argentina",
-          "city": "Buenos Aires",
-          "date": "Oct 5",
-          "button": "View venue",
-          "link": "link"
-        },
-        "brazil": {
-          "country": "Brazil",
-          "city": "São Paulo",
-          "date": "Oct 6",
-          "button": "View venue",
-          "link": "link"
-        },
-        "colombia": {
-          "country": "Colombia",
-          "city": "Bogotá",
-          "date": "Oct 7",
-          "button": "View venue",
-          "link": "link"
-        },
-        "mexico": {
-          "country": "Mexico",
-          "city": "Mexico City",
-          "date": "Oct 8",
-          "button": "View venue",
-          "link": "link"
-        }
+    }
+  },
+  "Venues": {
+    "title": "Venues",
+    "countries": {
+      "argentina": {
+        "country": "Argentina",
+        "city": "Buenos Aires",
+        "date": "Oct 5",
+        "link": "link"
+      },
+      "brazil": {
+        "country": "Brazil",
+        "city": "São Paulo",
+        "date": "Oct 6",
+        "link": "link"
+      },
+      "colombia": {
+        "country": "Colombia",
+        "city": "Bogotá",
+        "date": "Oct 7",
+        "link": "link"
+      },
+      "mexico": {
+        "country": "Mexico",
+        "city": "Mexico City",
+        "date": "Oct 8",
+        "link": "link"
       }
     },
-    "microCopy": "You can participate 100% remotely. In-person meetings are optional (1 day only per country)."
+    "linkLabel": "View venue",
+    "microCopy": {
+      "part-1": "You can participate 100% remotely.",
+      "part-2": "In-person meetings are optional (1 day only per country)."
+    }
   },
   "PrizesAndOpportunities": {
     "title": "Prizes and Opportunities",
@@ -147,33 +145,35 @@
       },
       "prize3": {
         "title": "Trips",
-        "description": "Scholarship for Polkadot sub0 in Buenos Aires, Argentina (Nov. 2025)"
+        "description": "Scholarship for <polkadot>Polkadot</polkadot> <sub0>sub0</sub0> in Buenos Aires, Argentina (Nov. 2025)"
       }
     },
     "goat": "WE'RE GOING TO SEE THE G.O.A.T.",
     "footnote": "TOTAL: USD 21,000. Includes cash + scholarships + mentorship program."
   },
   "WorkshopsAndResources": {
-    "title": "Workshops and Resources",
-    "objective": "Enable new builders",
+    "title": "Workshops & Resources",
+    "objective": "'<'builders... start building with us>",
     "workshops": {
-      "schedule": "Workshops (ES) with {date, plural, =0 {no date yet} =1 {date/time} other {dates/times}} or \"soon\":",
       "topics": {
         "topic1": {
-          "title": "What is web3?",
-          "calendar": "Add to calendar",
+          "date": "Sep 27",
+          "title": "What is Web3?",
+          "description": "Description of the workshop",
           "calendarLink": "link"
         },
         "topic2": {
-          "title": "How to develop web3 apps?",
-          "calendar": "Add to calendar",
+          "date": "Sep 27",
+          "title": "How to build Web3 apps?",
+          "description": "Description of the workshop",
           "calendarLink": "link"
-        }
+        },
+        "calendar": "Add to calendar"
       }
     },
     "resources": {
       "button": "View Resources",
-      "description": "(repos, guides, templates)."
+      "description": "REPOS, GUIDES, TEMPLATES & MORE."
     }
   },
   "Platforms": {

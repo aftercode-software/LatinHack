@@ -1,8 +1,6 @@
 {
   "Navbar": {
-    "home": "Inicio",
-    "how-it-works": "Cómo funciona",
-    "contact": "Contacto"
+    "button": "Crear cuenta"
   },
   "Hero": {
     "title": "un evento de <b>nerdconf</b>",
@@ -42,8 +40,42 @@
     },
     "primary-button": "Crear cuenta"
   },
+  "Venues": {
+    "title": "Sedes",
+    "countries": {
+      "argentina": {
+        "country": "Argentina",
+        "city": "Buenos Aires",
+        "date": "5 de oct.",
+        "link": "link"
+      },
+      "brazil": {
+        "country": "Brasil",
+        "city": "São Paulo",
+        "date": "6 de oct.",
+        "link": "link"
+      },
+      "colombia": {
+        "country": "Colombia",
+        "city": "Bogotá",
+        "date": "7 de oct.",
+        "link": "link"
+      },
+      "mexico": {
+        "country": "México",
+        "city": "Ciudad de México",
+        "date": "8 de oct.",
+        "link": "link"
+      }
+    },
+    "linkLabel": "Ver sede",
+    "microCopy": {
+      "part-1": "Puedes participar 100% en remoto.",
+      "part-2": "Los encuentros presenciales son opcionales (solo 1 día por país)."
+    }
+  },
   "FAQ": {
-    "title": "Preguntas frecuentes",
+    "title": "F.A.Q.",
     "questions": {
       "question1": {
         "title": "¿Cuándo es el hackathon?",
@@ -151,47 +183,48 @@
   },
   "PrizesAndOpportunities": {
     "title": "Premios y Oportunidades",
-    "objective": "Propuesta de valor completa sin confusión",
+    "objective": "Propuesta de valor completa y clara",
     "items": {
       "prize1": {
         "title": "15.000 USDT",
-        "description": "Premio en efectivo primer lugar"
+        "description": "Premio cash a los equipos ganadores"
       },
       "prize2": {
-        "title": "Mentoría 6 semanas",
-        "description": "Guía experta para tu proyecto"
+        "title": "Mentoría",
+        "description": "De 6 semanas post-hack para los ganadores"
       },
       "prize3": {
-        "title": "Becas de viaje",
-        "description": "Conferencia Sub0 Buenos Aires"
+        "title": "Viajes",
+        "description": "Beca para <polkadot>Polkadot</polkadot> <sub0>sub0</sub0> en Buenos Aires, Argentina (Nov. 2025)"
       }
     },
-    "footer": {
-      "highlight": "USD 21.000+",
-      "description": "incluye efectivo + becas + programa de mentoría."
-    }
+    "goat": "NOS VAMOS A VER AL G.O.A.T.",
+    "footnote": "TOTAL: USD 21.000. Incluye efectivo + becas + programa de mentoría."
   },
   "WorkshopsAndResources": {
-    "title": "Workshops y Recursos",
-    "objective": "Habilitar a constructores",
+    "title": "Workshops & Recursos",
+    "objective": "<builders... empiecen a construir con nosotros>",
     "workshops": {
-      "schedule": "Workshops (ES) con {date, plural, =0 {aún sin fecha} =1 {fecha/hora} other {fechas/horas}} o \"pronto\":",
       "topics": {
         "topic1": {
+          "date": "27 Sep",
           "title": "¿Qué es web3?",
-          "calendar": "Agregar al calendario",
+          "description": "Descripción del workshop",
           "calendarLink": "link"
         },
         "topic2": {
+          "date": "27 Sep",
           "title": "¿Cómo desarrollar apps web3?",
-          "calendar": "Agregar al calendario",
+          "description": "Descripción del workshop",
           "calendarLink": "link"
-        }
+        },
+
+        "calendar": "Agregar al calendario"
       }
     },
     "resources": {
       "button": "Ver Recursos",
-      "description": "(repos, guías, plantillas)."
+      "description": "REPOS, GUÍAS, PLANTILLAS Y MÁS."
     }
   },
   "Platforms": {
@@ -221,4 +254,3 @@
     "empty": "Pronto anunciaremos nuestros partners."
   }
 }
-

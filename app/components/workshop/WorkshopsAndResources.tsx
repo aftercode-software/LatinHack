@@ -1,51 +1,56 @@
-import { useTranslations } from "next-intl";
+import { useMessages, useTranslations } from "next-intl";
+import LinkButton from "../LinkButton";
+import Title from "../Title";
+import WorkshopCard from "./WorkshopCard";
 
 export default function WorkshopsAndResources() {
   const t = useTranslations("WorkshopsAndResources");
+
+  const messages = useMessages();
+
+  const workshopsTranslations = messages.WorkshopsAndResources.workshops.topics;
+
+  const arrWorkshops = Object.values(workshopsTranslations).filter(
+    (label: any) => label !== "Add to calendar"
+  );
+
   return (
-    <div className="my-10">
+    <section className="margin-section">
       <div className="mx-auto">
-        <div className="text-left mb-4">
-          <h2 className="text-4xl font-bold mb-4">{t("title")}</h2>
-          <p className="text-lg text-gray-600">{t("objective")}</p>
+        <div className="text-center mb-4">
+          <Title>{t("title")}</Title>
+          <p className="text-4xl font-bold text-white">{t("objective")}</p>
         </div>
 
-        <div className="gap-8">
-          <section className=" rounded-lg">
-            <p className="text-gray-600 mb-4">
-              {t("workshops.schedule", { date: 0 })}
-            </p>
-
-            <div className="flex flex-row gap-4">
-              <div className="p-4 rounded border border-gray-200 flex-1">
-                <h4 className="font-medium text-white">
-                  {t("workshops.topics.topic1.title")}
-                </h4>
-                <button className="text-gray-600 text-sm mt-2 hover:text-white">
-                  {t("workshops.topics.topic1.calendar")}
-                </button>
-              </div>
-
-              <div className="p-4 rounded border border-gray-200 flex-1">
-                <h4 className="font-medium text-white">
-                  {t("workshops.topics.topic2.title")}
-                </h4>
-                <button className="text-gray-600 text-sm mt-2 hover:text-white">
-                  {t("workshops.topics.topic2.calendar")}
-                </button>
-              </div>
+        <div className="space-y-4 mt-8">
+          <div>
+            <div className="grid grid-cols-1 lg:grid-cols-2 h-auto gap-4">
+              {arrWorkshops.map((workshop: any) => (
+                <WorkshopCard
+                  key={workshop.title + workshop.date}
+                  title={workshop.title}
+                  date={workshop.date}
+                  calendarLink={workshop.calendarLink}
+                  calendarLabel={t("workshops.topics.calendar")}
+                  description={workshop.description}
+                />
+              ))}
             </div>
-          </section>
+          </div>
 
-          <section className="mt-4 rounded-lg">
-            <h3 className="text-xl font-semibold text-white mb-4">Resources</h3>
-            <p className="text-gray-600 mb-4">{t("resources.description")}</p>
-            <button className="-800 text-white py-2 rounded hover:-700">
+          <div className="p-6 border-2 border-dashed border-green flex flex-col md:flex-row justify-between items-center bg-black/60">
+            <span className="block text-white text-3xl">
+              {t("resources.description")}
+            </span>
+            <LinkButton
+              className="text-4xl mt-4 md:mt-0"
+              href={t("resources.button")}
+            >
               {t("resources.button")}
-            </button>
-          </section>
+            </LinkButton>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 }
