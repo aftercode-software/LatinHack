@@ -130,7 +130,7 @@ const roboto = localFont({
 const robotoMono = localFont({
   src: [
     {
-      path: "./fonts/roboto/RobotoMono-Extralight.ttf",
+      path: "./fonts/roboto/RobotoMono-ExtraLight.ttf",
       weight: "200",
       style: "normal",
     },

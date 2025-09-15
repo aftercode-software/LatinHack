@@ -2,7 +2,6 @@
 
 import { END_DATE } from "@/constants/endDate";
 import { useNow, useTranslations } from "next-intl";
-import { useState } from "react";
 
 type Props = {
   deadlineISO?: string;
