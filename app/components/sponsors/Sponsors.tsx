@@ -17,6 +17,9 @@ export default function Sponsors() {
     { name: "Meta", logoSrc: "/meta.svg", href: "https://aselleraction.com" },
   ];
 
+  const topRow = sponsors.slice(0, 3);
+  const bottomRow = sponsors.slice(3, 8);
+
   return (
     <section className="margin-section" id="sponsors">
       <div className="mx-auto max-w-6xl px-4">
@@ -27,38 +30,58 @@ export default function Sponsors() {
         {sponsors.length === 0 ? (
           <p className="text-gray-500 text-center">{t("empty")}</p>
         ) : (
-          <div className="
-            grid grid-cols-2 gap-8 
-            md:flex md:flex-wrap md:items-center md:justify-center md:gap-16">
-            {sponsors.map((s) =>
-              s.href ? (
-                <a
-                  key={s.name}
-                  href={s.href}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="flex justify-center"
-                >
-                  <img
-                    src={s.logoSrc}
-                    alt={s.name}
-                    width={140}
-                    height={80}
-                    className="h-8 md:h-16 w-auto opacity-90 hover:opacity-100 transition"
-                  />
-                </a>
-              ) : (
-                <div key={s.name} className="flex justify-center">
-                  <img
-                    src={s.logoSrc}
-                    alt={s.name}
-                    width={140}
-                    height={80}
-                    className="h-16 w-auto opacity-90 hover:opacity-100 transition"
-                  />
-                </div>
-              )
-            )}
+          <div className="space-y-8 md:space-y-10">
+            <div className="mx-auto w-full md:max-w-4xl grid grid-cols-2 gap-6 md:grid-cols-3 md:gap-x-14 md:gap-y-6 place-items-center">
+              {topRow.map((s) =>
+                s.href ? (
+                  <a key={s.name} href={s.href} target="_blank" rel="noopener noreferrer" className="flex justify-center">
+                    <img
+                      src={s.logoSrc}
+                      alt={s.name}
+                      width={180}
+                      height={108}
+                      className="h-10 md:h-20 w-auto opacity-90 hover:opacity-100 transition"
+                    />
+                  </a>
+                ) : (
+                  <div key={s.name} className="flex justify-center">
+                    <img
+                      src={s.logoSrc}
+                      alt={s.name}
+                      width={180}
+                      height={108}
+                      className="h-10 md:h-20 w-auto opacity-90 hover:opacity-100 transition"
+                    />
+                  </div>
+                )
+              )}
+            </div>
+
+            <div className="mx-auto w-full md:max-w-6xl grid grid-cols-2 gap-6 md:grid-cols-5 md:gap-x-20 md:gap-y-8 place-items-center">
+              {bottomRow.map((s) =>
+                s.href ? (
+                  <a key={s.name} href={s.href} target="_blank" rel="noopener noreferrer" className="flex justify-center">
+                    <img
+                      src={s.logoSrc}
+                      alt={s.name}
+                      width={140}
+                      height={80}
+                      className="h-8 md:h-16 w-auto opacity-90 hover:opacity-100 transition"
+                    />
+                  </a>
+                ) : (
+                  <div key={s.name} className="flex justify-center">
+                    <img
+                      src={s.logoSrc}
+                      alt={s.name}
+                      width={140}
+                      height={80}
+                      className="h-8 md:h-16 w-auto opacity-90 hover:opacity-100 transition"
+                    />
+                  </div>
+                )
+              )}
+            </div>
           </div>
         )}
       </div>
