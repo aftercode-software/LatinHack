@@ -248,7 +248,7 @@ export default function RootLayout({
           "antialiased",
         ].join(" ")}
         style={{
-          backgroundImage: "url('/backgrounds/background.jpg')",
+          backgroundImage: "url('/backgrounds/background.webp')",
           backgroundSize: "auto",
           backgroundPosition: "center top",
           backgroundRepeat: "repeat",
