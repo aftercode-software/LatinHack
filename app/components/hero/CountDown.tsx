@@ -26,7 +26,7 @@ export function CountDown({
   return (
     <>
       {show && (
-        <section className="relative w-full max-w-5xl mx-auto">
+        <section className="relative w-full max-w-5xl mx-auto count-down">
           {/* <button
             onClick={() => setShowing(false)}
             className="
