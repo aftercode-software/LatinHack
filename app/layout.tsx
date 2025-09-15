@@ -5,6 +5,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import localFont from "next/font/local";
 import Footer from "./components/footer/Footer";
 import Navbar from "./components/navbar/Navbar";
+import SplashScreen from "./components/SplashScreen";
 import "./globals.css";
 
 export const metadata: Metadata = {
@@ -259,6 +260,7 @@ export default function RootLayout({
         />
         <NextIntlClientProvider>
           {/* <AlertBar /> */}
+          <SplashScreen />
           <Navbar />
           {children}
           <Footer />
