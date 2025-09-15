@@ -2,7 +2,7 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
-import { useLocale, useTranslations } from "next-intl";
+import { useLocale } from "next-intl";
 import { setUserLocale } from "../services/locale";
 
 type LangCode = "en" | "es" | "pt";
@@ -14,7 +14,6 @@ const LANGS: Record<LangCode, { label: string; flag: string }> = {
 };
 
 export default function LanguageSwitcher() {
-  const t = useTranslations();
   const locale = useLocale();
   const current: LangCode = useMemo(
     () => (locale?.startsWith("pt") ? "pt" : (locale as LangCode) || "en"),

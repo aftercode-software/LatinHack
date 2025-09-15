@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { sendGTMEvent } from "@next/third-parties/google";
 import { useMessages, useTranslations } from "next-intl";
 import LinkButton from "../LinkButton";
