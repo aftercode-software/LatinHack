@@ -81,7 +81,7 @@ export default function WarpSpeedCanvas({
 
     // --- State (ported) ---
     let SPEED = Math.max(0, speed);
-    let TARGET_SPEED = Math.max(0, targetSpeed);
+    const TARGET_SPEED = Math.max(0, targetSpeed);
     const SPEED_ADJ_FACTOR =
       speedAdjFactor < 0 ? 0 : speedAdjFactor > 1 ? 1 : speedAdjFactor;
     const DENSITY = density > 0 ? density : 0.7;
@@ -139,7 +139,6 @@ export default function WarpSpeedCanvas({
     };
 
     const draw = () => {
-      const TIME = timeStamp();
       if (!canvas) return;
 
       move();
