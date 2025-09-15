@@ -8,9 +8,9 @@ import { setUserLocale } from "../services/locale";
 type LangCode = "en" | "es" | "pt";
 
 const LANGS: Record<LangCode, { label: string; flag: string }> = {
-  en: { label: "English", flag: "/united-kingdom.png" },
-  es: { label: "Español", flag: "/spain.png" },
-  pt: { label: "Português", flag: "/flag.png" },
+  en: { label: "English", flag: "/flags/us.svg" },
+  es: { label: "Español", flag: "/flags/ar.svg" },
+  pt: { label: "Português", flag: "/flags/br.svg" },
 };
 
 export default function LanguageSwitcher() {
@@ -58,13 +58,9 @@ export default function LanguageSwitcher() {
         <img
           src={LANGS[current].flag}
           alt={LANGS[current].label}
-          width={20}
-          height={20}
-          className="rounded-sm"
+          className="rounded-full size-4"
         />
-        <span className="uppercase text-sm tracking-wide">
-          {t("UI.language")}
-        </span>
+
         <span className="text-white/80 text-sm hidden md:block">
           · {LANGS[current].label}
         </span>
@@ -94,9 +90,7 @@ export default function LanguageSwitcher() {
             <img
               src={LANGS[code].flag}
               alt={LANGS[code].label}
-              width={18}
-              height={18}
-              className="rounded-sm"
+              className="rounded-full size-4"
             />
             <span className="text-sm text-green-400">{LANGS[code].label}</span>
           </button>

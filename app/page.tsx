@@ -1,4 +1,3 @@
-/* eslint-disable @next/next/no-img-element */
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useTranslations } from "next-intl";

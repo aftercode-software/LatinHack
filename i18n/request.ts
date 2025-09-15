@@ -21,9 +21,6 @@ async function getPreferredLocale(): Promise<string> {
 
 export default getRequestConfig(async () => {
   const locale = await getPreferredLocale();
-
-  console.log("locale", locale);
-
   return {
     locale,
     messages: (await import(`../messages/${locale}.json`)).default,

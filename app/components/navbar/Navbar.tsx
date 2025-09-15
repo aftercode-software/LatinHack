@@ -21,9 +21,11 @@ export default function Navbar() {
     <nav className="fixed top-0 left-0 right-0 z-50 bg-black/90 border-b-2 border-green/50 border-dashed">
       <Container className="flex flex-col md:flex-row justify-between items-center">
         <img src="/logo.png" alt="logo" className="h-24" />
-        <div className="flex flex-row justify-between items-center md:gap-16 gap-4 my-2">
-          <LanguageSwitcher />
-          <LinkButton className="text-xl  px-2 py-2" href="/">
+        <div className="flex flex-row justify-between items-center md:gap-4 gap-4 my-2 pb-4">
+          <section className="hidden md:block">
+            <LanguageSwitcher />
+          </section>
+          <LinkButton className="text-xl px-8 py-2" href="/">
             {t("button")}
           </LinkButton>
         </div>

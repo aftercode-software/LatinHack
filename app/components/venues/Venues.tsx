@@ -5,12 +5,8 @@ import VenuesCard from "./VenuesCard";
 
 export default function Venues() {
   const t = useTranslations("Venues");
-
   const messages = useMessages();
-
   const venues = Object.values(messages.Venues.countries);
-
-  console.log(venues);
 
   return (
     <section className="margin-section">
