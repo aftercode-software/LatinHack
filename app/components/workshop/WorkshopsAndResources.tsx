@@ -1,4 +1,4 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
+import { sendGTMEvent } from "@next/third-parties/google";
 import { useMessages, useTranslations } from "next-intl";
 import LinkButton from "../LinkButton";
 import Title from "../Title";
@@ -20,7 +20,9 @@ export default function WorkshopsAndResources() {
       <div className="mx-auto">
         <div className="text-center mb-4">
           <Title>{t("title")}</Title>
-          <p className="text-4xl font-bold text-white">{t("objective")}</p>
+          <p className="text-4xl font-roboto-mono font-bold text-white">
+            {t("objective")}
+          </p>
         </div>
 
         <div className="space-y-4 mt-8">
@@ -40,10 +42,20 @@ export default function WorkshopsAndResources() {
           </div>
 
           <div className="p-6 border-2 border-dashed border-green flex flex-col md:flex-row justify-between items-center bg-black/60">
-            <span className="block text-white text-3xl">
+            <span className="block text-white text-6xl font-anybody-condensed font-light">
               {t("resources.description")}
             </span>
-            <LinkButton className=" mt-4 md:mt-0" href={t("resources.button")}>
+            <LinkButton
+              onClick={() => {
+                sendGTMEvent({
+                  event: "view_resources",
+                  event_category: "workshops",
+                  event_label: "primary",
+                });
+              }}
+              className=" mt-4 md:mt-0"
+              href={t("resources.button")}
+            >
               {t("resources.button")}
             </LinkButton>
           </div>

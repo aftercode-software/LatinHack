@@ -22,20 +22,20 @@ export default function StepsUnifiedBox({ steps }: { steps: Step[] }) {
                 !isLast
                   ? 'md:after:content-[""] md:after:absolute md:after:top-0 md:after:bottom-0 md:after:right-0 md:after:border-2 md:after:border-dashed md:after:border-green-500/60'
                   : "",
-                i > 0
-                  ? "md:border-t-0 "
-                  : "",
+                i > 0 ? "md:border-t-0 " : "",
               ].join(" ")}
             >
               <div className="flex items-center px-4 md:px-6 py-3  border-b-2 border-dashed border-green-500/60">
-                <span className="text-white text-lg font-mono">{num}</span>
+                <span className="text-white text-xl font-roboto-mono font-medium">
+                  {num}
+                </span>
               </div>
 
               <div className="px-4 py-5 md:px-6 font-anybody md:py-6">
-                <h3 className="uppercase text-green-400  tracking-tight font-light leading-tight text-3xl">
+                <h3 className="uppercase text-green-400 font-anybody-condensed font-light leading-tight text-5xl">
                   {s.title}
                 </h3>
-                <p className="uppercase text-white/95 tracking-wide leading-relaxed mt-3 text-lg max-w-[180px]">
+                <p className="uppercase text-white/95 font-bold mt-3 text-lg max-w-[200px]">
                   {s.description}
                 </p>
               </div>

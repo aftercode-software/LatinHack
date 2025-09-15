@@ -15,12 +15,12 @@ export default function PrizeCard({
           <img src={iconImage} alt={prize} className="w-full h-full" />
         </div>
         <div className="text-center border-2 md:border-l-0 bg-black/60 border-green border-dashed flex-1 flex items-center justify-center md:justify-start py-4 md:py-0 md:pl-4">
-          <h3 className="text-green-500 font-normal text-4xl md:text-5xl uppercase font-anybody">
+          <h3 className="text-green-500 text-4xl md:text-6xl uppercase font-anybody-condensed font-light">
             {prize}
           </h3>
         </div>
       </div>
-      <p className="mt-4 text-white text-2xl md:text-3xl uppercase font-anybody">
+      <p className="mt-4 text-white text-2xl md:text-3xl uppercase font-anybody font-bold">
         {description}
       </p>
     </div>

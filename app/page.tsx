@@ -1,3 +1,6 @@
+/* eslint-disable @next/next/no-img-element */
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useTranslations } from "next-intl";
 
 import BasicCTA from "./components/call-to-action/BasicCTA";
@@ -11,6 +14,8 @@ import Sponsors from "./components/sponsors/Sponsors";
 import Timeline from "./components/timeline/Timeline";
 import Venues from "./components/venues/Venues";
 import WorkshopsAndResources from "./components/workshop/WorkshopsAndResources";
+
+gsap.registerPlugin(ScrollTrigger);
 
 export default function Home() {
   const t = useTranslations("MidCTA");

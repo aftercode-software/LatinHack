@@ -2,6 +2,7 @@
 "use client";
 
 import { cn } from "@/lib/utils";
+import { sendGTMEvent } from "@next/third-parties/google";
 import Link from "next/link";
 
 type MidCTAProps = {
@@ -31,6 +32,13 @@ export default function MidCTA({
         </h2>
         <Link
           href={ctaHref}
+          onClick={() => {
+            sendGTMEvent({
+              event: "create_account_mid_cta",
+              event_category: "cta",
+              event_label: "primary",
+            });
+          }}
           className="md:px-20 px-10 py-2 md:py-4 text-3xl md:text-4xl font-medium bg-black/70 font-upheaval text-white hover:opacity-90 border-2 border-dashed border-green "
         >
           {ctaLabel}

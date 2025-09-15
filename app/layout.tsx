@@ -1,3 +1,4 @@
+import { GoogleTagManager } from "@next/third-parties/google";
 import type { Metadata } from "next";
 import { NextIntlClientProvider } from "next-intl";
 import { Geist, Geist_Mono } from "next/font/google";
@@ -227,6 +228,9 @@ export default function RootLayout({
           backgroundRepeat: "repeat",
         }}
       >
+        <GoogleTagManager
+          gtmId={process.env.NEXT_PUBLIC_GOOGLE_TAG_MANAGER_ID || ""}
+        />
         <NextIntlClientProvider>
           {/* <AlertBar /> */}
           <Navbar />

@@ -20,7 +20,8 @@ export function CountDown({
 
   return (
     <>
-      <section className="relative w-full max-w-5xl mx-auto">
+      {/* {show && ( */}
+      <section className="relative w-full max-w-5xl mx-auto count-down">
         {/* <button
             onClick={() => setShowing(false)}
             className="
@@ -37,20 +38,21 @@ export function CountDown({
 
         <div className="grid grid-cols-1 md:grid-cols-2 border-dash-wide divide-dashed">
           <aside className="flex flex-col px-6 py-4 border-2 border-dashed border-green bg-black/70">
-            <p className="text-white font-anybody uppercase text-2xl font-light text-center md:text-left">
+            <p className="text-white font-anybody uppercase text-2xl font-medium text-center md:text-left">
               {t("title")}
             </p>
-            <p className="text-white font-roboto-mono uppercase text-2xl font-bold text-center md:text-left">
+            <p className="text-white font-anybody uppercase text-2xl font-bold text-center md:text-left">
               {deadlineISO}
             </p>
           </aside>
           <aside className="flex justify-center items-center px-6 py-4 border-x-2 border-b-2 md:border-y-2 md:border-l-0 border-dashed border-green bg-black/70">
-            <p className="text-center font-anybody-condensed text-green text-6xl">
+            <p className="text-center font-anybody-condensed font-light text-green text-6xl">
               {t("daysLeft", { daysLeft })}
             </p>
           </aside>
         </div>
       </section>
+      {/* )} */}
     </>
   );
 }

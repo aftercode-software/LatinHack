@@ -10,11 +10,11 @@ export default function Footer() {
           <p>THE WORLD BELONGS TO YOU... NERD.</p>
         </div>
         <BorderSeparator />
-        <div className="py-6 text-lg text-green space-y-3">
+        <div className="py-6 text-lg text-green space-y-3 font-roboto-mono">
           <p className="font-bold text-xl">
             © 2025 Nerdconf. All rights reserved.
           </p>
-          <p className="font-medium">
+          <p>
             Developed by{" "}
             <a
               href="https://github.com/nahuelbarrera"
@@ -34,7 +34,7 @@ export default function Footer() {
               Nerdconf
             </a>
           </p>
-          <p className="font-medium">
+          <p>
             Art by{" "}
             <a
               href="https://github.com/nahuelbarrera"
@@ -45,7 +45,7 @@ export default function Footer() {
               FLGraphix
             </a>
           </p>
-          <p className="font-medium">
+          <p>
             Built for{" "}
             <a
               href="https://nerdconf.com"

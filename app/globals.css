@@ -16,6 +16,8 @@
   --font-anybody: var(--font-anybody), ui-sans-serif, system-ui, sans-serif;
   --font-anybody-condensed: var(--font-anybody-condensed), ui-sans-serif,
     system-ui, sans-serif;
+  --font-anybody-ultra-condensed: var(--font-anybody-ultra-condensed),
+    ui-sans-serif, system-ui, sans-serif;
   --font-anybody-semi: var(--font-anybody-semi), ui-sans-serif, system-ui,
     sans-serif;
   --font-anybody-expanded: var(--font-anybody-expanded), ui-sans-serif,

@@ -10,16 +10,19 @@ export default function LinkButton({
   children,
   className,
   href,
+  onClick,
   variant,
 }: {
   children: React.ReactNode;
   className?: string;
   href?: string;
+  onClick?: () => void;
   variant?: LinkButtonVariant;
 }) {
   if (variant === LinkButtonVariant.SMALL) {
     return (
       <Link
+        onClick={onClick}
         target="_blank"
         className={cn(
           `block w-fit bg-gradient-to-b from-white to-green rounded-sm py-1 font-medium text-black uppercase px-12 text-center font-myriadpro text-lg cursor-pointer shadow-sm shadow-white `,

@@ -10,7 +10,7 @@ export default function Title({
   return (
     <h2
       className={cn(
-        "font-anybody-condensed text-center text-green-500 uppercase tracking-tight text-5xl md:text-7xl lg:text-9xl",
+        "font-anybody-ultra-condensed font-light text-center tracking-wide text-green-500 uppercase text-6xl md:text-9xl lg:text-[10rem]",
         className
       )}
     >

@@ -10,7 +10,9 @@ export default function TimelineCard({
       <h3 className="text-center font-anybody-condensed font-light text-white text-6xl uppercase">
         {title}
       </h3>
-      <span className="text-center text-lg text-green-600">{date}</span>
+      <span className="text-center text-lg font-roboto-mono font-medium text-green-600">
+        {date}
+      </span>
     </div>
   );
 }
