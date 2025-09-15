@@ -1,0 +1,208 @@
+{
+  "Navbar": {
+    "button": "Create account"
+  },
+  "UI": {
+    "language": "Language"
+  },
+  "Hero": {
+    "title": "a <b>nerdconf</b> event",
+    "subtitle": "Create your app in 15 days",
+    "date": "From Sep 27 to Oct 12",
+    "prizes": {
+      "first": "USDT 21,000",
+      "second": "Trip to Miami",
+      "long": "Includes 15,000 USDT + 6-week mentorship + travel grants to Sub0 Buenos Aires + all-expenses-paid trip to Miami to see the GOAT"
+    },
+    "primary-button": "Register NOW",
+    "secondary-button": "Join the Discord"
+  },
+  "CountDown": {
+    "title": "Project submission deadline",
+    "daysLeft": "{daysLeft} DAYS LEFT"
+  },
+  "HowItWorks": {
+    "title": "How it works",
+    "steps": {
+      "step1": {
+        "title": "Create your account",
+        "description": "access to your panel and progress."
+      },
+      "step2": {
+        "title": "Join the Discord",
+        "description": "announcements, support, team."
+      },
+      "step3": {
+        "title": "Create your project",
+        "description": "receive feedback, mentors and evaluation."
+      }
+    },
+    "primary-button": "Create account"
+  },
+  "FAQ": {
+    "title": "F.A.Q.",
+    "questions": {
+      "question1": {
+        "title": "What is Latin Hack?",
+        "answer": "Latin Hack is a Latin American hackathon that takes place in Buenos Aires, Argentina."
+      },
+      "question2": {
+        "title": "Where can I participate?",
+        "answer": "Remotely from anywhere in LATAM. Presencial sedes 1 day in AR/BR/CO/MX."
+      },
+      "question3": {
+        "title": "How can I register?",
+        "answer": "By creating your account (CTA on the page) and joining the Discord."
+      },
+      "question4": {
+        "title": "What are the prizes?",
+        "answer": "15.000 USDT + mentorship 6 weeks + travel grants to Sub0 Buenos Aires + all-expenses-paid trip to Miami to see the GOAT"
+      },
+      "question5": {
+        "title": "What is the language of the workshops?",
+        "answer": "English."
+      },
+      "question6": {
+        "title": "How many people per team?",
+        "answer": "TBD"
+      },
+      "question7": {
+        "title": "Can I participate alone?",
+        "answer": "Yes, but you will need to join a team."
+      }
+    },
+    "primary-button": "Create account",
+    "secondary-button": "Join the Discord"
+  },
+  "AlertBar": {
+    "projects-closed": "Projects closed: {date}",
+    "days-left": "{days} days left."
+  },
+  "Timeline": {
+    "title": "Timeline",
+    "phases": {
+      "kickoff": {
+        "title": "Kickoff",
+        "date": "Sep 27"
+      },
+      "workshops": {
+        "title": "Workshops",
+        "date": "From Sep 27 to Oct 12"
+      },
+      "submission": {
+        "title": "Submission",
+        "date": "Oct 12"
+      }
+    },
+    "participation": {
+      "title": "Participation",
+      "remote": "Remote (all LATAM)",
+      "inPerson": "In-person (1 day per country)"
+    }
+  },
+  "Venues": {
+    "title": "Venues",
+    "countries": {
+      "argentina": {
+        "country": "Argentina",
+        "city": "Buenos Aires",
+        "date": "Oct 5",
+        "link": "link"
+      },
+      "brazil": {
+        "country": "Brazil",
+        "city": "São Paulo",
+        "date": "Oct 6",
+        "link": "link"
+      },
+      "colombia": {
+        "country": "Colombia",
+        "city": "Bogotá",
+        "date": "Oct 7",
+        "link": "link"
+      },
+      "mexico": {
+        "country": "Mexico",
+        "city": "Mexico City",
+        "date": "Oct 8",
+        "link": "link"
+      }
+    },
+    "linkLabel": "View venue",
+    "microCopy": {
+      "part-1": "You can participate 100% remotely.",
+      "part-2": "In-person meetings are optional (1 day only per country)."
+    }
+  },
+  "PrizesAndOpportunities": {
+    "title": "Prizes and Opportunities",
+    "objective": "Complete value proposition without confusion",
+    "items": {
+      "prize1": {
+        "title": "15.000 USDT",
+        "description": "Cash prize for winning teams"
+      },
+      "prize2": {
+        "title": "Mentorship",
+        "description": "6-week mentorship for winning teams"
+      },
+      "prize3": {
+        "title": "Trips",
+        "description": "Scholarship for <polkadot>Polkadot</polkadot> <sub0>sub0</sub0> in Buenos Aires, Argentina (Nov. 2025)"
+      }
+    },
+    "goat": "WE'RE GOING TO SEE THE G.O.A.T.",
+    "footnote": "TOTAL: USD 21,000. Includes cash + scholarships + mentorship program."
+  },
+  "WorkshopsAndResources": {
+    "title": "Workshops & Resources",
+    "objective": "'<'builders... start building with us>",
+    "workshops": {
+      "topics": {
+        "topic1": {
+          "date": "Sep 27",
+          "title": "What is Web3?",
+          "description": "Description of the workshop",
+          "calendarLink": "link"
+        },
+        "topic2": {
+          "date": "Sep 27",
+          "title": "How to build Web3 apps?",
+          "description": "Description of the workshop",
+          "calendarLink": "link"
+        },
+        "calendar": "Add to calendar"
+      }
+    },
+    "resources": {
+      "button": "View Resources",
+      "description": "REPOS, GUIDES, TEMPLATES & MORE."
+    }
+  },
+  "Platforms": {
+    "title": "Platforms / Your progress panel",
+    "microcopy": "Progress, submissions and team status live in your account. Conversation happens in Discord.",
+    "cards": {
+      "account": {
+        "title": "Your Latin Hack account",
+        "desc": "Dashboard with progress, submissions, team and feedback.",
+        "cta": "Create account"
+      },
+      "discord": {
+        "title": "Discord",
+        "desc": "Announcements, technical support and networking.",
+        "cta": "Join the Discord",
+        "secondary": "Open channel"
+      }
+    }
+  },
+  "MidCTA": {
+    "copy": "Ready to build?",
+    "cta": "Create account"
+  },
+  "Sponsors": {
+    "title": "Sponsors & partners",
+    "subtitle": "Trust and ecosystem: who backs us.",
+    "empty": "We'll announce partners soon."
+  }
+}
