@@ -1,3 +1,8 @@
+"use client";
+
+import { useGSAP } from "@gsap/react";
+import { sendGTMEvent } from "@next/third-parties/google";
+import gsap from "gsap";
 import { useTranslations } from "next-intl";
 import LinkButton from "../LinkButton";
 import Title from "../Title";
@@ -5,6 +10,15 @@ import StepsUnifiedBox from "./StepsUnifiedBox";
 
 export default function HowItWorks() {
   const t = useTranslations("HowItWorks");
+
+  useGSAP(() => {
+    gsap.from(".how-it-works-title", {
+      opacity: 0,
+      y: 100,
+      duration: 1,
+      ease: "power2.inOut",
+    });
+  });
 
   const steps = [
     {
@@ -31,7 +45,17 @@ export default function HowItWorks() {
       <StepsUnifiedBox steps={steps} />
 
       <div className="mt-8 md:mt-10 flex justify-center">
-        <LinkButton>{t("primary-button")}</LinkButton>
+        <LinkButton
+          onClick={() => {
+            sendGTMEvent({
+              event: "create_account_how_it_works",
+              event_category: "cta",
+              event_label: "primary",
+            });
+          }}
+        >
+          {t("primary-button")}
+        </LinkButton>
         {/* <button className="bg-gradient-to-b from-white to-green rounded-sm py-3 font-bold text-black uppercase font-anybody-expanded px-8">
           {t("primary-button")}
         </button> */}

@@ -14,86 +14,78 @@ export default function Hero() {
     const tl = gsap.timeline({
       defaults: {
         ease: "power3.out",
+        autoAlpha: 0,
       },
     });
-    // .hero-title
-    // .hero-logo
-    // .hero-date
-    // .globe
-    // .prizes-and-buttons
-    // .count-down
 
     tl.from(".globe", {
-      opacity: 0,
       y: 100,
       rotate: 30,
       duration: 1,
-    });
-    tl.from(
-      ".hero-title",
-      {
-        opacity: 0,
-        y: -100,
-        duration: 1,
-      },
-      "<+0.4"
-    );
-    tl.from(
-      ".hero-logo",
-      {
-        opacity: 0,
-        y: -50,
-        duration: 1,
-      },
-      "<"
-    );
-    tl.from(
-      ".main-title",
-      {
-        opacity: 0,
-        scale: 0.8,
-        duration: 1,
-      },
-      "<+0.6"
-    );
-
-    tl.from(
-      ".prizes-and-buttons",
-      {
-        opacity: 0,
-        duration: 1,
-      },
-      "<+0.7"
-    );
-    tl.from(
-      ".count-down",
-      {
-        opacity: 0,
-        duration: 1,
-      },
-      "<+0.3"
-    );
-    tl.from(
-      ".arrow",
-      {
-        opacity: 0,
-        duration: 1,
-      },
-      "<+0.3"
-    );
-
-    tl.from(
-      ".hero-date",
-      {
-        opacity: 0,
-        duration: 1,
-      },
-      "<+0.3"
-    );
+    })
+      .from(
+        ".hero-title",
+        {
+          opacity: 0,
+          y: -100,
+          duration: 1,
+        },
+        "<+0.4"
+      )
+      .from(
+        ".hero-logo",
+        {
+          opacity: 0,
+          y: -50,
+          duration: 1,
+        },
+        "<"
+      )
+      .from(
+        ".main-title",
+        {
+          opacity: 0,
+          scale: 0.8,
+          duration: 1,
+        },
+        "<+0.6"
+      )
+      .from(
+        ".prizes-and-buttons",
+        {
+          opacity: 0,
+          duration: 1,
+        },
+        "<+0.7"
+      )
+      .from(
+        ".count-down",
+        {
+          opacity: 0,
+          duration: 1,
+        },
+        "<+0.3"
+      )
+      .from(
+        ".arrow",
+        {
+          opacity: 0,
+          duration: 1,
+        },
+        "<+0.3"
+      )
+      .from(
+        ".hero-date",
+        {
+          opacity: 0,
+          duration: 1,
+        },
+        "<+0.3"
+      );
   });
 
   return (
-    <section className="relative flex flex-col items-center justify-center gap-4 pt-20">
+    <section className="relative flex flex-col items-center justify-center gap-4 pt-20 ">
       <header className="flex flex-col items-center relative md:-space-y-10 hero-header">
         <h1 className="uppercase font-light font-anybody text-2xl md:text-3xl text-green text-center hero-title">
           {t.rich("title", {

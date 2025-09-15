@@ -23,7 +23,7 @@ export default function Venues() {
           />
         ))}
       </div>
-      <div className="flex flex-col items-center justify-center mt-8 text-center">
+      <div className="flex flex-col items-center justify-center mt-8 text-center font-roboto-mono">
         <p className="text-3xl text-white font-bold uppercase">
           {t("microCopy.part-1")}
         </p>

@@ -1,5 +1,7 @@
+"use client";
+
+import { sendGTMEvent } from "@next/third-parties/google";
 import { useTranslations } from "next-intl";
-import React from "react";
 import LinkButton from "../LinkButton";
 
 export default function BasicCTA() {
@@ -12,10 +14,31 @@ export default function BasicCTA() {
         className="w-30 object-contain animate-bounce"
       />
       <div className="space-y-4 mx-auto relative p-2 bg-black/90 md:-top-4 flex flex-col border-2 border-dashed border-green rounded-md w-full max-w-lg">
-        <LinkButton className="">{t("primary-button")}</LinkButton>
-        <button className="text-green uppercase font-anybody underline text-center align-middle pb-2">
+        <LinkButton
+          onClick={() => {
+            sendGTMEvent({
+              event: "create_account_basic_cta",
+              event_category: "cta",
+              event_label: "primary",
+            });
+          }}
+        >
+          {t("primary-button")}
+        </LinkButton>
+        <a
+          onClick={() => {
+            sendGTMEvent({
+              event: "join_discord_basic_cta",
+              event_category: "cta",
+              event_label: "secondary",
+            });
+          }}
+          href="https://discord.gg/nerdconf"
+          target="_blank"
+          className="text-green uppercase font-anybody underline text-center align-middle pb-2"
+        >
           {t("secondary-button")}
-        </button>
+        </a>
       </div>
     </section>
   );

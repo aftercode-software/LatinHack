@@ -53,10 +53,8 @@ export default function PrizesAndOpportunities() {
         ))}
       </div>
       <GoatSection title={t("goat")} />
-      <div className="text-center border-2 border-dashed border-green mt-8 py-6 bg-black/20">
-        <p className="text-white text-3xl uppercase font-anybody">
-          {t("footnote")}
-        </p>
+      <div className="text-center border-2 border-dashed border-green mt-8 py-6 bg-black/20 font-roboto-mono">
+        <p className="text-white text-3xl uppercase">{t("footnote")}</p>
       </div>
     </section>
   );

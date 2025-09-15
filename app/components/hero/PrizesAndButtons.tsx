@@ -12,7 +12,7 @@ export default function Prizes() {
           </p>
         </section>
 
-        <p className="max-w-2xl mx-auto px-8 py-4 md:py-6 text-center font-roboto-mono text-base sm:text-xl text-white/90 uppercase tracking-tight bg-black/70">
+        <p className="max-w-2xl mx-auto px-8 py-4 md:py-6 text-center font-anybody font-normal text-base sm:text-xl text-white/90 uppercase tracking-tight bg-black/70">
           {t("prizes.long")}
         </p>
       </div>
