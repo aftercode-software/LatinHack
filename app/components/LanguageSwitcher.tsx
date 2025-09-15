@@ -56,7 +56,7 @@ export default function LanguageSwitcher() {
         <span className="uppercase text-sm tracking-wide">
           {t("UI.language")}
         </span>
-        <span className="text-white/80 text-sm">· {LANGS[current].label}</span>
+        <span className="text-white/80 text-sm hidden md:block">· {LANGS[current].label}</span>
         <span
           className={`ml-1 inline-block h-0 w-0 border-x-4 border-t-6 border-x-transparent border-t-green-400/80 transition-transform ${open ? "rotate-180" : ""}`}
           aria-hidden

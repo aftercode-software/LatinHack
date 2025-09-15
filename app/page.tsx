@@ -31,7 +31,7 @@ export default function Home() {
         <MidCTA title={t("copy")} ctaLabel={t("cta")} ctaHref="/signup" />
         <Sponsors />
         <FAQ />
-        <BasicCTA />
+        <BasicCTA  />
       </Container>
     </main>
   );

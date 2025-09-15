@@ -15,7 +15,7 @@ export default function FAQ() {
   const questions = Object.values(messages.FAQ.questions);
 
   return (
-    <section className="mt-10">
+    <section className="margin-section" id="faq">
       <Title>{t("title")}</Title>
       <Accordion type="single" collapsible>
         {questions.map((question: any, i) => (

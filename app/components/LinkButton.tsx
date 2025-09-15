@@ -35,7 +35,7 @@ export default function LinkButton({
     <Link
       target="_blank"
       className={cn(
-        `bg-gradient-to-b from-white to-green rounded-sm py-3 font-medium text-black uppercase px-20 text-center font-upheaval text-2xl cursor-pointer shadow-sm shadow-white`,
+        `bg-gradient-to-b from-white to-green rounded-sm py-3 font-medium text-black uppercase px-20 text-center font-upheaval text-xl md:text-4xl cursor-pointer shadow-sm shadow-white`,
         className
       )}
       href={href ?? ""}

@@ -43,7 +43,7 @@ export default function WorkshopsAndResources() {
               {t("resources.description")}
             </span>
             <LinkButton
-              className="text-4xl mt-4 md:mt-0"
+              className=" mt-4 md:mt-0"
               href={t("resources.button")}
             >
               {t("resources.button")}
