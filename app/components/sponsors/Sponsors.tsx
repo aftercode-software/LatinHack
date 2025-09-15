@@ -10,24 +10,26 @@ export default function Sponsors() {
     { name: "Polkadot", logoSrc: "/polkadot.svg", href: "https://polkadot.network" },
     { name: "Aselleraction", logoSrc: "/aselleraction.svg", href: "https://aselleraction.com" },
     { name: "IBM", logoSrc: "/ibm.svg", href: "https://aselleraction.com" },
-  { name: "Seed", logoSrc: "/seed.svg", href: "https://aselleraction.com" },
-  { name: "Ruta", logoSrc: "/ruta.svg" , href: "https://aselleraction.com"},
-  { name: "Offramp", logoSrc: "/offramp.svg", href: "https://aselleraction.com" },
-  { name: "Vercel", logoSrc: "/vercellogo.svg", href: "https://aselleraction.com" },
-  { name: "Meta", logoSrc: "/meta.svg", href: "https://aselleraction.com" },
-];
+    { name: "Seed", logoSrc: "/seed.svg", href: "https://aselleraction.com" },
+    { name: "Ruta", logoSrc: "/ruta.svg", href: "https://aselleraction.com" },
+    { name: "Offramp", logoSrc: "/offramp.svg", href: "https://aselleraction.com" },
+    { name: "Vercel", logoSrc: "/vercellogo.svg", href: "https://aselleraction.com" },
+    { name: "Meta", logoSrc: "/meta.svg", href: "https://aselleraction.com" },
+  ];
 
   return (
-    <section className="my-10" id="sponsors">
+    <section className="margin-section" id="sponsors">
       <div className="mx-auto max-w-6xl px-4">
         <div className="text-center mb-6">
-        <Title>{t("title")}</Title>
+          <Title>{t("title")}</Title>
         </div>
 
         {sponsors.length === 0 ? (
           <p className="text-gray-500 text-center">{t("empty")}</p>
         ) : (
-          <div className="flex flex-col md:flex-row md:flex-wrap items-center justify-center gap-16">
+          <div className="
+            grid grid-cols-2 gap-8 
+            md:flex md:flex-wrap md:items-center md:justify-center md:gap-16">
             {sponsors.map((s) =>
               s.href ? (
                 <a
@@ -42,7 +44,7 @@ export default function Sponsors() {
                     alt={s.name}
                     width={140}
                     height={80}
-                    className="h-16 w-auto opacity-90 hover:opacity-100 transition"
+                    className="h-8 md:h-16 w-auto opacity-90 hover:opacity-100 transition"
                   />
                 </a>
               ) : (
