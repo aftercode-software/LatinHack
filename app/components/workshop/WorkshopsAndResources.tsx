@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { useMessages, useTranslations } from "next-intl";
 import LinkButton from "../LinkButton";
 import Title from "../Title";
@@ -42,10 +43,7 @@ export default function WorkshopsAndResources() {
             <span className="block text-white text-3xl">
               {t("resources.description")}
             </span>
-            <LinkButton
-              className=" mt-4 md:mt-0"
-              href={t("resources.button")}
-            >
+            <LinkButton className=" mt-4 md:mt-0" href={t("resources.button")}>
               {t("resources.button")}
             </LinkButton>
           </div>

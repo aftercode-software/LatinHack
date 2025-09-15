@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import { useMessages, useTranslations } from "next-intl";
 import Title from "../Title";
 import VenuesCard from "./VenuesCard";

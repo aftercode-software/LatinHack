@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 
 import { cn } from "@/lib/utils";
@@ -10,7 +11,7 @@ type MidCTAProps = {
   className?: string;
 };
 
-export default function ({
+export default function MidCTA({
   title,
   ctaLabel,
   ctaHref,

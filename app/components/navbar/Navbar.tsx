@@ -1,8 +1,9 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 
 import { useScrollOffset } from "@/hooks/useScroll";
 import { useTranslations } from "next-intl";
-import Link from "next/link";
+
 import Container from "../Container";
 import LanguageSwitcher from "../LanguageSwitcher";
 import LinkButton from "../LinkButton";
@@ -21,10 +22,11 @@ export default function Navbar() {
       <Container className="flex flex-col md:flex-row justify-between items-center">
         <img src="/logo.png" alt="logo" className="h-24" />
         <div className="flex flex-row justify-between items-center md:gap-16 gap-4 my-2">
-        <LanguageSwitcher />
-        <LinkButton className="text-xl  px-2 py-2" href="/">{t("button")}</LinkButton>
+          <LanguageSwitcher />
+          <LinkButton className="text-xl  px-2 py-2" href="/">
+            {t("button")}
+          </LinkButton>
         </div>
-        
       </Container>
     </nav>
   );

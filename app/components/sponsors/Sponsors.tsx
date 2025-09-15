@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 
 import { useTranslations } from "next-intl";
@@ -7,13 +8,29 @@ export default function Sponsors() {
   const t = useTranslations("Sponsors");
 
   const sponsors = [
-    { name: "Polkadot", logoSrc: "/polkadot.svg", href: "https://polkadot.network" },
-    { name: "Aselleraction", logoSrc: "/aselleraction.svg", href: "https://aselleraction.com" },
+    {
+      name: "Polkadot",
+      logoSrc: "/polkadot.svg",
+      href: "https://polkadot.network",
+    },
+    {
+      name: "Aselleraction",
+      logoSrc: "/aselleraction.svg",
+      href: "https://aselleraction.com",
+    },
     { name: "IBM", logoSrc: "/ibm.svg", href: "https://aselleraction.com" },
     { name: "Seed", logoSrc: "/seed.svg", href: "https://aselleraction.com" },
     { name: "Ruta", logoSrc: "/ruta.svg", href: "https://aselleraction.com" },
-    { name: "Offramp", logoSrc: "/offramp.svg", href: "https://aselleraction.com" },
-    { name: "Vercel", logoSrc: "/vercellogo.svg", href: "https://aselleraction.com" },
+    {
+      name: "Offramp",
+      logoSrc: "/offramp.svg",
+      href: "https://aselleraction.com",
+    },
+    {
+      name: "Vercel",
+      logoSrc: "/vercellogo.svg",
+      href: "https://aselleraction.com",
+    },
     { name: "Meta", logoSrc: "/meta.svg", href: "https://aselleraction.com" },
   ];
 
@@ -65,7 +82,10 @@ export default function Sponsors() {
                     <LogoWrap>{Img}</LogoWrap>
                   </a>
                 ) : (
-                  <LogoWrap key={s.name} className={`justify-self-center ${wrapClasses}`}>
+                  <LogoWrap
+                    key={s.name}
+                    className={`justify-self-center ${wrapClasses}`}
+                  >
                     {Img}
                   </LogoWrap>
                 );
@@ -96,7 +116,10 @@ export default function Sponsors() {
                     <LogoWrap>{Img}</LogoWrap>
                   </a>
                 ) : (
-                  <LogoWrap key={s.name} className={`justify-self-center ${wrapClasses}`}>
+                  <LogoWrap
+                    key={s.name}
+                    className={`justify-self-center ${wrapClasses}`}
+                  >
                     {Img}
                   </LogoWrap>
                 );
