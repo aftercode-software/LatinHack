@@ -17,7 +17,7 @@ export default function VenuesCard({
   linkLabel: string;
 }) {
   return (
-    <div className="bg-black/60 p-6 border-2 border-dashed border-green text-white space-y-2">
+    <div className="bg-black/60 p-6 text-white space-y-2">
       <p className="text-lg font-roboto-mono font-medium">{country}</p>
       <h3 className="text-5xl font-anybody-condensed uppercase text-green">
         {city}

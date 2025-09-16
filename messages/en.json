@@ -104,28 +104,34 @@
     "title": "Venues",
     "countries": {
       "argentina": {
-        "country": "Argentina",
-        "city": "Buenos Aires",
-        "date": "Oct 5",
-        "link": "link"
+      "country": "Argentina",
+      "city": "Mendoza",
+      "date": "Oct 5",
+      "link": "link"
       },
       "brazil": {
-        "country": "Brazil",
-        "city": "São Paulo",
-        "date": "Oct 6",
-        "link": "link"
+      "country": "Brazil",
+      "city": "Curitiba",
+      "date": "Oct 6",
+      "link": "link"
       },
       "colombia": {
-        "country": "Colombia",
-        "city": "Bogotá",
-        "date": "Oct 7",
-        "link": "link"
+      "country": "Colombia",
+      "city": "Medellín",
+      "date": "Oct 7",
+      "link": "link"
       },
       "mexico": {
-        "country": "Mexico",
-        "city": "Mexico City",
-        "date": "Oct 8",
-        "link": "link"
+      "country": "Mexico",
+      "city": "Monterrey",
+      "date": "Oct 8",
+      "link": "link"
+      },
+      "usa": {
+      "country": "USA",
+      "city": "San Francisco",
+      "date": "Oct 9",
+      "link": "link"
       }
     },
     "linkLabel": "View venue",
@@ -163,13 +169,13 @@
           "date": "Sep 27",
           "title": "What is Web3?",
           "description": "Description of the workshop",
-          "calendarLink": "link"
+          "calendarLink": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20250927%2F20251013&location=EVERYWHERE%20%F0%9F%8C%90&text=LATIN%20HACK"
         },
         "topic2": {
           "date": "Sep 27",
           "title": "How to build Web3 apps?",
           "description": "Description of the workshop",
-          "calendarLink": "link"
+          "calendarLink": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20250927%2F20251013&location=EVERYWHERE%20%F0%9F%8C%90&text=LATIN%20HACK"
         },
         "calendar": "Add to calendar"
       }
