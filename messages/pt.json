@@ -43,28 +43,34 @@
     "title": "Locais",
     "countries": {
       "argentina": {
-        "country": "Argentina",
-        "city": "Buenos Aires",
-        "date": "5 de out.",
-        "link": "link"
+      "country": "Argentina",
+      "city": "Mendoza",
+      "date": "5 de out.",
+      "link": "link"
       },
       "brazil": {
-        "country": "Brasil",
-        "city": "São Paulo",
-        "date": "6 de out.",
-        "link": "link"
+      "country": "Brasil",
+      "city": "Curitiba",
+      "date": "6 de out.",
+      "link": "link"
       },
       "colombia": {
-        "country": "Colômbia",
-        "city": "Bogotá",
-        "date": "7 de out.",
-        "link": "link"
+      "country": "Colômbia",
+      "city": "Medellín",
+      "date": "7 de out.",
+      "link": "link"
       },
       "mexico": {
-        "country": "México",
-        "city": "Cidade do México",
-        "date": "8 de out.",
-        "link": "link"
+      "country": "México",
+      "city": "Monterrey",
+      "date": "8 de out.",
+      "link": "link"
+      },
+      "usa": {
+      "country": "EUA",
+      "city": "São Francisco",
+      "date": "9 de out.",
+      "link": "link"
       }
     },
     "linkLabel": "Ver local",
@@ -190,18 +196,18 @@
   },
   "WorkshopsAndResources": {
     "title": "Workshops & Recursos",
-    "objective": "builders... comecem a construir conosco",
+    "objective": "'<'builders... comecem a construir conosco>",
     "workshops": {
       "topics": {
         "topic1": {
           "date": "27 de Set",
           "title": "O que é Web3?",
-          "calendarLink": "link"
+          "calendarLink": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20250927%2F20251013&location=EVERYWHERE%20%F0%9F%8C%90&text=LATIN%20HACK"
         },
         "topic2": {
           "date": "27 de Set",
           "title": "Como desenvolver apps Web3?",
-          "calendarLink": "link"
+          "calendarLink": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20250927%2F20251013&location=EVERYWHERE%20%F0%9F%8C%90&text=LATIN%20HACK"
         }
       },
       "calendar": "Adicionar ao calendário"

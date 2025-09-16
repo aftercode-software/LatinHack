@@ -28,7 +28,6 @@ export default function Home() {
         <Venues />
         <PrizesAndOpportunities />
         <WorkshopsAndResources />
-        {/* <Platform /> */}
         <MidCTA title={t("copy")} ctaLabel={t("cta")} ctaHref="/signup" />
         <Sponsors />
         <FAQ />

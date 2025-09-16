@@ -120,17 +120,6 @@ export default function Hero() {
           "
         />
 
-        <span
-          className="
-            pointer-events-none
-            absolute left-1/2 top-1/2 -z-10
-            -translate-x-1/2 -translate-y-1/2
-            w-[150vw] max-w-[1300px] aspect-square rounded-full
-            bg-[radial-gradient(closest-side,rgba(16,255,0,0.35),transparent_70%)]
-            blur-2xl opacity-70 globe
-          "
-        />
-
         <div className="relative z-10 flex flex-col items-center animate-[slideDown_1s_ease-out]">
           <h2 className="main-title uppercase font-bold font-upheaval text-5xl md:text-8xl text-center pixel-text text-white drop-shadow-[0_0_20px_rgba(0,255,255,0.8)]">
             {t("subtitle")}

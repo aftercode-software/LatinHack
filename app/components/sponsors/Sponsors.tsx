@@ -14,28 +14,29 @@ export default function Sponsors() {
       href: "https://polkadot.network",
     },
     {
-      name: "Aselleraction",
-      logoSrc: "/aselleraction.svg",
-      href: "https://aselleraction.com",
-    },
-    { name: "IBM", logoSrc: "/ibm.svg", href: "https://aselleraction.com" },
-    { name: "Seed", logoSrc: "/seed.svg", href: "https://aselleraction.com" },
-    { name: "Ruta", logoSrc: "/ruta.svg", href: "https://aselleraction.com" },
-    {
-      name: "Offramp",
-      logoSrc: "/offramp.svg",
-      href: "https://aselleraction.com",
-    },
-    {
       name: "Vercel",
       logoSrc: "/vercellogo.svg",
       href: "https://aselleraction.com",
     },
-    { name: "Meta", logoSrc: "/meta.svg", href: "https://aselleraction.com" },
+    // {
+    //   name: "Aselleraction",
+    //   logoSrc: "/aselleraction.svg",
+    //   href: "https://aselleraction.com",
+    // },
+    // { name: "IBM", logoSrc: "/ibm.svg", href: "https://aselleraction.com" },
+    // { name: "Seed", logoSrc: "/seed.svg", href: "https://aselleraction.com" },
+    // { name: "Ruta", logoSrc: "/ruta.svg", href: "https://aselleraction.com" },
+    // {
+    //   name: "Offramp",
+    //   logoSrc: "/offramp.svg",
+    //   href: "https://aselleraction.com",
+    // },
+
+    // { name: "Meta", logoSrc: "/meta.svg", href: "https://aselleraction.com" },
   ];
 
   const topRow = sponsors.slice(0, 3);
-  const bottomRow = sponsors.slice(3, 8);
+  // const bottomRow = sponsors.slice(3, 8);
 
   const spanIfOddLast = (i: number, len: number) =>
     len % 2 === 1 && i === len - 1 ? "col-span-2 md:col-span-1" : "";
@@ -58,8 +59,7 @@ export default function Sponsors() {
           <p className="text-gray-500 text-center">{t("empty")}</p>
         ) : (
           <div className="space-y-8 md:space-y-10">
-            {/* Fila 1 (pirámide): 3 logos, más grandes y ancho más chico */}
-            <div className="mx-auto w-full md:max-w-4xl grid grid-cols-2 gap-6 md:grid-cols-3 md:gap-x-14 md:gap-y-6 md:place-items-center">
+            <div className="mx-auto w-full md:max-w-xl grid grid-cols-2 gap-6 md:grid-cols-2 md:gap-x-14 md:gap-y-6 md:place-items-center">
               {topRow.map((s, i) => {
                 const wrapClasses = spanIfOddLast(i, topRow.length);
                 const Img = (
@@ -92,8 +92,7 @@ export default function Sponsors() {
               })}
             </div>
 
-            {/* Fila 2 (pirámide): 5 logos, más ancha y con mayor separación */}
-            <div className="mx-auto w-full md:max-w-6xl grid grid-cols-2 gap-6 md:grid-cols-5 md:gap-x-20 md:gap-y-8 md:place-items-center">
+            {/* <div className="mx-auto w-full md:max-w-6xl grid grid-cols-2 gap-6 md:grid-cols-5 md:gap-x-20 md:gap-y-8 md:place-items-center">
               {bottomRow.map((s, i) => {
                 const wrapClasses = spanIfOddLast(i, bottomRow.length);
                 const Img = (
@@ -124,7 +123,7 @@ export default function Sponsors() {
                   </LogoWrap>
                 );
               })}
-            </div>
+            </div> */}
           </div>
         )}
       </div>

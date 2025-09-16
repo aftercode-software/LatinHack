@@ -20,7 +20,7 @@ export default function Footer() {
               href="https://github.com/nahuelbarrera"
               target="_blank"
               rel="noopener noreferrer"
-              className="underline"
+              className="underline text-pink-600"
             >
               Aftercode
             </a>{" "}

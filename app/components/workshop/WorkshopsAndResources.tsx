@@ -1,3 +1,4 @@
+"use client";
 /* eslint-disable @typescript-eslint/no-explicit-any */
 import { sendGTMEvent } from "@next/third-parties/google";
 import { useMessages, useTranslations } from "next-intl";
@@ -32,7 +33,7 @@ export default function WorkshopsAndResources() {
                   title={workshop.title}
                   date={workshop.date}
                   calendarLink={workshop.calendarLink}
-                  calendarLabel={t("workshops.topics.calendar")}
+                  calendarLabel={t("workshops.calendar")}
                   description={workshop.description}
                 />
               ))}
