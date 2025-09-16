@@ -44,40 +44,44 @@
     "primary-button": "Crear cuenta"
   },
   "Venues": {
-    "title": "Sedes",
-    "countries": {
-      "argentina": {
-      "country": "Argentina",
-      "city": "Mendoza",
-      "date": "5 de oct.",
-      "link": "link"
+     "title": "Sedes",
+      "countries": {
+        "brazil": {
+          "country": "Brasil",
+          "city": "Curitiba",
+          "date": "16 Sep",
+          "button": "Ver sede",
+          "link": "https://luma.com/latinhackbr"
+        },
+        "colombia": {
+          "country": "Colombia",
+          "city": "Medellín",
+          "date": "27 Sep",
+          "button": "Ver sede",
+          "link": "https://luma.com/latinhackmed"
+        },
+        "mexico": {
+          "country": "México",
+          "city": "Monterrey",
+          "date": "3 Oct",
+          "button": "Ver sede",
+          "link": "https://luma.com/latinhackmty"
+        },
+        "usa": {
+          "country": "Estados Unidos",
+          "city": "San Francisco",
+          "date": "4 Oct",
+          "button": "Ver sede",
+          "link": "https://luma.com/latinhacksf"
+        },
+        "argentina": {
+          "country": "Argentina",
+          "city": "Mendoza",
+          "date": "4 Oct",
+          "button": "Ver sede",
+          "link": "https://luma.com/latinhackmdz"
+        }
       },
-      "brazil": {
-      "country": "Brasil",
-      "city": "Curitiba",
-      "date": "6 de oct.",
-      "link": "link"
-      },
-      "colombia": {
-      "country": "Colombia",
-      "city": "Medellín",
-      "date": "7 de oct.",
-      "link": "link"
-      },
-      "mexico": {
-      "country": "México",
-      "city": "Monterrey",
-      "date": "8 de oct.",
-      "link": "link"
-      },
-      "usa": {
-      "country": "Estados Unidos",
-      "city": "San Francisco",
-      "date": "9 de oct.",
-      "link": "link"
-      }
-    },
-    "linkLabel": "Ver sede",
     "microCopy": {
       "part-1": "Puedes participar 100% en remoto.",
       "part-2": "Los encuentros presenciales son opcionales (solo 1 día por país)."
@@ -154,41 +158,7 @@
       "title": "Participación",
       "remote": "Remoto (toda LATAM)",
       "inPerson": "Presencial (1 día por país)"
-    },
-    "venues": {
-      "title": "Sedes",
-      "countries": {
-        "argentina": {
-          "country": "Argentina",
-          "city": "Buenos Aires",
-          "date": "5 Oct",
-          "button": "Ver sede",
-          "link": "link"
-        },
-        "brazil": {
-          "country": "Brasil",
-          "city": "São Paulo",
-          "date": "6 Oct",
-          "button": "Ver sede",
-          "link": "link"
-        },
-        "colombia": {
-          "country": "Colombia",
-          "city": "Bogotá",
-          "date": "7 Oct",
-          "button": "Ver sede",
-          "link": "link"
-        },
-        "mexico": {
-          "country": "México",
-          "city": "Ciudad de México",
-          "date": "8 Oct",
-          "button": "Ver sede",
-          "link": "link"
-        }
-      }
-    },
-    "microCopy": "Puedes participar 100% remoto. Los encuentros presenciales son opcionales (solo 1 día por país)."
+    }
   },
   "PrizesAndOpportunities": {
     "title": "Premios y Oportunidades",
