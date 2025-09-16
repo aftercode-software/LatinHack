@@ -104,37 +104,37 @@
     "title": "Venues",
     "countries": {
       "brazil": {
-      "country": "Brazil",
-      "city": "Curitiba",
-      "date": "Sep 16",
-      "link": "https://luma.com/latinhackbr"
+        "country": "Brazil",
+        "city": "Curitiba",
+        "date": "Sep 16",
+        "link": "https://luma.com/latinhackbr"
       },
       "colombia": {
-      "country": "Colombia",
-      "city": "Medellín",
-      "date": "Sep 27",
-      "link": "https://luma.com/latinhackmed"
+        "country": "Colombia",
+        "city": "Medellín",
+        "date": "Sep 27",
+        "link": "https://luma.com/latinhackmed"
       },
       "mexico": {
-      "country": "Mexico",
-      "city": "Monterrey",
-      "date": "Oct 3",
-      "link": "https://luma.com/latinhackmty"
+        "country": "Mexico",
+        "city": "Monterrey",
+        "date": "Oct 3",
+        "link": "https://luma.com/latinhackmty"
       },
       "usa": {
-      "country": "USA",
-      "city": "San Francisco",
-      "date": "Oct 4",
-      "link": "https://luma.com/latinhacksf"
+        "country": "USA",
+        "city": "San Francisco",
+        "date": "Oct 4",
+        "link": "https://luma.com/latinhacksf"
       },
       "argentina": {
-      "country": "Argentina",
-      "city": "Mendoza",
-      "date": "Oct 4",
-      "link": "https://luma.com/latinhackmdz"
+        "country": "Argentina",
+        "city": "Mendoza",
+        "date": "Oct 4",
+        "link": "https://luma.com/latinhackmdz"
       }
     },
-    "linkLabel": "View venue",
+    "linkLabel": "View event",
     "microCopy": {
       "part-1": "You can participate 100% remotely.",
       "part-2": "In-person meetings are optional (1 day only per country)."
@@ -162,7 +162,7 @@
   },
   "WorkshopsAndResources": {
     "title": "Workshops & Resources",
-    "objective": "builders... start building with us",
+    "objective": "'<builders... start building with us>",
     "workshops": {
       "topics": {
         "topic1": {
