@@ -162,7 +162,7 @@
   },
   "WorkshopsAndResources": {
     "title": "Workshops & Resources",
-    "objective": "builders... start building with us",
+    "objective": "'<builders... start building with us>",
     "workshops": {
       "topics": {
         "topic1": {
