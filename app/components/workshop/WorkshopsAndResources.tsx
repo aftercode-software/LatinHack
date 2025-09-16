@@ -36,6 +36,16 @@ export default function WorkshopsAndResources() {
     });
 
     currentTl.from(
+      ".workshops-objective",
+      {
+        opacity: 0,
+        y: 50,
+        duration: 0.5,
+      },
+      "<+0.3"
+    );
+
+    currentTl.from(
       ".workshop-card",
       {
         opacity: 0,
@@ -62,7 +72,7 @@ export default function WorkshopsAndResources() {
       <div className="mx-auto">
         <div className="text-center mb-4">
           <Title className="workshops-title">{t("title")}</Title>
-          <p className="text-2xl md:text-4xl font-roboto-mono font-bold text-white">
+          <p className="text-2xl md:text-4xl font-roboto-mono font-bold text-white workshops-objective">
             {"<" + t("objective") + ">"}
           </p>
         </div>
