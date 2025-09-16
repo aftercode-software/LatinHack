@@ -17,13 +17,13 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   title: "LATIN HACK",
   description:
-    "LATIN HACK is the best hackathon in Latin America, organized by NERDCONF. From September 27 to October 12, developers across LATAM will compete online and at in-person venues in Argentina, Brazil, Colombia, and Mexico. Over $21,000 in crypto prizes, an all-paid trip to Miami and mentorship programs are up for grabs.",
+    "LATIN HACK is the best hackathon in Latin America, organized by NERDCONF. From September 27 to October 12, developers across LATAM will compete online and at in-person venues in Argentina, Brazil, San Francisco, Colombia, and Mexico. Over $21,000 in crypto prizes, an all-paid trip to Miami and mentorship programs are up for grabs.",
   keywords:
     "hackatamerica, blockchain, web3, crypto, developers, prizes, innovation, NERDCONFn, NERDCONF, Polkadot, community, sub0, ideas, prototypes, products",
   openGraph: {
     title: "LATIN HACK",
     description:
-      "Join the best hackathon in LATAM. Compete for $21k in prizes, mentorship, and the chance to scale your project towards Sub0 Buenos Aires.",
+      "Join the BEST HACKATHON IN LATAM. Compete for $21k in prizes, mentorship and an all-paid trip to Miami to see the GOAT’s last season match ⚽️",
     url: "https://latinhack.io",
     siteName: "LATIN HACK",
     images: [
