@@ -7,12 +7,7 @@ export default function CTAS() {
   return (
     <div className="space-y-4 mx-auto relative p-2 bg-black/90 md:-top-4 flex flex-col border-2 border-dashed border-green w-full max-w-lg">
       <LinkButton
-        onClick={() => {
-          sendGTMEvent({
-            event_category: "cta",
-            event_label: "register_now_hero",
-          });
-        }}
+        linkName="cta-hero-primary"
         href="http://app.latinhack.io/"
         className=""
       >
@@ -21,12 +16,7 @@ export default function CTAS() {
       <a
         href="https://discord.gg/mwrd8jWV"
         target="_blank"
-        onClick={() => {
-          sendGTMEvent({
-            event_label: "join_discord_hero",
-            event_category: "cta",
-          });
-        }}
+        data-link-name="cta-hero-secondary"
         className="text-green uppercase font-roboto-mono font-medium cursor-pointer underline text-center align-middle pb-2"
       >
         {t("secondary-button")}

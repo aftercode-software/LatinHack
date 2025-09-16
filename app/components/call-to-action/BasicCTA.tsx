@@ -16,25 +16,13 @@ export default function BasicCTA() {
       />
       <div className="space-y-4 mx-auto relative p-2 bg-black/90 md:-top-4 flex flex-col border-2 border-dashed border-green rounded-md w-full max-w-lg">
         <LinkButton
-          onClick={() => {
-            sendGTMEvent({
-              event: "create_account_basic_cta",
-              event_category: "cta",
-              event_label: "primary",
-            });
-          }}
+          linkName="create_account_basic_cta"
           href="http://app.latinhack.io/"
         >
           {t("primary-button")}
         </LinkButton>
         <a
-          onClick={() => {
-            sendGTMEvent({
-              event: "join_discord_basic_cta",
-              event_category: "cta",
-              event_label: "secondary",
-            });
-          }}
+          data-link-name="join_discord_basic_cta"
           href="https://discord.gg/nerdconf"
           target="_blank"
           className="text-green uppercase font-anybody underline text-center align-middle pb-2"

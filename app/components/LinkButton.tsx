@@ -15,12 +15,14 @@ export default function LinkButton({
   href,
   onClick,
   variant,
+  linkName,
 }: {
   children: React.ReactNode;
   className?: string;
   href?: string;
   onClick?: () => void;
   variant?: LinkButtonVariant;
+  linkName?: string;
 }) {
   const buttonRef = useRef<HTMLAnchorElement>(null);
 
@@ -29,6 +31,7 @@ export default function LinkButton({
       <Link
         ref={buttonRef}
         onClick={onClick}
+        data-link-name={linkName}
         target="_blank"
         className={cn(
           `block w-fit bg-gradient-to-b from-white to-green
@@ -50,6 +53,7 @@ export default function LinkButton({
     <Link
       ref={buttonRef}
       target="_blank"
+      data-link-name={linkName}
       className={cn(
         `bg-gradient-to-b from-white to-green 
         transition-all

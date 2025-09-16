@@ -33,13 +33,7 @@ export default function WorkshopCard({
         variant={LinkButtonVariant.SMALL}
         href={calendarLink}
         className="mt-6"
-        onClick={() => {
-          sendGTMEvent({
-            event: `view_workshop_${title.toLowerCase().replace(/ /g, "_")}`,
-            event_category: "workshops",
-            event_label: "primary",
-          });
-        }}
+        linkName={`view_workshop_${title.toLowerCase().replace(/ /g, "_")}`}
       >
         {calendarLabel}
       </LinkButton>

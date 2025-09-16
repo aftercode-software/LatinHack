@@ -27,13 +27,7 @@ export default function VenuesCard({
         href={link}
         variant={LinkButtonVariant.SMALL}
         className="mt-4"
-        onClick={() => {
-          sendGTMEvent({
-            event: `view_venue_${country}`,
-            event_category: "venues",
-            event_label: "primary",
-          });
-        }}
+        linkName={`view_venue_${country}`}
       >
         {linkLabel}
       </LinkButton>

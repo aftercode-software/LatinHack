@@ -116,6 +116,7 @@ export default function Sponsors() {
                   <a
                     key={s.name}
                     href={s.href}
+                    data-link-name={`sponsor_${s.name}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className={`justify-self-center ${wrapClasses} sponsor-image`}
@@ -148,6 +149,7 @@ export default function Sponsors() {
                   <a
                     key={s.name}
                     href={s.href}
+                    data-link-name={`sponsor_${s.name}`}
                     target="_blank"
                     rel="noopener noreferrer"
                     className={`justify-self-center`}

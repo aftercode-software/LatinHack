@@ -86,13 +86,7 @@ export default function HowItWorks() {
 
       <div className="mt-8 md:mt-10 flex justify-center link-button">
         <LinkButton
-          onClick={() => {
-            sendGTMEvent({
-              event: "create_account_how_it_works",
-              event_category: "cta",
-              event_label: "primary",
-            });
-          }}
+          linkName="create_account_how_it_works"
           href="http://app.latinhack.io/"
         >
           {t("primary-button")}

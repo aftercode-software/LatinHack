@@ -98,13 +98,7 @@ export default function WorkshopsAndResources() {
               {t("resources.description")}
             </span>
             <LinkButton
-              onClick={() => {
-                sendGTMEvent({
-                  event: "view_resources",
-                  event_category: "workshops",
-                  event_label: "primary",
-                });
-              }}
+              linkName="view_resources"
               className=" mt-4 md:mt-0"
               href="https://nerdconf.notion.site/latinhack-resources"
             >

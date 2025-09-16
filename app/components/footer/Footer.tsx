@@ -17,6 +17,7 @@ export default function Footer() {
           <p>
             Developed by{" "}
             <a
+              data-link-name="developed_by_aftercode"
               href="https://aftercode.dev"
               target="_blank"
               rel="noopener noreferrer"
@@ -26,6 +27,7 @@ export default function Footer() {
             </a>{" "}
             and{" "}
             <a
+              data-link-name="developed_by_nerdconf"
               href="https://nerdconf.com"
               target="_blank"
               rel="noopener noreferrer"
@@ -37,6 +39,7 @@ export default function Footer() {
           <p>
             Art by{" "}
             <a
+              data-link-name="art_by_flgx"
               href="https://www.behance.net/flgx"
               target="_blank"
               rel="noopener noreferrer"
@@ -48,6 +51,7 @@ export default function Footer() {
           <p>
             Built for{" "}
             <a
+              data-link-name="built_for_polkadot"
               href="https://polkadot.com/"
               target="_blank"
               rel="noopener noreferrer"

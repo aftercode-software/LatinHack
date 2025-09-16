@@ -56,6 +56,7 @@ export default function Navbar() {
             <LanguageSwitcher />
           </div>
           <LinkButton
+            linkName="create_account_navbar"
             className="text-xl px-4 py-2"
             href="http://app.latinhack.io/"
           >
