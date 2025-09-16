@@ -44,44 +44,40 @@
     "primary-button": "Crear cuenta"
   },
   "Venues": {
-     "title": "Sedes",
-      "countries": {
-        "brazil": {
-          "country": "Brasil",
-          "city": "Curitiba",
-          "date": "16 Sep",
-          "button": "Ver sede",
-          "link": "https://luma.com/latinhackbr"
-        },
-        "colombia": {
-          "country": "Colombia",
-          "city": "Medellín",
-          "date": "27 Sep",
-          "button": "Ver sede",
-          "link": "https://luma.com/latinhackmed"
-        },
-        "mexico": {
-          "country": "México",
-          "city": "Monterrey",
-          "date": "3 Oct",
-          "button": "Ver sede",
-          "link": "https://luma.com/latinhackmty"
-        },
-        "usa": {
-          "country": "Estados Unidos",
-          "city": "San Francisco",
-          "date": "4 Oct",
-          "button": "Ver sede",
-          "link": "https://luma.com/latinhacksf"
-        },
-        "argentina": {
-          "country": "Argentina",
-          "city": "Mendoza",
-          "date": "4 Oct",
-          "button": "Ver sede",
-          "link": "https://luma.com/latinhackmdz"
-        }
+    "title": "Sedes",
+    "countries": {
+      "brazil": {
+        "country": "Brasil",
+        "city": "Curitiba",
+        "date": "16 sep",
+        "link": "https://luma.com/latinhackbr"
       },
+      "colombia": {
+        "country": "Colombia",
+        "city": "Medellín",
+        "date": "27 sep",
+        "link": "https://luma.com/latinhackmed"
+      },
+      "mexico": {
+        "country": "México",
+        "city": "Monterrey",
+        "date": "3 oct",
+        "link": "https://luma.com/latinhackmty"
+      },
+      "usa": {
+        "country": "Estados Unidos",
+        "city": "San Francisco",
+        "date": "4 oct",
+        "link": "https://luma.com/latinhacksf"
+      },
+      "argentina": {
+        "country": "Argentina",
+        "city": "Mendoza",
+        "date": "4 oct",
+        "link": "https://luma.com/latinhackmdz"
+      }
+    },
+    "linkLabel": "Ver evento",
     "microCopy": {
       "part-1": "Puedes participar 100% en remoto.",
       "part-2": "Los encuentros presenciales son opcionales (solo 1 día por país)."
@@ -182,14 +178,14 @@
   },
   "WorkshopsAndResources": {
     "title": "Workshops & Recursos",
-    "objective": "'<'builders... empiecen a construir con nosotros>",
+    "objective": "builders... empiecen a construir con nosotros",
     "workshops": {
       "topics": {
         "topic1": {
           "date": "27 Sep",
           "title": "¿Qué es web3?",
           "description": "Descripción del workshop",
-          "calendarLink": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20250927%2F20251013&location=EVERYWHERE%20%F0%9F%8C%90&text=LATIN%20HACK" 
+          "calendarLink": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20250927%2F20251013&location=EVERYWHERE%20%F0%9F%8C%90&text=LATIN%20HACK"
         },
         "topic2": {
           "date": "27 Sep",
