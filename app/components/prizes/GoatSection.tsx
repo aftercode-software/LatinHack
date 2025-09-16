@@ -5,7 +5,7 @@ import React from "react";
 export default function GoatSection({ title }: { title: string }) {
   return (
     <div
-      className="h-[500px] bg-green flex items-center justify-center relative z-10 p-10"
+      className="h-[500px] bg-green flex items-center justify-center relative z-10 p-10 goat-section"
       style={{
         backgroundImage: `url('/prizes/pasto.png')`,
         backgroundSize: "cover",

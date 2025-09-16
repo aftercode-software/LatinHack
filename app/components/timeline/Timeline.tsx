@@ -17,7 +17,6 @@ export default function Timeline() {
     scrollTrigger: {
       start: "top 80%",
       end: "30% 80%",
-      markers: true,
     },
   });
 
@@ -26,7 +25,7 @@ export default function Timeline() {
 
     if (!currentTl) return;
 
-    currentTl.from(".section-title", {
+    currentTl.from(".timeline-title", {
       opacity: 0,
       y: 50,
       duration: 0.5,
@@ -54,7 +53,7 @@ export default function Timeline() {
       className="w-full px-4 margin-section flex flex-col"
       ref={containerRef}
     >
-      <Title>{t("title")}</Title>
+      <Title className="timeline-title">{t("title")}</Title>
       <div className="justify-between flex-1 flex items-center gap-3 md:gap-0 flex-col md:flex-row">
         <TimelineCard
           title={t("phases.kickoff.title")}

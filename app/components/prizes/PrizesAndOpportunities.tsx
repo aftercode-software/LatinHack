@@ -1,11 +1,68 @@
+"use client";
+
 /* eslint-disable @next/next/no-img-element */
+import { useScrollTriggerTimeline } from "@/hooks/useTimeline";
+import { useGSAP } from "@gsap/react";
 import { useTranslations } from "next-intl";
+import { useRef } from "react";
 import Title from "../Title";
 import GoatSection from "./GoatSection";
 import PrizeCard from "./PrizeCard";
 
 export default function PrizesAndOpportunities() {
   const t = useTranslations("PrizesAndOpportunities");
+
+  const containerRef = useRef<HTMLDivElement>(null);
+
+  const { tl } = useScrollTriggerTimeline({
+    scopeRef: containerRef,
+    scrollTrigger: {
+      start: "top 80%",
+      end: "30% 80%",
+    },
+  });
+
+  useGSAP(() => {
+    const currentTl = tl.current;
+    if (!currentTl) return;
+
+    currentTl.from(".prizes-title", {
+      opacity: 0,
+      y: 50,
+      duration: 0.5,
+    });
+
+    currentTl.from(
+      ".prizes-card",
+      {
+        opacity: 0,
+        y: 50,
+        duration: 0.5,
+        stagger: 0.1,
+      },
+      "<+0.3"
+    );
+
+    currentTl.from(
+      ".goat-section",
+      {
+        opacity: 0,
+        y: 50,
+        duration: 0.5,
+      },
+      "<+0.3"
+    );
+
+    currentTl.from(
+      ".footnote-section",
+      {
+        opacity: 0,
+        y: 50,
+        duration: 0.5,
+      },
+      "<+0.3"
+    );
+  });
 
   const prizes = [
     {
@@ -33,14 +90,14 @@ export default function PrizesAndOpportunities() {
   ];
 
   return (
-    <section className="margin-section">
+    <section className="margin-section" ref={containerRef}>
       <img
         src="/flechon.png"
         alt=""
         className="w-20 md:w-60 mx-auto object-contain animate-bounce"
       />
       <div className="text-left mb-4">
-        <Title>{t("title")}</Title>
+        <Title className="prizes-title">{t("title")}</Title>
       </div>
 
       <div className="grid xl:grid-cols-3 gap-8 mb-12">
@@ -54,7 +111,7 @@ export default function PrizesAndOpportunities() {
         ))}
       </div>
       <GoatSection title={t("goat")} />
-      <div className="text-center border-2 border-dashed border-green mt-8 py-6 bg-black/20 font-roboto-mono">
+      <div className="text-center border-2 border-dashed border-green mt-8 py-6 bg-black/20 font-roboto-mono footnote-section">
         <p className="text-white text-xl md:text-3xl uppercase">
           {t("footnote")}
         </p>

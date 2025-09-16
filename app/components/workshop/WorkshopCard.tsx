@@ -17,7 +17,7 @@ export default function WorkshopCard({
   description: string;
 }) {
   return (
-    <div className="border-2 border-dashed border-green p-5 bg-black/60">
+    <div className="border-2 border-dashed border-green p-5 bg-black/60 workshop-card">
       <p className="text-white text-md font-roboto-mono font-medium">{date}</p>
       <h4 className="font-anybody-condensed font-light text-green text-6xl uppercase mt-2">
         {title}

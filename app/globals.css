@@ -148,6 +148,21 @@
   --sidebar-ring: oklch(0.556 0 0);
 }
 
+@theme {
+  --animate-float: float 3s ease-in-out infinite;
+  @keyframes float {
+    0% {
+      transform: translateX(0px) translateY(0px);
+    }
+    50% {
+      transform: translateX(10px) translateY(-40px);
+    }
+    100% {
+      transform: translateX(0px) translateY(0px);
+    }
+  }
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;

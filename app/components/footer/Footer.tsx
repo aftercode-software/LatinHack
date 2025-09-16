@@ -26,7 +26,7 @@ export default function Footer() {
             </a>{" "}
             and{" "}
             <a
-              href="https://github.com/alex-ai"
+              href="https://nerdconf.com"
               target="_blank"
               rel="noopener noreferrer"
               className="underline"
@@ -48,7 +48,7 @@ export default function Footer() {
           <p>
             Built for{" "}
             <a
-              href="https://nerdconf.com"
+              href="https://polkadot.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="underline"

@@ -1,39 +1,42 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
 
+import { useScrollTriggerTimeline } from "@/hooks/useTimeline";
+import { useGSAP } from "@gsap/react";
 import { useTranslations } from "next-intl";
+import { useRef } from "react";
 import Title from "../Title";
+
+const sponsors = [
+  {
+    name: "Polkadot",
+    logoSrc: "/polkadot.svg",
+    href: "https://polkadot.network",
+  },
+  {
+    name: "Vercel",
+    logoSrc: "/vercellogo.svg",
+    href: "https://aselleraction.com",
+  },
+  // {
+  //   name: "Aselleraction",
+  //   logoSrc: "/aselleraction.svg",
+  //   href: "https://aselleraction.com",
+  // },
+  // { name: "IBM", logoSrc: "/ibm.svg", href: "https://aselleraction.com" },
+  // { name: "Seed", logoSrc: "/seed.svg", href: "https://aselleraction.com" },
+  // { name: "Ruta", logoSrc: "/ruta.svg", href: "https://aselleraction.com" },
+  // {
+  //   name: "Offramp",
+  //   logoSrc: "/offramp.svg",
+  //   href: "https://aselleraction.com",
+  // },
+
+  // { name: "Meta", logoSrc: "/meta.svg", href: "https://aselleraction.com" },
+];
 
 export default function Sponsors() {
   const t = useTranslations("Sponsors");
-
-  const sponsors = [
-    {
-      name: "Polkadot",
-      logoSrc: "/polkadot.svg",
-      href: "https://polkadot.network",
-    },
-    {
-      name: "Vercel",
-      logoSrc: "/vercellogo.svg",
-      href: "https://aselleraction.com",
-    },
-    // {
-    //   name: "Aselleraction",
-    //   logoSrc: "/aselleraction.svg",
-    //   href: "https://aselleraction.com",
-    // },
-    // { name: "IBM", logoSrc: "/ibm.svg", href: "https://aselleraction.com" },
-    // { name: "Seed", logoSrc: "/seed.svg", href: "https://aselleraction.com" },
-    // { name: "Ruta", logoSrc: "/ruta.svg", href: "https://aselleraction.com" },
-    // {
-    //   name: "Offramp",
-    //   logoSrc: "/offramp.svg",
-    //   href: "https://aselleraction.com",
-    // },
-
-    // { name: "Meta", logoSrc: "/meta.svg", href: "https://aselleraction.com" },
-  ];
 
   const topRow = sponsors.slice(0, 3);
   // const bottomRow = sponsors.slice(3, 8);
@@ -48,11 +51,41 @@ export default function Sponsors() {
     <div className={`flex justify-center ${className}`}>{children}</div>
   );
 
+  const containerRef = useRef<HTMLDivElement>(null);
+
+  const { tl } = useScrollTriggerTimeline({
+    scopeRef: containerRef,
+    scrollTrigger: {
+      start: "top 80%",
+      end: "30% 80%",
+    },
+  });
+
+  useGSAP(() => {
+    const currentTl = tl.current;
+    if (!currentTl) return;
+    currentTl.from(".sponsors-title", {
+      opacity: 0,
+      y: 50,
+      duration: 0.5,
+    });
+    currentTl.from(
+      ".sponsor-image",
+      {
+        opacity: 0,
+        y: 50,
+        duration: 0.5,
+        stagger: 0.1,
+      },
+      "<+0.3"
+    );
+  });
+
   return (
-    <section className="margin-section" id="sponsors">
+    <section className="margin-section" id="sponsors" ref={containerRef}>
       <div className="mx-auto max-w-6xl px-4">
         <div className="text-center mb-6">
-          <Title>{t("title")}</Title>
+          <Title className="sponsors-title">{t("title")}</Title>
         </div>
 
         {sponsors.length === 0 ? (
@@ -77,14 +110,14 @@ export default function Sponsors() {
                     href={s.href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className={`justify-self-center ${wrapClasses}`}
+                    className={`justify-self-center ${wrapClasses} sponsor-image`}
                   >
                     <LogoWrap>{Img}</LogoWrap>
                   </a>
                 ) : (
                   <LogoWrap
                     key={s.name}
-                    className={`justify-self-center ${wrapClasses}`}
+                    className={`justify-self-center ${wrapClasses} sponsor-image`}
                   >
                     {Img}
                   </LogoWrap>

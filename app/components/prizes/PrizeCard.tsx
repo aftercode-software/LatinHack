@@ -9,7 +9,7 @@ export default function PrizeCard({
   description: React.ReactNode;
 }) {
   return (
-    <div>
+    <div className="prizes-card">
       <div className="flex flex-col md:flex-row">
         <div className="w-full h-20 md:w-20 bg-green p-2">
           <img src={iconImage} alt={prize} className="w-full h-full" />

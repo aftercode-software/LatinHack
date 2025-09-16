@@ -33,7 +33,7 @@ export default function SplashScreen() {
           warpSpeedRef.current,
           {
             autoAlpha: 0,
-            duration: 0.2,
+            duration: 0.5,
             onComplete: () => {
               setIsVisible(false);
             },

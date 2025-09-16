@@ -23,7 +23,6 @@ export default function HowItWorks() {
     scrollTrigger: {
       start: "top 80%",
       end: "30% 80%",
-      markers: true,
     },
   });
 
@@ -34,10 +33,10 @@ export default function HowItWorks() {
       if (!currentTl) return;
 
       currentTl
-        .from(".section-title", {
+        .from(".how-it-works-title", {
           opacity: 0,
           y: 50,
-          duration: 0.5,
+          duration: 0.4,
         })
         .from(
           ".steps-box",
@@ -81,7 +80,7 @@ export default function HowItWorks() {
 
   return (
     <section className="px-4 mt-48" ref={containerRef}>
-      <Title>{t("title")}</Title>
+      <Title className="how-it-works-title">{t("title")}</Title>
 
       <StepsUnifiedBox steps={steps} />
 

@@ -14,12 +14,13 @@ export default function CTAS() {
             event_label: "primary",
           });
         }}
+        href="https://app.latinhack.io/login"
         className=""
       >
         {t("primary-button")}
       </LinkButton>
       <a
-        href="https://discord.gg/nerdconf"
+        href="https://discord.gg/mwrd8jWV"
         target="_blank"
         onClick={() => {
           sendGTMEvent({
