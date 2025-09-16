@@ -73,7 +73,7 @@
         "link": "https://luma.com/latinhackmdz"
       }
     },
-    "linkLabel": "Ver local",
+    "linkLabel": "Ver evento",
     "microCopy": {
       "part-1": "Você pode participar 100% remotamente.",
       "part-2": "Os encontros presenciais são opcionais (apenas 1 dia por país)."
@@ -162,7 +162,7 @@
   },
   "WorkshopsAndResources": {
     "title": "Workshops & Recursos",
-    "objective": "'<'builders... comecem a construir conosco>",
+    "objective": "builders... comecem a construir conosco",
     "workshops": {
       "topics": {
         "topic1": {

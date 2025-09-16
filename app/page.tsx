@@ -28,7 +28,11 @@ export default function Home() {
         <Venues />
         <PrizesAndOpportunities />
         <WorkshopsAndResources />
-        <MidCTA title={t("copy")} ctaLabel={t("cta")} ctaHref="/signup" />
+        <MidCTA
+          title={t("copy")}
+          ctaLabel={t("cta")}
+          ctaHref="http://app.latinhack.io/"
+        />
         <Sponsors />
         <FAQ />
         <BasicCTA />

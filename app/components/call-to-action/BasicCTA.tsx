@@ -23,6 +23,7 @@ export default function BasicCTA() {
               event_label: "primary",
             });
           }}
+          href="http://app.latinhack.io/"
         >
           {t("primary-button")}
         </LinkButton>

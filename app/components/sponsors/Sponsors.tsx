@@ -13,11 +13,7 @@ const sponsors = [
     logoSrc: "/polkadot.svg",
     href: "https://polkadot.network",
   },
-  {
-    name: "Vercel",
-    logoSrc: "/vercellogo.svg",
-    href: "https://aselleraction.com",
-  },
+
   // {
   //   name: "Aselleraction",
   //   logoSrc: "/aselleraction.svg",
@@ -35,11 +31,23 @@ const sponsors = [
   // { name: "Meta", logoSrc: "/meta.svg", href: "https://aselleraction.com" },
 ];
 
+const sponsors2 = [
+  {
+    name: "Vercel",
+    logoSrc: "/vercellogo.svg",
+    href: "https://aselleraction.com",
+  },
+  {
+    name: "Web3dev",
+    logoSrc: "/web3dev.png",
+    href: "https://web3.dev/",
+  },
+];
+
 export default function Sponsors() {
   const t = useTranslations("Sponsors");
 
   const topRow = sponsors.slice(0, 3);
-  // const bottomRow = sponsors.slice(3, 8);
 
   const spanIfOddLast = (i: number, len: number) =>
     len % 2 === 1 && i === len - 1 ? "col-span-2 md:col-span-1" : "";
@@ -92,7 +100,7 @@ export default function Sponsors() {
           <p className="text-gray-500 text-center">{t("empty")}</p>
         ) : (
           <div className="space-y-8 md:space-y-10">
-            <div className="mx-auto w-full md:max-w-xl grid grid-cols-2 gap-6 md:grid-cols-2 md:gap-x-14 md:gap-y-6 md:place-items-center">
+            <div className="mx-auto w-full md:max-w-xl grid grid-cols-1 gap-6 md:gap-x-14 md:gap-y-6 md:place-items-center">
               {topRow.map((s, i) => {
                 const wrapClasses = spanIfOddLast(i, topRow.length);
                 const Img = (
@@ -125,9 +133,8 @@ export default function Sponsors() {
               })}
             </div>
 
-            {/* <div className="mx-auto w-full md:max-w-6xl grid grid-cols-2 gap-6 md:grid-cols-5 md:gap-x-20 md:gap-y-8 md:place-items-center">
-              {bottomRow.map((s, i) => {
-                const wrapClasses = spanIfOddLast(i, bottomRow.length);
+            <div className="mx-auto w-full md:max-w-6xl grid grid-cols-2 gap-6 md:gap-x-20 md:gap-y-8 md:place-items-center">
+              {sponsors2.map((s, i) => {
                 const Img = (
                   <img
                     src={s.logoSrc}
@@ -143,20 +150,17 @@ export default function Sponsors() {
                     href={s.href}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className={`justify-self-center ${wrapClasses}`}
+                    className={`justify-self-center`}
                   >
                     <LogoWrap>{Img}</LogoWrap>
                   </a>
                 ) : (
-                  <LogoWrap
-                    key={s.name}
-                    className={`justify-self-center ${wrapClasses}`}
-                  >
+                  <LogoWrap key={s.name} className={`justify-self-center`}>
                     {Img}
                   </LogoWrap>
                 );
               })}
-            </div> */}
+            </div>
           </div>
         )}
       </div>
