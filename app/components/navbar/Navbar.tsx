@@ -25,7 +25,10 @@ export default function Navbar() {
           <section className="hidden md:block">
             <LanguageSwitcher />
           </section>
-          <LinkButton className="text-xl px-4 py-2" href="/">
+          <LinkButton
+            className="text-xl px-4 py-2"
+            href="http://app.latinhack.io/"
+          >
             {t("button")}
           </LinkButton>
         </div>
