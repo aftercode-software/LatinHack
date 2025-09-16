@@ -9,9 +9,8 @@ export default function CTAS() {
       <LinkButton
         onClick={() => {
           sendGTMEvent({
-            event: "register_now_hero",
             event_category: "cta",
-            event_label: "primary",
+            event_label: "register_now_hero",
           });
         }}
         href="http://app.latinhack.io/"
@@ -24,9 +23,8 @@ export default function CTAS() {
         target="_blank"
         onClick={() => {
           sendGTMEvent({
-            event: "join_discord_hero",
+            event_label: "join_discord_hero",
             event_category: "cta",
-            event_label: "secondary",
           });
         }}
         className="text-green uppercase font-roboto-mono font-medium cursor-pointer underline text-center align-middle pb-2"
