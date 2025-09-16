@@ -43,37 +43,37 @@
     "title": "Locais",
     "countries": {
       "brazil": {
-      "country": "Brasil",
-      "city": "Curitiba",
-      "date": "16 de set",
-      "link": "https://luma.com/latinhackbr"
+        "country": "Brasil",
+        "city": "Curitiba",
+        "date": "16 set",
+        "link": "https://luma.com/latinhackbr"
       },
       "colombia": {
-      "country": "Colômbia",
-      "city": "Medellín",
-      "date": "27 de set",
-      "link": "https://luma.com/latinhackmed"
+        "country": "Colômbia",
+        "city": "Medellín",
+        "date": "27 set",
+        "link": "https://luma.com/latinhackmed"
       },
       "mexico": {
-      "country": "México",
-      "city": "Monterrey",
-      "date": "3 de out",
-      "link": "https://luma.com/latinhackmty"
+        "country": "México",
+        "city": "Monterrey",
+        "date": "3 out",
+        "link": "https://luma.com/latinhackmty"
       },
       "usa": {
-      "country": "EUA",
-      "city": "São Francisco",
-      "date": "4 de out",
-      "link": "https://luma.com/latinhacksf"
+        "country": "Estados Unidos",
+        "city": "São Francisco",
+        "date": "4 out",
+        "link": "https://luma.com/latinhacksf"
       },
       "argentina": {
-      "country": "Argentina",
-      "city": "Mendoza",
-      "date": "4 de out",
-      "link": "https://luma.com/latinhackmdz"
+        "country": "Argentina",
+        "city": "Mendoza",
+        "date": "4 out",
+        "link": "https://luma.com/latinhackmdz"
       }
     },
-    "linkLabel": "Ver local",
+    "linkLabel": "Ver evento",
     "microCopy": {
       "part-1": "Você pode participar 100% remotamente.",
       "part-2": "Os encontros presenciais são opcionais (apenas 1 dia por país)."
@@ -139,7 +139,7 @@
       "remote": "Remoto (toda LATAM)",
       "inPerson": "Presencial (1 dia por país)"
     }
-      },
+  },
   "PrizesAndOpportunities": {
     "title": "Prêmios e Oportunidades",
     "objective": "Proposta de valor completa e clara",
@@ -162,7 +162,7 @@
   },
   "WorkshopsAndResources": {
     "title": "Workshops & Recursos",
-    "objective": "'<'builders... comecem a construir conosco>",
+    "objective": "builders... comecem a construir conosco",
     "workshops": {
       "topics": {
         "topic1": {
