@@ -15,33 +15,33 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  title: "Latin Hack",
+  title: "Latin Hack 2025",
   description:
-    "Latin Hack is a global hackathon series empowering developers to build innovative projects on Polkadot. Compete for $100,000 in funding, mentorship, and exclusive opportunities, and showcase your work at sub0 — the premier Polkadot event for the global blockchain community.",
+    "Latin Hack is the best hackathon in Latin America, organized by NERDCONF. From September 27 to October 12, developers across LATAM will compete online and at in-person venues in Argentina, Brazil, Colombia, and Mexico. Over $21,000 in crypto prizes and mentorship programs are up for grabs.",
   keywords:
-    "hackathon, polkadot, blockchain, competition, developer, prizes, crypto, web3, smart contracts, parachain, innovation, sub0, funding, mentoring",
+    "hackatamerica, blockchain, web3, crypto, developers, prizes, innovation, NERDCONFn, NERDCONF, Polkadot, community, sub0, ideas, prototypes, products",
   openGraph: {
-    title: "Latin Hack",
+    title: "Latin Hack 2025",
     description:
-      "Join Latin Hack to build on Polkadot, win prizes, and showcase your project at sub0. Compete for $100k in funding and mentorship.",
-    url: "https://latinhack.io",
+      "Join the biggest hackathon in LATAM. Compete for $21k in prizes, mentorship, and the chance to scale your project towards Sub0 Buenos Aires.",
+    url: "https://latinhack.gg",
     siteName: "Latin Hack",
     images: [
       {
-        url: "https://latinhack.io/og-image.webp",
+        url: "https://latinhack.gg/og-image.webp",
         width: 1200,
         height: 630,
-        alt: "Latin Hack Competition Banner",
+        alt: "Latin Hack 2025 Banner",
       },
     ],
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Latin Hack",
+    title: "Latin Hack 2025",
     description:
-      "Latin Hack: Build on Polkadot, win prizes, and showcase your project at sub0. $100k in funding and mentorship available.",
-    images: ["https://latinhack.io/og-image.webp"],
+      "Latin Hack: The hackathon for LATAM builders in Web3. $21k in prizes and mentorship. Online and in-person across 4 countries.",
+    images: ["https://latinhack.gg/og-image.webp"],
   },
 };
 
