@@ -28,7 +28,7 @@ export const metadata: Metadata = {
     siteName: "Latin Hack",
     images: [
       {
-        url: "https://latinhack.gg/og-image.webp",
+        url: "https://latinhack.io/og-image.webp",
         width: 1200,
         height: 630,
         alt: "Latin Hack 2025 Banner",
@@ -41,7 +41,7 @@ export const metadata: Metadata = {
     title: "Latin Hack 2025",
     description:
       "Latin Hack: The hackathon for LATAM builders in Web3. $21k in prizes and mentorship. Online and in-person across 4 countries.",
-    images: ["https://latinhack.gg/og-image.webp"],
+    images: ["https://latinhack.io/og-image.webp"],
   },
 };
 
