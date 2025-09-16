@@ -25,7 +25,7 @@ export default function LinkButton({
         onClick={onClick}
         target="_blank"
         className={cn(
-          `block w-fit bg-gradient-to-b from-white to-green rounded-sm py-1 font-medium text-black uppercase px-12 text-center font-myriadpro text-lg cursor-pointer shadow-sm shadow-white `,
+          `block w-fit bg-gradient-to-b from-white to-green rounded-sm py-1 font-medium text-black uppercase px-12 text-center font-myriadpro text-lg cursor-pointer shadow-sm shadow-white link-button`,
           className
         )}
         href={href ?? ""}

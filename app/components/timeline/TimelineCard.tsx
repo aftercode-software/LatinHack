@@ -6,7 +6,7 @@ export default function TimelineCard({
   date: string;
 }) {
   return (
-    <div className="w-full flex flex-col flex-1 bg-black/60 px-4 py-5 md:px-6 font-anybody md:py-6 border-2 border-dashed border-green-500/60">
+    <div className="w-full flex flex-col flex-1 bg-black/60 px-4 py-5 md:px-6 font-anybody md:py-6 border-2 border-dashed border-green-500/60 timeline-card">
       <h3 className="text-center font-anybody-condensed font-light text-white text-6xl uppercase">
         {title}
       </h3>

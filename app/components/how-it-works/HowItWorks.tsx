@@ -1,5 +1,6 @@
 "use client";
 
+import { useScrollTriggerTimeline } from "@/hooks/useTimeline";
 import { useGSAP } from "@gsap/react";
 import { sendGTMEvent } from "@next/third-parties/google";
 import gsap from "gsap";
@@ -16,26 +17,46 @@ export default function HowItWorks() {
   const t = useTranslations("HowItWorks");
   const containerRef = useRef<HTMLDivElement>(null);
 
+  const { tl } = useScrollTriggerTimeline({
+    scopeRef: containerRef,
+    triggerRef: containerRef,
+    scrollTrigger: {
+      start: "top 80%",
+      end: "30% 80%",
+      markers: true,
+    },
+  });
+
   useGSAP(
     () => {
-      const tl = gsap.timeline({
-        defaults: {
-          ease: "power2.inOut",
-          duration: 1,
-        },
-        scrollTrigger: {
-          trigger: containerRef.current,
-          start: "top 80%",
-          end: "30% 80%",
-          markers: true,
-        },
-      });
-      tl.from(".section-title", {
-        opacity: 0,
-        y: 100,
-        duration: 1,
-        ease: "power2.inOut",
-      });
+      const currentTl = tl.current;
+
+      if (!currentTl) return;
+
+      currentTl
+        .from(".section-title", {
+          opacity: 0,
+          y: 50,
+          duration: 0.5,
+        })
+        .from(
+          ".steps-box",
+          {
+            opacity: 0,
+            y: 50,
+            duration: 0.5,
+          },
+          "<+0.3"
+        )
+        .from(
+          ".link-button",
+          {
+            opacity: 0,
+            y: 50,
+            duration: 0.5,
+          },
+          "<+0.3"
+        );
     },
     { scope: containerRef }
   );
@@ -64,7 +85,7 @@ export default function HowItWorks() {
 
       <StepsUnifiedBox steps={steps} />
 
-      <div className="mt-8 md:mt-10 flex justify-center">
+      <div className="mt-8 md:mt-10 flex justify-center link-button">
         <LinkButton
           onClick={() => {
             sendGTMEvent({

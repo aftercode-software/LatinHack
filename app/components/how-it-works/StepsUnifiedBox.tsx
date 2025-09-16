@@ -6,7 +6,7 @@ export default function StepsUnifiedBox({ steps }: { steps: Step[] }) {
       className="
         relative overflow-hidden
         rounded-lg border-2 border-dashed border-green-500/60
-        bg-black/70
+        bg-black/70 steps-box
       "
     >
       <div className="flex flex-col md:flex-row">
@@ -19,7 +19,7 @@ export default function StepsUnifiedBox({ steps }: { steps: Step[] }) {
             <div
               key={`${num}-${s.title}`}
               className={[
-                "relative flex-1 flex flex-col",
+                "relative flex-1 flex flex-col step",
                 !isLast
                   ? 'md:after:content-[""] md:after:absolute md:after:top-0 md:after:bottom-0 md:after:right-0 md:after:border-2 md:after:border-dashed md:after:border-green-500/60'
                   : "",
