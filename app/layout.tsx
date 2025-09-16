@@ -21,7 +21,7 @@ export const metadata: Metadata = {
   keywords:
     "hackatamerica, blockchain, web3, crypto, developers, prizes, innovation, NERDCONFn, NERDCONF, Polkadot, community, sub0, ideas, prototypes, products",
   openGraph: {
-    title: "Latin Hack 2025",
+    title: "Latin Hack",
     description:
       "Join the biggest hackathon in LATAM. Compete for $21k in prizes, mentorship, and the chance to scale your project towards Sub0 Buenos Aires.",
     url: "https://latinhack.io",
@@ -31,14 +31,14 @@ export const metadata: Metadata = {
         url: "https://latinhack.io/og-image.webp",
         width: 1200,
         height: 630,
-        alt: "Latin Hack 2025 Banner",
+        alt: "Latin Hack Banner",
       },
     ],
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Latin Hack 2025",
+    title: "Latin Hack",
     description:
       "Latin Hack: The hackathon for LATAM builders in Web3. $21k in prizes and mentorship. Online and in-person across 4 countries.",
     images: ["https://latinhack.io/og-image.webp"],
