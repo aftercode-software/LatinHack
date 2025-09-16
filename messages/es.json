@@ -206,7 +206,7 @@
   },
   "WorkshopsAndResources": {
     "title": "Workshops & Recursos",
-    "objective": "<builders... empiecen a construir con nosotros>",
+    "objective": "builders... empiecen a construir con nosotros",
     "workshops": {
       "topics": {
         "topic1": {

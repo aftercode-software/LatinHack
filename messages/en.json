@@ -156,7 +156,7 @@
   },
   "WorkshopsAndResources": {
     "title": "Workshops & Resources",
-    "objective": "'<'builders... start building with us>",
+    "objective": "builders... start building with us",
     "workshops": {
       "topics": {
         "topic1": {
@@ -170,9 +170,9 @@
           "title": "How to build Web3 apps?",
           "description": "Description of the workshop",
           "calendarLink": "link"
-        },
-        "calendar": "Add to calendar"
-      }
+        }
+      },
+      "calendar": "Add to calendar"
     },
     "resources": {
       "button": "View Resources",

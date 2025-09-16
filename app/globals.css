@@ -155,15 +155,6 @@
   body {
     @apply bg-background text-foreground;
   }
-  html {
-    -webkit-text-size-adjust: 100% !important;
-    text-size-adjust: 100% !important;
-    font-size: 100% !important;
-    font-optical-sizing: 100% !important;
-    text-rendering: optimizeLegibility !important;
-    -webkit-font-smoothing: antialiased !important;
-    -moz-osx-font-smoothing: grayscale !important;
-  }
 }
 
 body,
@@ -173,5 +164,5 @@ html {
 }
 
 .margin-section {
-  margin-top: 150px;
+  margin-top: 100px;
 }

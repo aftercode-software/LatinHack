@@ -18,70 +18,72 @@ export default function Hero() {
       },
     });
 
-    tl.from(".globe", {
-      y: 100,
-      rotate: 30,
-      duration: 1,
-    })
-      .from(
-        ".hero-title",
-        {
-          opacity: 0,
-          y: -100,
-          duration: 1,
-        },
-        "<+0.4"
-      )
-      .from(
-        ".hero-logo",
-        {
-          opacity: 0,
-          y: -50,
-          duration: 1,
-        },
-        "<"
-      )
-      .from(
-        ".main-title",
-        {
-          opacity: 0,
-          scale: 0.8,
-          duration: 1,
-        },
-        "<+0.6"
-      )
-      .from(
-        ".prizes-and-buttons",
-        {
-          opacity: 0,
-          duration: 1,
-        },
-        "<+0.7"
-      )
-      .from(
-        ".count-down",
-        {
-          opacity: 0,
-          duration: 1,
-        },
-        "<+0.3"
-      )
-      .from(
-        ".arrow",
-        {
-          opacity: 0,
-          duration: 1,
-        },
-        "<+0.3"
-      )
-      .from(
-        ".hero-date",
-        {
-          opacity: 0,
-          duration: 1,
-        },
-        "<+0.3"
-      );
+    setTimeout(() => {
+      tl.from(".globe", {
+        y: 100,
+        rotate: 30,
+        duration: 1,
+      })
+        .from(
+          ".hero-title",
+          {
+            opacity: 0,
+            y: -100,
+            duration: 1,
+          },
+          "<+0.4"
+        )
+        .from(
+          ".hero-logo",
+          {
+            opacity: 0,
+            y: -50,
+            duration: 1,
+          },
+          "<"
+        )
+        .from(
+          ".main-title",
+          {
+            opacity: 0,
+            scale: 0.8,
+            duration: 1,
+          },
+          "<+0.6"
+        )
+        .from(
+          ".prizes-and-buttons",
+          {
+            opacity: 0,
+            duration: 1,
+          },
+          "<+0.7"
+        )
+        .from(
+          ".count-down",
+          {
+            opacity: 0,
+            duration: 1,
+          },
+          "<+0.3"
+        )
+        .from(
+          ".arrow",
+          {
+            opacity: 0,
+            duration: 1,
+          },
+          "<+0.3"
+        )
+        .from(
+          ".hero-date",
+          {
+            opacity: 0,
+            duration: 1,
+          },
+          "<+0.3"
+        );
+    }, 2000);
   });
 
   return (

@@ -37,7 +37,7 @@ export default function PrizesAndOpportunities() {
       <img
         src="/flechon.png"
         alt=""
-        className="w-60 mx-auto object-contain animate-bounce"
+        className="w-20 md:w-60 mx-auto object-contain animate-bounce"
       />
       <div className="text-left mb-4">
         <Title>{t("title")}</Title>
