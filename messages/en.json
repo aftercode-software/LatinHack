@@ -103,35 +103,35 @@
   "Venues": {
     "title": "Venues",
     "countries": {
-      "argentina": {
-        "country": "Argentina",
-        "city": "Mendoza",
-        "date": "Oct 5",
-        "link": "https://luma.com/latinhackmdz"
-      },
       "brazil": {
         "country": "Brazil",
         "city": "Curitiba",
-        "date": "Oct 6",
+        "date": "Sep 16",
         "link": "https://luma.com/latinhackbr"
       },
       "colombia": {
         "country": "Colombia",
         "city": "Medellín",
-        "date": "Oct 7",
+        "date": "Sep 27",
         "link": "https://luma.com/latinhackmed"
       },
       "mexico": {
         "country": "Mexico",
         "city": "Monterrey",
-        "date": "Oct 8",
+        "date": "Oct 3",
         "link": "https://luma.com/latinhackmty"
       },
       "usa": {
         "country": "USA",
         "city": "San Francisco",
-        "date": "Oct 9",
+        "date": "Oct 4",
         "link": "https://luma.com/latinhacksf"
+      },
+      "argentina": {
+        "country": "Argentina",
+        "city": "Mendoza",
+        "date": "Oct 4",
+        "link": "https://luma.com/latinhackmdz"
       }
     },
     "linkLabel": "View venue",

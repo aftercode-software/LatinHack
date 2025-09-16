@@ -96,7 +96,7 @@ export default function WorkshopsAndResources() {
                 });
               }}
               className=" mt-4 md:mt-0"
-              href={t("resources.button")}
+              href="https://nerdconf.notion.site/latinhack-resources"
             >
               {t("resources.button")}
             </LinkButton>

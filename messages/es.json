@@ -46,38 +46,37 @@
   "Venues": {
     "title": "Sedes",
     "countries": {
-      "argentina": {
-      "country": "Argentina",
-      "city": "Mendoza",
-      "date": "5 de oct.",
-      "link": "link"
-      },
       "brazil": {
-      "country": "Brasil",
-      "city": "Curitiba",
-      "date": "6 de oct.",
-      "link": "link"
+        "country": "Brasil",
+        "city": "Curitiba",
+        "date": "16 sep",
+        "link": "https://luma.com/latinhackbr"
       },
       "colombia": {
-      "country": "Colombia",
-      "city": "Medellín",
-      "date": "7 de oct.",
-      "link": "link"
+        "country": "Colombia",
+        "city": "Medellín",
+        "date": "27 sep",
+        "link": "https://luma.com/latinhackmed"
       },
       "mexico": {
-      "country": "México",
-      "city": "Monterrey",
-      "date": "8 de oct.",
-      "link": "link"
+        "country": "México",
+        "city": "Monterrey",
+        "date": "3 oct",
+        "link": "https://luma.com/latinhackmty"
       },
       "usa": {
-      "country": "Estados Unidos",
-      "city": "San Francisco",
-      "date": "9 de oct.",
-      "link": "link"
+        "country": "Estados Unidos",
+        "city": "San Francisco",
+        "date": "4 oct",
+        "link": "https://luma.com/latinhacksf"
+      },
+      "argentina": {
+        "country": "Argentina",
+        "city": "Mendoza",
+        "date": "4 oct",
+        "link": "https://luma.com/latinhackmdz"
       }
     },
-    "linkLabel": "Ver sede",
     "microCopy": {
       "part-1": "Puedes participar 100% en remoto.",
       "part-2": "Los encuentros presenciales son opcionales (solo 1 día por país)."
@@ -154,41 +153,7 @@
       "title": "Participación",
       "remote": "Remoto (toda LATAM)",
       "inPerson": "Presencial (1 día por país)"
-    },
-    "venues": {
-      "title": "Sedes",
-      "countries": {
-        "argentina": {
-          "country": "Argentina",
-          "city": "Buenos Aires",
-          "date": "5 Oct",
-          "button": "Ver sede",
-          "link": "link"
-        },
-        "brazil": {
-          "country": "Brasil",
-          "city": "São Paulo",
-          "date": "6 Oct",
-          "button": "Ver sede",
-          "link": "link"
-        },
-        "colombia": {
-          "country": "Colombia",
-          "city": "Bogotá",
-          "date": "7 Oct",
-          "button": "Ver sede",
-          "link": "link"
-        },
-        "mexico": {
-          "country": "México",
-          "city": "Ciudad de México",
-          "date": "8 Oct",
-          "button": "Ver sede",
-          "link": "link"
-        }
-      }
-    },
-    "microCopy": "Puedes participar 100% remoto. Los encuentros presenciales son opcionales (solo 1 día por país)."
+    }
   },
   "PrizesAndOpportunities": {
     "title": "Premios y Oportunidades",
@@ -219,7 +184,7 @@
           "date": "27 Sep",
           "title": "¿Qué es web3?",
           "description": "Descripción del workshop",
-          "calendarLink": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20250927%2F20251013&location=EVERYWHERE%20%F0%9F%8C%90&text=LATIN%20HACK" 
+          "calendarLink": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20250927%2F20251013&location=EVERYWHERE%20%F0%9F%8C%90&text=LATIN%20HACK"
         },
         "topic2": {
           "date": "27 Sep",

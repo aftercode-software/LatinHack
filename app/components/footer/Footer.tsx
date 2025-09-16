@@ -17,7 +17,7 @@ export default function Footer() {
           <p>
             Developed by{" "}
             <a
-              href="https://github.com/nahuelbarrera"
+              href="https://aftercode.dev"
               target="_blank"
               rel="noopener noreferrer"
               className="underline text-pink-600"
@@ -37,7 +37,7 @@ export default function Footer() {
           <p>
             Art by{" "}
             <a
-              href="https://github.com/nahuelbarrera"
+              href="https://www.behance.net/flgx"
               target="_blank"
               rel="noopener noreferrer"
               className="underline"

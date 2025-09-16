@@ -14,7 +14,7 @@ export default function CTAS() {
             event_label: "primary",
           });
         }}
-        href="https://app.latinhack.io/login"
+        href="http://app.latinhack.io/"
         className=""
       >
         {t("primary-button")}
