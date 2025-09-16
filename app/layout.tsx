@@ -17,30 +17,30 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   title: "LATIN HACK",
   description:
-    "Latin Hack is the best hackathon in Latin America, organized by NERDCONF. From September 27 to October 12, developers across LATAM will compete online and at in-person venues in Argentina, Brazil, Colombia, and Mexico. Over $21,000 in crypto prizes, an all-paid trip to Miami and mentorship programs are up for grabs.",
+    "LATIN HACK is the best hackathon in Latin America, organized by NERDCONF. From September 27 to October 12, developers across LATAM will compete online and at in-person venues in Argentina, Brazil, Colombia, and Mexico. Over $21,000 in crypto prizes, an all-paid trip to Miami and mentorship programs are up for grabs.",
   keywords:
     "hackatamerica, blockchain, web3, crypto, developers, prizes, innovation, NERDCONFn, NERDCONF, Polkadot, community, sub0, ideas, prototypes, products",
   openGraph: {
-    title: "Latin Hack",
+    title: "LATIN HACK",
     description:
-      "Join the biggest hackathon in LATAM. Compete for $21k in prizes, mentorship, and the chance to scale your project towards Sub0 Buenos Aires.",
+      "Join the best hackathon in LATAM. Compete for $21k in prizes, mentorship, and the chance to scale your project towards Sub0 Buenos Aires.",
     url: "https://latinhack.io",
-    siteName: "Latin Hack",
+    siteName: "LATIN HACK",
     images: [
       {
         url: "https://latinhack.io/og-image.webp",
         width: 1200,
         height: 630,
-        alt: "Latin Hack Banner",
+        alt: "LATIN HACK Banner",
       },
     ],
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Latin Hack",
+    title: "LATIN HACK",
     description:
-      "Latin Hack: The hackathon for LATAM builders in Web3. $21k in prizes and mentorship. Online and in-person across 4 countries.",
+      "LATIN HACK: The hackathon for LATAM builders in Web3. $21k in prizes and mentorship. Online and in-person across 4 countries.",
     images: ["https://latinhack.io/og-image.webp"],
   },
 };
