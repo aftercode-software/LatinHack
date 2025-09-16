@@ -44,10 +44,12 @@ export default function Venues() {
       </div>
 
       <div className="flex flex-col items-center justify-center mt-8 text-center font-roboto-mono">
-        <p className="text-3xl text-white font-bold uppercase">
+        <p className="text-xl md:text-3xl text-white font-bold uppercase">
           {t("microCopy.part-1")}
         </p>
-        <p className="text-3xl text-white">{t("microCopy.part-2")}</p>
+        <p className="text-xl md:text-3xl text-white">
+          {t("microCopy.part-2")}
+        </p>
       </div>
     </section>
   );

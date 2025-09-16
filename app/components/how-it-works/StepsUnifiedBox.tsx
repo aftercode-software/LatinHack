@@ -13,6 +13,7 @@ export default function StepsUnifiedBox({ steps }: { steps: Step[] }) {
         {steps.map((s, i) => {
           const num = s.num ?? String(i + 1).padStart(2, "0");
           const isLast = i === steps.length - 1;
+          const isFirst = i === 0;
 
           return (
             <div
@@ -22,7 +23,7 @@ export default function StepsUnifiedBox({ steps }: { steps: Step[] }) {
                 !isLast
                   ? 'md:after:content-[""] md:after:absolute md:after:top-0 md:after:bottom-0 md:after:right-0 md:after:border-2 md:after:border-dashed md:after:border-green-500/60'
                   : "",
-                i > 0 ? "md:border-t-0 " : "",
+                !isFirst ? "border-t-2 border-dashed border-green-500/60 " : "",
               ].join(" ")}
             >
               <div className="flex items-center px-4 md:px-6 py-3  border-b-2 border-dashed border-green-500/60">

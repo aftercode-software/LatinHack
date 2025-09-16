@@ -37,7 +37,7 @@ export default function PrizesAndOpportunities() {
       <img
         src="/flechon.png"
         alt=""
-        className="w-60 mx-auto object-contain animate-bounce"
+        className="w-20 md:w-60 mx-auto object-contain animate-bounce"
       />
       <div className="text-left mb-4">
         <Title>{t("title")}</Title>
@@ -55,7 +55,9 @@ export default function PrizesAndOpportunities() {
       </div>
       <GoatSection title={t("goat")} />
       <div className="text-center border-2 border-dashed border-green mt-8 py-6 bg-black/20 font-roboto-mono">
-        <p className="text-white text-3xl uppercase">{t("footnote")}</p>
+        <p className="text-white text-xl md:text-3xl uppercase">
+          {t("footnote")}
+        </p>
       </div>
     </section>
   );

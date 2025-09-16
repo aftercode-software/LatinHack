@@ -13,17 +13,14 @@ export default function WorkshopsAndResources() {
 
   const workshopsTranslations = messages.WorkshopsAndResources.workshops.topics;
 
-  const arrWorkshops = Object.values(workshopsTranslations).filter(
-    (label: any) => label !== "Add to calendar"
-  );
-
+  const arrWorkshops = Object.values(workshopsTranslations);
   return (
     <section className="margin-section">
       <div className="mx-auto">
         <div className="text-center mb-4">
           <Title>{t("title")}</Title>
-          <p className="text-4xl font-roboto-mono font-bold text-white">
-            {t("objective")}
+          <p className="text-2xl md:text-4xl font-roboto-mono font-bold text-white">
+            {"<" + t("objective") + ">"}
           </p>
         </div>
 
@@ -36,7 +33,7 @@ export default function WorkshopsAndResources() {
                   title={workshop.title}
                   date={workshop.date}
                   calendarLink={workshop.calendarLink}
-                  calendarLabel={t("workshops.topics.calendar")}
+                  calendarLabel={t("workshops.calendar")}
                   description={workshop.description}
                 />
               ))}

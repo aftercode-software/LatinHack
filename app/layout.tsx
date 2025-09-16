@@ -1,5 +1,5 @@
 import { GoogleTagManager } from "@next/third-parties/google";
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { NextIntlClientProvider } from "next-intl";
 import { Geist, Geist_Mono } from "next/font/google";
 import localFont from "next/font/local";
@@ -7,6 +7,12 @@ import Footer from "./components/footer/Footer";
 import Navbar from "./components/navbar/Navbar";
 import SplashScreen from "./components/SplashScreen";
 import "./globals.css";
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  viewportFit: "cover", // ✅ this adds viewport-fit=cover
+};
 
 export const metadata: Metadata = {
   title: "Latin Hack 2025",

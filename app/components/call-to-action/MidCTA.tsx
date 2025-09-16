@@ -21,13 +21,13 @@ export default function MidCTA({
   return (
     <section
       className={cn(
-        "my-10 relative flex justify-center items-center",
+        "my-10 relative flex justify-center items-center bg-black",
         className
       )}
     >
       <img src="/cta/astronaut.png" alt="" className="w-full md:w-[40%]" />
-      <div className="w-full px-4 py-8 text-center absolute bottom-1/5 left-1/2 -translate-x-1/2 space-y-8">
-        <h2 className="uppercase font-bold font-upheaval text-6xl md:text-8xl text-center pixel-text text-white drop-shadow-[0_0_20px_rgba(0,255,255,0.8)]">
+      <div className="w-full px-4 py-0 md:py-8 text-center absolute bottom-0 md:bottom-1/5 left-1/2 -translate-x-1/2 space-y-8">
+        <h2 className="uppercase font-bold font-upheaval text-4xl md:text-8xl text-center pixel-text text-white drop-shadow-[0_0_20px_rgba(0,255,255,0.8)]">
           {title}
         </h2>
         <Link
@@ -39,7 +39,7 @@ export default function MidCTA({
               event_label: "primary",
             });
           }}
-          className="md:px-20 px-10 py-2 md:py-4 text-3xl md:text-4xl font-medium bg-black/70 font-upheaval text-white hover:opacity-90 border-2 border-dashed border-green "
+          className="md:px-20 px-4 py-4 md:py-4 text-3xl md:text-4xl font-medium bg-black/70 font-upheaval text-white hover:opacity-90 border-2 border-dashed border-green "
         >
           {ctaLabel}
         </Link>

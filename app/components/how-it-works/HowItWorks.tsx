@@ -3,22 +3,42 @@
 import { useGSAP } from "@gsap/react";
 import { sendGTMEvent } from "@next/third-parties/google";
 import gsap from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 import { useTranslations } from "next-intl";
+import { useRef } from "react";
 import LinkButton from "../LinkButton";
 import Title from "../Title";
 import StepsUnifiedBox from "./StepsUnifiedBox";
 
+gsap.registerPlugin(ScrollTrigger);
+
 export default function HowItWorks() {
   const t = useTranslations("HowItWorks");
+  const containerRef = useRef<HTMLDivElement>(null);
 
-  useGSAP(() => {
-    gsap.from(".how-it-works-title", {
-      opacity: 0,
-      y: 100,
-      duration: 1,
-      ease: "power2.inOut",
-    });
-  });
+  useGSAP(
+    () => {
+      const tl = gsap.timeline({
+        defaults: {
+          ease: "power2.inOut",
+          duration: 1,
+        },
+        scrollTrigger: {
+          trigger: containerRef.current,
+          start: "top 80%",
+          end: "30% 80%",
+          markers: true,
+        },
+      });
+      tl.from(".section-title", {
+        opacity: 0,
+        y: 100,
+        duration: 1,
+        ease: "power2.inOut",
+      });
+    },
+    { scope: containerRef }
+  );
 
   const steps = [
     {
@@ -39,7 +59,7 @@ export default function HowItWorks() {
   ];
 
   return (
-    <section className="px-4 margin-section">
+    <section className="px-4 mt-48" ref={containerRef}>
       <Title>{t("title")}</Title>
 
       <StepsUnifiedBox steps={steps} />

@@ -226,9 +226,9 @@
           "title": "¿Cómo desarrollar apps web3?",
           "description": "Descripción del workshop",
           "calendarLink": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20250927%2F20251013&location=EVERYWHERE%20%F0%9F%8C%90&text=LATIN%20HACK"
-        },
-        "calendar": "Agregar al calendario"
-      }
+        }
+      },
+      "calendar": "Agregar al calendario"
     },
     "resources": {
       "button": "Ver Recursos",

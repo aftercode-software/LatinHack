@@ -162,7 +162,7 @@
   },
   "WorkshopsAndResources": {
     "title": "Workshops & Resources",
-    "objective": "'<'builders... start building with us>",
+    "objective": "builders... start building with us",
     "workshops": {
       "topics": {
         "topic1": {
@@ -176,9 +176,9 @@
           "title": "How to build Web3 apps?",
           "description": "Description of the workshop",
           "calendarLink": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20250927%2F20251013&location=EVERYWHERE%20%F0%9F%8C%90&text=LATIN%20HACK"
-        },
-        "calendar": "Add to calendar"
-      }
+        }
+      },
+      "calendar": "Add to calendar"
     },
     "resources": {
       "button": "View Resources",
