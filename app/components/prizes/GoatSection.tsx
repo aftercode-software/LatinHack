@@ -16,7 +16,7 @@ export default function GoatSection({ title }: { title: string }) {
       <img
         src="/prizes/pix-ball.png"
         aria-hidden="true"
-        className="h-[80%] absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-20 animate-pulse"
+        className="h-[50%] md:h-[80%] absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 z-20 animate-pulse"
       />
       <div className="z-20 flex flex-col items-center justify-center drop-shadow-[0_0_10px_rgb(0,0,0)]">
         <img src="/polkadot_logo.svg" alt="" className="w-60 md:w-72" />

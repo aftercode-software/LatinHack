@@ -48,7 +48,10 @@ export default function SplashScreen() {
   return (
     <div
       ref={containerRef}
-      className="fixed inset-0 z-50 w-screen h-screen bg-black"
+      className="fixed inset-0 z-50 w-screen h-[100lvh] bg-black"
+      style={{
+        minHeight: "-webkit-fill-available",
+      }}
     >
       <div className="relative flex flex-col h-full w-full items-center justify-center">
         {/* <video
