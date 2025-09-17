@@ -59,12 +59,12 @@ export default function Timeline() {
           title={t("phases.kickoff.title")}
           date={t("phases.kickoff.date")}
         />
-        <div className="flex-1 h-1 border-t-2 border-dashed border-green-500/60 rounded-full timeline-line"></div>
+        <div className="flex-1 h-1 border-t border-dashed border-green-500 rounded-full timeline-line"></div>
         <TimelineCard
           title={t("phases.workshops.title")}
           date={t("phases.workshops.date")}
         />
-        <div className="flex-1 h-1 border-t-2 border-dashed border-green-500/60 rounded-full timeline-line"></div>
+        <div className="flex-1 h-1 border-t border-dashed border-green-500 rounded-full timeline-line"></div>
         <TimelineCard
           title={t("phases.submission.title")}
           date={t("phases.submission.date")}

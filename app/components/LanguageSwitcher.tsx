@@ -52,7 +52,7 @@ export default function LanguageSwitcher() {
         aria-haspopup="menu"
         aria-expanded={open}
         onClick={() => setOpen((v) => !v)}
-        className="inline-flex items-center gap-2 rounded-md border border-dashed border-green-500/60 bg-black/60 px-3 py-2 text-green-400 hover:text-green-300 transition"
+        className="inline-flex items-center gap-2 border border-dashed border-green-500/60 bg-black/60 px-3 py-2 text-green-400 hover:text-green-300 transition"
       >
         <img
           src={LANGS[current].flag}
@@ -73,7 +73,7 @@ export default function LanguageSwitcher() {
 
       <div
         role="menu"
-        className={`absolute right-0 z-50 mt-2 w-full origin-top rounded-md border border-dashed border-green-500/60 bg-black/85 p-2 shadow-[0_8px_24px_rgba(0,0,0,0.45)] transition-all duration-150 ${
+        className={`absolute right-0 z-50 mt-2 w-full origin-top  border border-dashed border-green-500/60 bg-black/85 p-2 shadow-[0_8px_24px_rgba(0,0,0,0.45)] transition-all duration-150 ${
           open
             ? "scale-y-100 opacity-100"
             : "pointer-events-none scale-y-75 opacity-0"
@@ -84,7 +84,7 @@ export default function LanguageSwitcher() {
             key={code}
             role="menuitem"
             onClick={() => choose(code)}
-            className="w-full flex items-center gap-2 rounded-[6px] px-2 py-2 text-left hover:bg-white/5 focus:bg-white/10 outline-none transition"
+            className="w-full flex items-center gap-2  px-2 py-2 text-left hover:bg-white/5 focus:bg-white/10 outline-none transition"
           >
             <img
               src={LANGS[code].flag}

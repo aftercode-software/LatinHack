@@ -1,8 +1,7 @@
 "use client";
 import { cn } from "@/lib/utils";
-import { gsap } from "gsap";
 import Link from "next/link";
-import { useEffect, useRef } from "react";
+import { useRef } from "react";
 
 export enum LinkButtonVariant {
   BIG = "big",
@@ -39,8 +38,8 @@ export default function LinkButton({
         hover:from-green-50 hover:to-green-600
         hover:text-green-800
         hover:font-bold
-          rounded-sm py-1 font-medium text-black uppercase px-12 text-center font-myriadpro 
-          text-lg cursor-pointer shadow-sm shadow-white`,
+          rounded-sm py-1 font-medium text-black uppercase px-12 text-center font-roboto-mono
+          text-lg cursor-pointer`,
           className
         )}
         href={href ?? ""}
@@ -56,12 +55,11 @@ export default function LinkButton({
       data-link-name={linkName}
       className={cn(
         `bg-gradient-to-b from-white to-green 
-        transition-all
-        hover:from-green-50 hover:to-green-600
-        hover:text-green-800
-        hover:scale-[1.02]
-        rounded-sm py-3 font-medium text-black uppercase px-20 text-center 
-        font-upheaval text-xl md:text-4xl cursor-pointer shadow-sm shadow-white`,
+      transition-all duration-150
+      hover:from-green-50 hover:to-green-600
+      hover:text-green-800
+      rounded-[8px] py-3 font-medium text-black uppercase px-20 text-center 
+      font-upheaval text-xl md:text-3xl cursor-pointer`,
         className
       )}
       href={href ?? ""}

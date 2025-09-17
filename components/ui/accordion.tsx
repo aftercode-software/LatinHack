@@ -11,7 +11,7 @@ function Accordion({
   return (
     <AccordionPrimitive.Root
       data-slot="accordion"
-      className="border-x-2 border-t-2 border-dashed border-green"
+      className="border-x border-t border-dashed border-green"
       {...props}
     />
   );
@@ -24,7 +24,7 @@ function AccordionItem({
   return (
     <AccordionPrimitive.Item
       data-slot="accordion-item"
-      className={cn("border-b-2 border-dashed border-green", className)}
+      className={cn("border-b border-dashed border-green", className)}
       {...props}
     />
   );
@@ -71,7 +71,7 @@ function AccordionContent({
   return (
     <AccordionPrimitive.Content
       data-slot="accordion-content"
-      className="data-[state=closed]:animate-accordion-up border-t-2 border-dashed 
+      className="data-[state=closed]:animate-accordion-up border-t border-dashed 
       bg-black/80 border-green px-4 text-white text-lg md:text-xl font-roboto-mono font-bold"
       {...props}
     >

@@ -1,6 +1,5 @@
 "use client";
 
-import { sendGTMEvent } from "@next/third-parties/google";
 import LinkButton, { LinkButtonVariant } from "../LinkButton";
 
 export default function VenuesCard({
@@ -18,11 +17,11 @@ export default function VenuesCard({
 }) {
   return (
     <div className="bg-black/60 p-6 text-white space-y-2">
-      <p className="text-lg font-roboto-mono font-medium">{country}</p>
+      <p className="text-md font-roboto-mono font-medium">{country}</p>
       <h3 className="text-5xl font-anybody-condensed uppercase text-green">
         {city}
       </h3>
-      <p className="text-2xl font-anybody font-bold uppercase">{date}</p>
+      <p className="text-xl font-roboto-mono font-bold uppercase">{date}</p>
       <LinkButton
         href={link}
         variant={LinkButtonVariant.SMALL}

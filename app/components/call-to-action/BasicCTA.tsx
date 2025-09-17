@@ -1,7 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
-
-import { sendGTMEvent } from "@next/third-parties/google";
 import { useTranslations } from "next-intl";
 import LinkButton from "../LinkButton";
 
@@ -14,7 +12,7 @@ export default function BasicCTA() {
         alt=""
         className="w-30 object-contain animate-bounce"
       />
-      <div className="space-y-4 mx-auto relative p-2 bg-black/90 md:-top-4 flex flex-col border-2 border-dashed border-green rounded-md w-full max-w-lg">
+      <div className="space-y-4 mx-auto relative p-2 bg-black/90 md:-top-4 flex flex-col border border-dashed border-green w-full max-w-lg">
         <LinkButton
           linkName="create_account_basic_cta"
           href="http://app.latinhack.io/"

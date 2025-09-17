@@ -86,7 +86,7 @@ export default function MidCTA({
               event_label: "primary",
             });
           }}
-          className="md:px-20 px-4 py-4 md:py-4 text-3xl md:text-4xl font-medium bg-black/70 font-upheaval text-white hover:opacity-90 border-2 border-dashed border-green mid-cta-link"
+          className="md:px-20 px-4 py-4 md:py-4 text-3xl md:text-4xl font-medium bg-black/70 font-upheaval text-white hover:opacity-90 border rounded-[8px] border-green mid-cta-link"
         >
           {ctaLabel}
         </Link>

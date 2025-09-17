@@ -1,6 +1,4 @@
 "use client";
-
-import { sendGTMEvent } from "@next/third-parties/google";
 import LinkButton, { LinkButtonVariant } from "../LinkButton";
 
 export default function WorkshopCard({
@@ -17,7 +15,7 @@ export default function WorkshopCard({
   description: string;
 }) {
   return (
-    <div className="flex flex-col justify-between border-2 border-dashed border-green p-5 bg-black/60 workshop-card">
+    <div className="flex flex-col justify-between border border-dashed border-green p-5 bg-black/60 workshop-card">
       <div>
         <p className="text-white text-md font-roboto-mono font-medium">
           {date}

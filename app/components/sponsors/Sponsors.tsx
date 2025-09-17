@@ -109,7 +109,7 @@ export default function Sponsors() {
                     alt={s.name}
                     width={180}
                     height={108}
-                    className="h-10 md:h-20 w-auto opacity-90 hover:opacity-100 transition"
+                    className="h-10 md:h-12 w-auto opacity-90 hover:opacity-100 transition"
                   />
                 );
                 return s.href ? (
@@ -135,14 +135,14 @@ export default function Sponsors() {
             </div>
 
             <div className="mx-auto w-full md:max-w-6xl grid grid-cols-2 gap-6 md:gap-x-20 md:gap-y-8 md:place-items-center">
-              {sponsors2.map((s, i) => {
+              {sponsors2.map((s) => {
                 const Img = (
                   <img
                     src={s.logoSrc}
                     alt={s.name}
                     width={140}
                     height={80}
-                    className="h-8 md:h-16 w-auto opacity-90 hover:opacity-100 transition"
+                    className="h-8 md:h-10 w-auto opacity-90 hover:opacity-100 transition"
                   />
                 );
                 return s.href ? (

@@ -93,7 +93,7 @@ export default function WorkshopsAndResources() {
             </div>
           </div>
 
-          <div className="p-6 border-2 border-dashed border-green flex flex-col md:flex-row justify-between items-center bg-black/60 resources-section">
+          <div className="p-6 border border-dashed border-green flex flex-col md:flex-row justify-between items-center bg-black/60 resources-section">
             <span className="block text-white text-6xl font-anybody-condensed font-light">
               {t("resources.description")}
             </span>

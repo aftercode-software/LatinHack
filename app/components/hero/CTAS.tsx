@@ -1,11 +1,10 @@
-import { sendGTMEvent } from "@next/third-parties/google";
 import { useTranslations } from "next-intl";
 import LinkButton from "../LinkButton";
 
 export default function CTAS() {
   const t = useTranslations("Hero");
   return (
-    <div className="space-y-4 mx-auto relative p-2 bg-black/90 md:-top-4 flex flex-col border-2 border-dashed border-green w-full max-w-lg">
+    <div className="space-y-4 mx-auto relative p-2 bg-black/90 md:-top-4 flex flex-col border border-dashed border-green w-full max-w-lg">
       <LinkButton
         linkName="cta-hero-primary"
         href="http://app.latinhack.io/"

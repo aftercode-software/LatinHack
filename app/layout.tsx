@@ -275,9 +275,10 @@ export default function RootLayout({
         ].join(" ")}
         style={{
           backgroundImage: "url('/backgrounds/background.webp')",
-          backgroundSize: "auto",
-          backgroundPosition: "center top",
-          backgroundRepeat: "repeat",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+          backgroundAttachment: "fixed",
         }}
       >
         <GoogleTagManager
