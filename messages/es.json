@@ -182,16 +182,16 @@
     "workshops": {
       "topics": {
         "topic1": {
-          "date": "27 Sep",
+          "date": "30 Sep",
           "title": "¿Qué es web3?",
-          "description": "Descripción del workshop",
-          "calendarLink": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20250927%2F20251013&location=EVERYWHERE%20%F0%9F%8C%90&text=LATIN%20HACK"
+          "description": "​En este workshop te contamos qué es realmente Web3 (sin vueltas), cómo funciona el ecosistema Polkadot y por qué es clave en el Latin Hack. Te vas con la base clara y las herramientas listas para entrar con ventaja al hack.",
+          "calendarLink": "https://luma.com/tcnsrlvd"
         },
         "topic2": {
-          "date": "27 Sep",
-          "title": "¿Cómo desarrollar apps web3?",
-          "description": "Descripción del workshop",
-          "calendarLink": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20250927%2F20251013&location=EVERYWHERE%20%F0%9F%8C%90&text=LATIN%20HACK"
+          "date": "2 Oct",
+          "title": "Smart Contracts",
+          "description": "​Es hora de poner manos al código: en este workshop vas a escribir, compilar y deployar tu primer smart contract en una parachain de Polkadot.",
+          "calendarLink": "https://luma.com/q4zhehqk"
         }
       },
       "calendar": "Agregar al calendario"
