@@ -44,7 +44,7 @@ const sponsors2 = [
   },
   {
     name: "SunsetLabs",
-    logoSrc: "/sunsetlabs.png",
+    logoSrc: "/sunset.png",
     href: "https://sunsetlabs.com.br/",
   },
   {
