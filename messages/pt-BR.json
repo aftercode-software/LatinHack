@@ -1,214 +1,230 @@
 {
   "Navbar": {
-    "button": "Create account"
+    "button": "Crear cuenta"
   },
   "UI": {
-    "language": "Language"
+    "language": "Idioma"
   },
   "Hero": {
-    "title": "a <b>nerdconf</b> event",
-    "subtitle": "Create your app in 15 days",
-    "date": "From Sep 27 to Oct 12",
+    "title": "un evento de <b>nerdconf</b>",
+    "subtitle": "Crea tu app en 15 días",
+    "date": "Del 27 Sep al 12 Oct",
     "prizes": {
-      "first": "USDT 21,000",
-      "second": "Trip to Miami",
-      "long": "Includes 15,000 USDT + 6-week mentorship + travel grants to Sub0 Buenos Aires + all-expenses-paid trip to Miami to see the GOAT"
+      "first": "USDT 21.000",
+      "second": "Viaje a Miami",
+      "long": "Incluye 15.000 USDT + mentoría 6 semanas + becas de viaje a Sub0 Buenos Aires + viaje a Miami todo pago para ver al GOAT"
     },
-    "primary-button": "Register NOW",
-    "secondary-button": "Join the Discord"
+    "primary-button": "Registrate YA",
+    "secondary-button": "Unite al Discord"
   },
   "CountDown": {
-    "title": "Project submission deadline",
-    "daysLeft": "{daysLeft} DAYS LEFT"
-  },
-  "HowItWorks": {
-    "title": "How it works",
-    "steps": {
-      "step1": {
-        "title": "Create your account",
-        "description": "access to your panel and progress."
-      },
-      "step2": {
-        "title": "Join the Discord",
-        "description": "announcements, support, team."
-      },
-      "step3": {
-        "title": "Create your project",
-        "description": "receive feedback, mentors and evaluation."
-      }
-    },
-    "primary-button": "Create account"
-  },
-  "FAQ": {
-    "title": "F.A.Q.",
-    "questions": {
-      "question1": {
-        "title": "What is Latin Hack?",
-        "answer": "Latin Hack is a Latin American hackathon that takes place in Buenos Aires, Argentina."
-      },
-      "question2": {
-        "title": "Where can I participate?",
-        "answer": "Remotely from anywhere in LATAM. Presencial sedes 1 day in AR/BR/CO/MX."
-      },
-      "question3": {
-        "title": "How can I register?",
-        "answer": "By creating your account (CTA on the page) and joining the Discord."
-      },
-      "question4": {
-        "title": "What are the prizes?",
-        "answer": "15.000 USDT + mentorship 6 weeks + travel grants to Sub0 Buenos Aires + all-expenses-paid trip to Miami to see the GOAT"
-      },
-      "question5": {
-        "title": "What is the language of the workshops?",
-        "answer": "English."
-      },
-      "question6": {
-        "title": "How many people per team?",
-        "answer": "TBD"
-      },
-      "question7": {
-        "title": "Can I participate alone?",
-        "answer": "Yes, but you will need to join a team."
-      }
-    },
-    "primary-button": "Create account",
-    "secondary-button": "Join the Discord"
+    "title": "Cierre de proyectos",
+    "daysLeft": "QUEDAN {daysLeft} DÍAS"
   },
   "AlertBar": {
-    "projects-closed": "Projects closed: {date}",
-    "days-left": "{days} days left."
+    "projects-closed": "Cierre de proyectos: {date}",
+    "days-left": "Quedan {days} días."
   },
-  "Timeline": {
-    "title": "Timeline",
-    "phases": {
-      "kickoff": {
-        "title": "Kickoff",
-        "date": "Sep 27"
+  "HowItWorks": {
+    "title": "Cómo funciona",
+    "steps": {
+      "step1": {
+        "title": "Creá tu cuenta",
+        "description": "acceso a tu panel y progreso."
       },
-      "workshops": {
-        "title": "Workshops",
-        "date": "From Sep 27 to Oct 12"
+      "step2": {
+        "title": "Sumate al Discord",
+        "description": "anuncios, soporte, equipo."
       },
-      "submission": {
-        "title": "Submission",
-        "date": "Oct 12"
+      "step3": {
+        "title": "Creá tu proyecto",
+        "description": "recibe feedback, mentores y evaluación."
       }
     },
-    "participation": {
-      "title": "Participation",
-      "remote": "Remote (all LATAM)",
-      "inPerson": "In-person (1 day per country)"
-    }
+    "primary-button": "Crear cuenta"
   },
   "Venues": {
-    "title": "Venues",
+    "title": "Sedes",
     "countries": {
       "brazil": {
-        "country": "Brazil",
+        "country": "Brasil",
         "city": "Curitiba",
-        "date": "Sep 16",
+        "date": "16 sep",
         "link": "https://luma.com/latinhackbr"
       },
       "colombia": {
         "country": "Colombia",
         "city": "Medellín",
-        "date": "Sep 27",
+        "date": "27 sep",
         "link": "https://luma.com/latinhackmed"
       },
       "mexico": {
-        "country": "Mexico",
+        "country": "México",
         "city": "Monterrey",
-        "date": "Oct 3",
+        "date": "3 oct",
         "link": "https://luma.com/latinhackmty"
       },
       "usa": {
-        "country": "USA",
+        "country": "Estados Unidos",
         "city": "San Francisco",
-        "date": "Oct 4",
+        "date": "4 oct",
         "link": "https://luma.com/latinhacksf"
       },
       "argentina": {
         "country": "Argentina",
         "city": "Mendoza",
-        "date": "Oct 4",
+        "date": "4 oct",
         "link": "https://luma.com/latinhackmdz"
       }
     },
-    "linkLabel": "View event",
+    "linkLabel": "Ver evento",
     "microCopy": {
-      "part-1": "You can participate 100% remotely.",
-      "part-2": "In-person meetings are optional (1 day only per country)."
+      "part-1": "Puedes participar 100% en remoto.",
+      "part-2": "Los encuentros presenciales son opcionales (solo 1 día por país)."
+    }
+  },
+  "FAQ": {
+    "title": "F.A.Q.",
+    "questions": {
+      "question1": {
+        "title": "¿Cuándo es el hackathon?",
+        "answer": "Del 27 Sep al 12 Oct 2025."
+      },
+      "question2": {
+        "title": "¿Dónde participo?",
+        "answer": "Remoto desde cualquier punto de LATAM. Sedes presenciales 1 día en AR/BR/CO/MX."
+      },
+      "question3": {
+        "title": "¿Cómo me inscribo?",
+        "answer": "Creando tu cuenta (CTA de la página) y uniéndote al Discord."
+      },
+      "question4": {
+        "title": "¿Qué premios hay?",
+        "answer": "15.000 USDT + mentoría 6 semanas + becas de viaje a Sub0 BA (noviembre). El total destacado es USD 21.000+ incluyendo todas las oportunidades."
+      },
+      "question5": {
+        "title": "¿En qué idioma están los workshops?",
+        "answer": "Español."
+      },
+      "question6": {
+        "title": "¿Cuántas personas por equipo?",
+        "answer": "TBD"
+      },
+      "question7": {
+        "title": "¿Costo de participación?",
+        "answer": "TBD"
+      },
+      "question8": {
+        "title": "¿Quién puede competir (elegibilidad)?",
+        "answer": "TBD"
+      },
+      "question9": {
+        "title": "¿Propiedad intelectual de los proyectos?",
+        "answer": "TBD"
+      },
+      "question10": {
+        "title": "¿Criterios de evaluación y jurados?",
+        "answer": "TBD"
+      },
+      "question11": {
+        "title": "¿Puedo participar solo?",
+        "answer": "TBD"
+      }
+    },
+    "primary-button": "Crear cuenta",
+    "secondary-button": "Unirse al Discord"
+  },
+  "Timeline": {
+    "title": "TIMELINE",
+    "phases": {
+      "kickoff": {
+        "title": "Lanzamiento",
+        "date": "27 Sep"
+      },
+      "workshops": {
+        "title": "Workshops",
+        "date": "Del 27 Sep al 12 Oct"
+      },
+      "submission": {
+        "title": "Entrega",
+        "date": "12 Oct"
+      }
+    },
+    "participation": {
+      "title": "Participación",
+      "remote": "Remoto (toda LATAM)",
+      "inPerson": "Presencial (1 día por país)"
     }
   },
   "PrizesAndOpportunities": {
-    "title": "Prizes and Opportunities",
-    "objective": "Complete value proposition without confusion",
+    "title": "Premios y Oportunidades",
+    "objective": "Propuesta de valor completa y clara",
     "items": {
       "prize1": {
         "title": "15.000 USDT",
-        "description": "Cash prize for winning teams"
+        "description": "Premio cash a los equipos ganadores"
       },
       "prize2": {
-        "title": "Mentorship",
-        "description": "6-week mentorship for winning teams"
+        "title": "Mentoría",
+        "description": "De 6 semanas post-hack para los ganadores"
       },
       "prize3": {
-        "title": "Trips",
-        "description": "Scholarship for <polkadot>Polkadot</polkadot> <sub0>sub0</sub0> in Buenos Aires, Argentina (Nov. 2025)"
+        "title": "Viajes",
+        "description": "Beca para <polkadot>Polkadot</polkadot> <sub0>sub0</sub0> en Buenos Aires, Argentina (Nov. 2025)"
       }
     },
-    "goat": "WE'RE GOING TO SEE THE G.O.A.T.",
-    "footnote": "TOTAL: USD 21,000. Includes cash + scholarships + mentorship program."
+    "goat": "NOS VAMOS A VER AL G.O.A.T.",
+    "footnote": "TOTAL: USD 21.000. Incluye efectivo + becas + programa de mentoría."
   },
   "WorkshopsAndResources": {
-    "title": "Workshops & Resources",
-    "objective": "'<builders... start building with us>",
+    "title": "Workshops & Recursos",
+    "objective": "builders... empiecen a construir con nosotros",
     "workshops": {
       "topics": {
         "topic1": {
           "date": "30 Sep",
-          "title": "What is Web3?",
-          "description": "In this workshop we explain what Web3 really is (no fluff), how the Polkadot ecosystem works, and why it’s key for Latin Hack. You’ll leave with a clear foundation and the tools to get a head start at the hackathon.",
+          "title": "¿Qué es web3?",
+          "description": "​En este workshop te contamos qué es realmente Web3 (sin vueltas), cómo funciona el ecosistema Polkadot y por qué es clave en el Latin Hack. Te vas con la base clara y las herramientas listas para entrar con ventaja al hack.",
           "calendarLink": "https://luma.com/tcnsrlvd"
         },
         "topic2": {
           "date": "2 Oct",
           "title": "Smart Contracts",
-          "description": "Time to get hands-on: in this workshop you’ll write, compile, and deploy your first smart contract on a Polkadot parachain.",
+          "description": "​Es hora de poner manos al código: en este workshop vas a escribir, compilar y deployar tu primer smart contract en una parachain de Polkadot.",
           "calendarLink": "https://luma.com/q4zhehqk"
         }
       },
-      "calendar": "Add to calendar"
+      "calendar": "Agregar al calendario"
     },
     "resources": {
-      "button": "View Resources",
-      "description": "REPOS, GUIDES, TEMPLATES & MORE."
+      "button": "Ver Recursos",
+      "description": "REPOS, GUÍAS, PLANTILLAS Y MÁS."
     }
   },
   "Platforms": {
-    "title": "Platforms / Your progress panel",
-    "microcopy": "Progress, submissions and team status live in your account. Conversation happens in Discord.",
+    "title": "Plataformas / Tu panel de progreso",
+    "microcopy": "El progreso, entregas y estado del equipo viven en tu cuenta. La conversación ocurre en Discord.",
     "cards": {
       "account": {
-        "title": "Your Latin Hack account",
-        "desc": "Dashboard with progress, submissions, team and feedback.",
-        "cta": "Create account"
+        "title": "Tu cuenta en Latin Hack",
+        "desc": "Panel con progreso, entregas, equipo y feedback.",
+        "cta": "Crear cuenta"
       },
       "discord": {
         "title": "Discord",
-        "desc": "Announcements, technical support and networking.",
-        "cta": "Join the Discord",
-        "secondary": "Open channel"
+        "desc": "Anuncios, soporte técnico y networking.",
+        "cta": "Unirte al Discord",
+        "secondary": "Abrir canal"
       }
     }
   },
   "MidCTA": {
-    "copy": "Ready to build?",
-    "cta": "Create account"
+    "copy": "¿Listo para construir?",
+    "cta": "Crear cuenta"
   },
   "Sponsors": {
-    "title": "Sponsors & partners",
-    "subtitle": "Trust and ecosystem: who backs us.",
-    "empty": "We'll announce partners soon."
+    "title": "Sponsors y partners",
+    "subtitle": "Confianza y ecosistema: quienes nos acompañan.",
+    "empty": "Pronto anunciaremos nuestros partners."
   }
 }
