@@ -42,6 +42,16 @@ const sponsors2 = [
     logoSrc: "/web3dev.png",
     href: "https://web3.dev/",
   },
+  {
+    name: "SunsetLabs",
+    logoSrc: "/sunsetlabs.png",
+    href: "https://sunsetlabs.com.br/",
+  },
+  {
+    name: "Sub0",
+    logoSrc: "/sub0-white.svg",
+    href: "https://sub0.gg/",
+  },
 ];
 
 export default function Sponsors() {
@@ -134,7 +144,7 @@ export default function Sponsors() {
               })}
             </div>
 
-            <div className="mx-auto w-full md:max-w-6xl grid grid-cols-2 gap-6 md:gap-x-20 md:gap-y-8 md:place-items-center">
+            <div className="mx-auto w-full md:max-w-4xl grid grid-cols-2 md:grid-cols-2 gap-6 md:gap-x-10 md:gap-y-20 md:place-items-center">
               {sponsors2.map((s) => {
                 const Img = (
                   <img
@@ -142,7 +152,7 @@ export default function Sponsors() {
                     alt={s.name}
                     width={140}
                     height={80}
-                    className="h-8 md:h-10 w-auto opacity-90 hover:opacity-100 transition"
+                    className="h-8 md:h-12 w-auto opacity-90 hover:opacity-100 transition"
                   />
                 );
                 return s.href ? (
