@@ -21,7 +21,7 @@ export default function BasicCTA() {
         </LinkButton>
         <a
           data-link-name="join_discord_basic_cta"
-          href="https://discord.gg/nerdconf"
+          href="https://discord.com/invite/ZVFUtJk9vW"
           target="_blank"
           className="text-green uppercase font-anybody underline text-center align-middle pb-2"
         >

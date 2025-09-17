@@ -13,7 +13,7 @@ export default function CTAS() {
         {t("primary-button")}
       </LinkButton>
       <a
-        href="https://discord.gg/mwrd8jWV"
+        href="https://discord.com/invite/ZVFUtJk9vW"
         target="_blank"
         data-link-name="cta-hero-secondary"
         className="text-green uppercase font-roboto-mono font-medium cursor-pointer underline text-center align-middle pb-2"
