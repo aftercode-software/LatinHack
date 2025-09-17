@@ -11,7 +11,7 @@ import "./globals.css";
 export const viewport: Viewport = {
   width: "device-width",
   initialScale: 1,
-  viewportFit: "cover", // ✅ this adds viewport-fit=cover
+  viewportFit: "cover",
 };
 
 export const metadata: Metadata = {
@@ -272,12 +272,13 @@ export default function RootLayout({
           upheaval.variable,
           snNeoNoire.variable,
           "antialiased",
+          "app-bg",
         ].join(" ")}
         style={{
           backgroundImage: "url('/backgrounds/background.webp')",
-          backgroundSize: "cover",
+          backgroundSize: "contain",
           backgroundPosition: "center",
-          backgroundRepeat: "no-repeat",
+          backgroundRepeat: "repeat",
           backgroundAttachment: "fixed",
         }}
       >
