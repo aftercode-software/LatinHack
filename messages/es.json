@@ -26,7 +26,7 @@
     "days-left": "Quedan {days} días."
   },
   "HowItWorks": {
-    "title": "Cómo funciona",
+    "title": "Como funciona",
     "steps": {
       "step1": {
         "title": "Creá tu cuenta",
@@ -46,17 +46,17 @@
   "Venues": {
     "title": "Sedes",
     "countries": {
-      "brazil": {
-        "country": "Brasil",
-        "city": "Curitiba",
-        "date": "16 sep",
-        "link": "https://luma.com/latinhackbr"
-      },
       "colombia": {
         "country": "Colombia",
         "city": "Medellín",
         "date": "27 sep",
         "link": "https://luma.com/latinhackmed"
+      },
+      "brazil": {
+        "country": "Brasil",
+        "city": "Curitiba",
+         "date": "2 oct",
+        "link": "https://luma.com/latinhackbr"
       },
       "mexico": {
         "country": "México",

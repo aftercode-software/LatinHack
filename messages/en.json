@@ -103,17 +103,17 @@
   "Venues": {
     "title": "Venues",
     "countries": {
-      "brazil": {
-        "country": "Brazil",
-        "city": "Curitiba",
-        "date": "Sep 16",
-        "link": "https://luma.com/latinhackbr"
-      },
       "colombia": {
         "country": "Colombia",
         "city": "Medellín",
         "date": "Sep 27",
         "link": "https://luma.com/latinhackmed"
+      },
+      "brazil": {
+        "country": "Brazil",
+        "city": "Curitiba",
+         "date": "2 oct",
+        "link": "https://luma.com/latinhackbr"
       },
       "mexico": {
         "country": "Mexico",
