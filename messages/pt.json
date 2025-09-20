@@ -103,12 +103,28 @@
         "answer": "Português."
       },
       "question6": {
-        "title": "Quantas pessoas por equipe?",
-        "answer": "TBD"
+        "title": "Posso participar sozinho?",
+        "answer": "Sim, claro. Você pode competir como uma equipe de uma pessoa só. O tamanho das equipes é de 1 a 5 integrantes."
       },
       "question7": {
-        "title": "Posso participar sozinho?",
-        "answer": "Sim, mas precisará se juntar a um time."
+        "title": "Custo de participação?",
+        "answer": "A participação no LATIN HACK é 100% gratuita para todos."
+      },
+      "question8": {
+        "title": "Quem pode competir (elegibilidade)?",
+        "answer": "Todos podem participar! O hackathon está aberto a pessoas de todos os países e todas as idades, incluindo menores de idade. As únicas restrições são de residência para alguns prêmios específicos, como as bolsas de viagem para Buenos Aires e a viagem para Miami, que são exclusivas para residentes da América Latina."
+      },
+      "question9": {
+        "title": "Propriedade intelectual dos projetos?",
+        "answer": "Você é o dono do que constrói. Cada equipe conserva a propriedade intelectual completa dos projetos, ideias e código que desenvolverem durante o hackathon. Não é necessário que os repositórios entregáveis sejam públicos."
+      },
+      "question10": {
+        "title": "Critérios de avaliação e jurados?",
+        "answer": "O painel será composto por 5 juízes especialistas da indústria e do ecossistema. Suas decisões são finais. Os critérios de avaliação principais são: Inovação e Impacto (originalidade e potencial da solução), Execução e Viabilidade (qualidade técnica e funcional), Validação do Problema (compreensão e demonstração do problema), Experiência do Usuário (design e facilidade de uso), Clareza da Apresentação (efetividade do pitch), e Implantação no Polkadot (uso correto da tecnologia do ecossistema)."
+      },
+      "question11": {
+        "title": "Quantas pessoas por equipe?",
+        "answer": "O tamanho das equipes é de 1 a 5 integrantes. Você pode participar sozinho ou formar uma equipe com até 4 outras pessoas."
       }
     },
     "primary-button": "Criar conta",

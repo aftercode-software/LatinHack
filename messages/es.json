@@ -107,28 +107,28 @@
         "answer": "Español."
       },
       "question6": {
-        "title": "¿Cuántas personas por equipo?",
-        "answer": "TBD"
+        "title": "¿Puedo participar solo?",
+        "answer": "Sí, por supuesto. Puedes competir como un equipo de una sola persona. El tamaño de los equipos es de 1 a 5 integrantes."
       },
       "question7": {
         "title": "¿Costo de participación?",
-        "answer": "TBD"
+        "answer": "La participación en LATIN HACK es 100% gratuita para todos."
       },
       "question8": {
         "title": "¿Quién puede competir (elegibilidad)?",
-        "answer": "TBD"
+        "answer": "¡Todos pueden participar! El hackathon está abierto a personas de todos los países y todas las edades, incluyendo a menores de edad. Las únicas restricciones son de residencia para algunos premios específicos, como las becas de viaje a Buenos Aires y el viaje a Miami, que son exclusivos para residentes de Latinoamérica."
       },
       "question9": {
         "title": "¿Propiedad intelectual de los proyectos?",
-        "answer": "TBD"
+        "answer": "Tú eres el dueño de lo que construyes. Cada equipo conserva la propiedad intelectual completa de los proyectos, ideas y código que desarrollen durante el hackathon. No es necesario que los repositorios entregables sean públicos."
       },
       "question10": {
         "title": "¿Criterios de evaluación y jurados?",
-        "answer": "TBD"
+        "answer": "El panel estará compuesto por 5 jueces expertos de la industria y el ecosistema. Sus decisiones son finales. Los criterios de evaluación principales son: Innovación e Impacto (originalidad y potencial de la solución), Ejecución y Viabilidad (calidad técnica y funcional), Validación del Problema (comprensión y demostración del problema), Experiencia de Usuario (diseño y facilidad de uso), Claridad de la Presentación (efectividad del pitch), y Despliegue en Polkadot (uso correcto de la tecnología del ecosistema)."
       },
       "question11": {
-        "title": "¿Puedo participar solo?",
-        "answer": "TBD"
+        "title": "¿Cuántas personas por equipo?",
+        "answer": "El tamaño de los equipos es de 1 a 5 integrantes. Puedes participar solo o formar un equipo con hasta 4 personas más."
       }
     },
     "primary-button": "Crear cuenta",
