@@ -63,12 +63,28 @@
         "answer": "English."
       },
       "question6": {
-        "title": "How many people per team?",
-        "answer": "TBD"
+        "title": "Can I participate alone?",
+        "answer": "Yes, of course. You can compete as a single-person team. Team size is from 1 to 5 members."
       },
       "question7": {
-        "title": "Can I participate alone?",
-        "answer": "Yes, but you will need to join a team."
+        "title": "Participation cost?",
+        "answer": "Participation in LATIN HACK is 100% free for everyone."
+      },
+      "question8": {
+        "title": "Who can compete (eligibility)?",
+        "answer": "Everyone can participate! The hackathon is open to people from all countries and all ages, including minors. The only restrictions are residency requirements for some specific prizes, such as travel scholarships to Buenos Aires and the trip to Miami, which are exclusive to Latin American residents."
+      },
+      "question9": {
+        "title": "Intellectual property of projects?",
+        "answer": "You own what you build. Each team retains complete intellectual property rights to the projects, ideas, and code they develop during the hackathon. Deliverable repositories do not need to be public."
+      },
+      "question10": {
+        "title": "Evaluation criteria and judges?",
+        "answer": "The panel will consist of 5 expert judges from the industry and ecosystem. Their decisions are final. The main evaluation criteria are: Innovation & Impact (originality and solution potential), Execution & Viability (technical and functional quality), Problem Validation (understanding and demonstration of the problem), User Experience (design and ease of use), Presentation Clarity (pitch effectiveness), and Polkadot Deployment (correct use of ecosystem technology)."
+      },
+      "question11": {
+        "title": "How many people per team?",
+        "answer": "Team size is from 1 to 5 members. You can participate alone or form a team with up to 4 other people."
       }
     },
     "primary-button": "Create account",
