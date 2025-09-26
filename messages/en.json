@@ -223,7 +223,8 @@
     "cta": "Create account"
   },
   "Sponsors": {
-    "title": "Sponsors & partners",
+    "title": "Sponsors",
+    "title2": "Partners",
     "subtitle": "Trust and ecosystem: who backs us.",
     "empty": "We'll announce partners soon."
   }
