@@ -1,55 +1,51 @@
 {
   "Navbar": {
-    "button": "Crear cuenta"
+    "button": "Criar conta"
   },
   "UI": {
-    "language": "Idioma"
+    "language": "Língua"
   },
   "Hero": {
-    "title": "un evento de <b>nerdconf</b>",
-    "subtitle": "Crea tu app en 15 días",
-    "date": "Del 27 Sep al 12 Oct",
+    "title": "um evento da <b>nerdconf</b>",
+    "subtitle": "Crie sua app em 15 dias",
+    "date": "De 27 de Set a 12 de Out",
     "prizes": {
       "first": "USDT 21.000",
-      "second": "Viaje a Miami",
-      "long": "Incluye 15.000 USDT + mentoría 6 semanas + becas de viaje a Sub0 Buenos Aires + viaje a Miami todo pago para ver al GOAT"
+      "second": "Viagem para Miami",
+      "long": "Inclui 15.000 USDT + mentoria de 6 semanas + bolsas de viagem para o Sub0 Buenos Aires + viagem para Miami com tudo pago para ver o GOAT"
     },
-    "primary-button": "Registrate YA",
-    "secondary-button": "Unite al Discord"
+    "primary-button": "Registre-se JÁ",
+    "secondary-button": "Entrar no Discord"
   },
   "CountDown": {
-    "title": "Cierre de proyectos",
-    "daysLeft": "QUEDAN {daysLeft} DÍAS"
-  },
-  "AlertBar": {
-    "projects-closed": "Cierre de proyectos: {date}",
-    "days-left": "Quedan {days} días."
+    "title": "Prazo de entrega do projeto",
+    "daysLeft": "{daysLeft} DIAS RESTANTES"
   },
   "HowItWorks": {
     "title": "Como funciona",
     "steps": {
       "step1": {
-        "title": "Creá tu cuenta",
-        "description": "acceso a tu panel y progreso."
+        "title": "Crie sua conta",
+        "description": "acesso ao seu painel e progresso."
       },
       "step2": {
-        "title": "Sumate al Discord",
-        "description": "anuncios, soporte, equipo."
+        "title": "Entrar no Discord",
+        "description": "anuncios, suporte, equipe."
       },
       "step3": {
-        "title": "Creá tu proyecto",
-        "description": "recibe feedback, mentores y evaluación."
+        "title": "Crie seu projeto",
+        "description": "receba feedback, mentores e avaliação."
       }
     },
-    "primary-button": "Crear cuenta"
+    "primary-button": "Criar conta"
   },
   "Venues": {
-    "title": "Sedes",
+    "title": "Locais",
     "countries": {
       "colombia": {
-        "country": "Colombia",
+        "country": "Colômbia",
         "city": "Medellín",
-        "date": "27 sep",
+        "date": "27 set",
         "link": "https://luma.com/latinhackmed"
       },
       "brazil": {
@@ -61,171 +57,175 @@
       "mexico": {
         "country": "México",
         "city": "Monterrey",
-        "date": "3 oct",
+        "date": "3 out",
         "link": "https://luma.com/latinhackmty"
       },
       "usa": {
         "country": "Estados Unidos",
-        "city": "San Francisco",
-        "date": "4 oct",
+        "city": "São Francisco",
+        "date": "4 out",
         "link": "https://luma.com/latinhacksf"
       },
       "argentina": {
         "country": "Argentina",
         "city": "Mendoza",
-        "date": "4 oct",
+        "date": "4 out",
         "link": "https://luma.com/latinhackmdz"
       }
     },
     "linkLabel": "Ver evento",
     "microCopy": {
-      "part-1": "Puedes participar 100% en remoto.",
-      "part-2": "Los encuentros presenciales son opcionales (solo 1 día por país)."
+      "part-1": "Você pode participar 100% remotamente.",
+      "part-2": "Os encontros presenciais são opcionais (apenas 1 dia por país)."
     }
   },
   "FAQ": {
     "title": "F.A.Q.",
     "questions": {
       "question1": {
-        "title": "¿Cuándo es el hackathon?",
-        "answer": "Del 27 Sep al 12 Oct 2025."
+        "title": "O que é Latin Hack?",
+        "answer": "Latin Hack é um hackathon latinoamericano que se celebra em Buenos Aires, Argentina."
       },
       "question2": {
-        "title": "¿Dónde participo?",
-        "answer": "Remoto desde cualquier punto de LATAM. Sedes presenciales 1 día en AR/BR/CO/MX."
+        "title": "Onde posso participar?",
+        "answer": "Remoto desde qualquer ponto da LATAM. Sedes presenciais 1 dia em AR/BR/CO/MX."
       },
       "question3": {
-        "title": "¿Cómo me inscribo?",
-        "answer": "Creando tu cuenta (CTA de la página) y uniéndote al Discord."
+        "title": "Como me inscrever?",
+        "answer": "Criando sua conta (CTA da página) e se juntando ao Discord."
       },
       "question4": {
-        "title": "¿Qué premios hay?",
-        "answer": "15.000 USDT + mentoría 6 semanas + becas de viaje a Sub0 BA (noviembre). El total destacado es USD 21.000+ incluyendo todas las oportunidades."
+        "title": "Quais são os prêmios?",
+        "answer": "15.000 USDT + mentoria 6 semanas + bolsas de viagem para o Sub0 Buenos Aires + viagem a Miami todo pago para ver o GOAT"
       },
       "question5": {
-        "title": "¿En qué idioma están los workshops?",
-        "answer": "Español."
+        "title": "Em que idioma estão os workshops?",
+        "answer": "Português."
       },
       "question6": {
-        "title": "¿Puedo participar solo?",
-        "answer": "Sí, por supuesto. Puedes competir como un equipo de una sola persona. El tamaño de los equipos es de 1 a 5 integrantes."
+        "title": "Posso participar sozinho?",
+        "answer": "Sim, claro. Você pode competir como uma equipe de uma pessoa só. O tamanho das equipes é de 1 a 5 integrantes."
       },
       "question7": {
-        "title": "¿Costo de participación?",
-        "answer": "La participación en LATIN HACK es 100% gratuita para todos."
+        "title": "Custo de participação?",
+        "answer": "A participação no LATIN HACK é 100% gratuita para todos."
       },
       "question8": {
-        "title": "¿Quién puede competir (elegibilidad)?",
-        "answer": "¡Todos pueden participar! El hackathon está abierto a personas de todos los países y todas las edades, incluyendo a menores de edad. Las únicas restricciones son de residencia para algunos premios específicos, como las becas de viaje a Buenos Aires y el viaje a Miami, que son exclusivos para residentes de Latinoamérica."
+        "title": "Quem pode competir (elegibilidade)?",
+        "answer": "Todos podem participar! O hackathon está aberto a pessoas de todos os países e todas as idades, incluindo menores de idade. As únicas restrições são de residência para alguns prêmios específicos, como as bolsas de viagem para Buenos Aires e a viagem para Miami, que são exclusivas para residentes da América Latina."
       },
       "question9": {
-        "title": "¿Propiedad intelectual de los proyectos?",
-        "answer": "Tú eres el dueño de lo que construyes. Cada equipo conserva la propiedad intelectual completa de los proyectos, ideas y código que desarrollen durante el hackathon. No es necesario que los repositorios entregables sean públicos."
+        "title": "Propriedade intelectual dos projetos?",
+        "answer": "Você é o dono do que constrói. Cada equipe conserva a propriedade intelectual completa dos projetos, ideias e código que desenvolverem durante o hackathon. Não é necessário que os repositórios entregáveis sejam públicos."
       },
       "question10": {
-        "title": "¿Criterios de evaluación y jurados?",
-        "answer": "El panel estará compuesto por 5 jueces expertos de la industria y el ecosistema. Sus decisiones son finales. Los criterios de evaluación principales son: Innovación e Impacto (originalidad y potencial de la solución), Ejecución y Viabilidad (calidad técnica y funcional), Validación del Problema (comprensión y demostración del problema), Experiencia de Usuario (diseño y facilidad de uso), Claridad de la Presentación (efectividad del pitch), y Despliegue en Polkadot (uso correcto de la tecnología del ecosistema)."
+        "title": "Critérios de avaliação e jurados?",
+        "answer": "O painel será composto por 5 juízes especialistas da indústria e do ecossistema. Suas decisões são finais. Os critérios de avaliação principais são: Inovação e Impacto (originalidade e potencial da solução), Execução e Viabilidade (qualidade técnica e funcional), Validação do Problema (compreensão e demonstração do problema), Experiência do Usuário (design e facilidade de uso), Clareza da Apresentação (efetividade do pitch), e Implantação no Polkadot (uso correto da tecnologia do ecossistema)."
       },
       "question11": {
-        "title": "¿Cuántas personas por equipo?",
-        "answer": "El tamaño de los equipos es de 1 a 5 integrantes. Puedes participar solo o formar un equipo con hasta 4 personas más."
+        "title": "Quantas pessoas por equipe?",
+        "answer": "O tamanho das equipes é de 1 a 5 integrantes. Você pode participar sozinho ou formar uma equipe com até 4 outras pessoas."
       }
     },
-    "primary-button": "Crear cuenta",
-    "secondary-button": "Unirse al Discord"
+    "primary-button": "Criar conta",
+    "secondary-button": "Entrar no Discord"
+  },
+  "AlertBar": {
+    "projects-closed": "Fechamento de projetos: {date}",
+    "days-left": "Faltam {days} dias."
   },
   "Timeline": {
-    "title": "TIMELINE",
+    "title": "Cronograma",
     "phases": {
       "kickoff": {
-        "title": "Lanzamiento",
-        "date": "27 Sep"
+        "title": "Início",
+        "date": "27 de Set"
       },
       "workshops": {
         "title": "Workshops",
-        "date": "Del 27 Sep al 12 Oct"
+        "date": "De 27 de Set a 12 de Out"
       },
       "submission": {
         "title": "Entrega",
-        "date": "12 Oct"
+        "date": "12 de Out"
       }
     },
     "participation": {
-      "title": "Participación",
+      "title": "Participação",
       "remote": "Remoto (toda LATAM)",
-      "inPerson": "Presencial (1 día por país)"
+      "inPerson": "Presencial (1 dia por país)"
     }
   },
   "PrizesAndOpportunities": {
-    "title": "Premios y Oportunidades",
-    "objective": "Propuesta de valor completa y clara",
+    "title": "Prêmios e Oportunidades",
+    "objective": "Proposta de valor completa e clara",
     "items": {
       "prize1": {
         "title": "15.000 USDT",
-        "description": "Premio cash a los equipos ganadores"
+        "description": "Prêmio em dinheiro para as equipes vencedoras"
       },
       "prize2": {
-        "title": "Mentoría",
-        "description": "De 6 semanas post-hack para los ganadores"
+        "title": "Mentoria",
+        "description": "Programa de mentoria de 6 semanas para as equipes vencedoras"
       },
       "prize3": {
-        "title": "Viajes",
-        "description": "Beca para <polkadot>Polkadot</polkadot> <sub0>sub0</sub0> en Buenos Aires, Argentina (Nov. 2025)"
+        "title": "Viagens",
+        "description": "Bolsa para o <polkadot>Polkadot</polkadot> <sub0>sub0</sub0> em Buenos Aires, Argentina (nov. 2025)"
       }
     },
-    "goat": "NOS VAMOS A VER AL G.O.A.T.",
-    "footnote": "TOTAL: USD 21.000. Incluye efectivo + becas + programa de mentoría."
+    "goat": "VAMOS VER O G.O.A.T.!",
+    "footnote": "TOTAL: USD 21.000. Inclui dinheiro + bolsas + programa de mentoria."
   },
   "WorkshopsAndResources": {
     "title": "Workshops & Recursos",
-    "objective": "builders... empiecen a construir con nosotros",
+    "objective": "builders... comecem a construir conosco",
     "workshops": {
       "topics": {
         "topic1": {
-          "date": "30 Sep",
-          "title": "¿Qué es web3?",
-          "description": "​En este workshop te contamos qué es realmente Web3 (sin vueltas), cómo funciona el ecosistema Polkadot y por qué es clave en el Latin Hack. Te vas con la base clara y las herramientas listas para entrar con ventaja al hack.",
+          "date": "30 Set",
+          "title": "O que é Web3?",
+          "description": "Neste workshop explicamos o que realmente é Web3 (sem enrolação), como funciona o ecossistema Polkadot e por que é essencial para o Latin Hack. Você sairá com uma base clara e as ferramentas para começar com vantagem no hackathon.",
           "calendarLink": "https://luma.com/tcnsrlvd"
         },
         "topic2": {
-          "date": "2 Oct",
+          "date": "2 Out",
           "title": "Smart Contracts",
-          "description": "​Es hora de poner manos al código: en este workshop vas a escribir, compilar y deployar tu primer smart contract en una parachain de Polkadot.",
+          "description": "Hora de colocar a mão na massa: neste workshop você vai escrever, compilar e fazer o deploy do seu primeiro smart contract em uma parachain da Polkadot.",
           "calendarLink": "https://luma.com/q4zhehqk"
         }
       },
-      "calendar": "Agregar al calendario"
+      "calendar": "Adicionar ao calendário"
     },
     "resources": {
       "button": "Ver Recursos",
-      "description": "REPOS, GUÍAS, PLANTILLAS Y MÁS."
+      "description": "REPOS, GUIAS, MODELOS E MAIS."
     }
   },
   "Platforms": {
-    "title": "Plataformas / Tu panel de progreso",
-    "microcopy": "El progreso, entregas y estado del equipo viven en tu cuenta. La conversación ocurre en Discord.",
+    "title": "Plataformas / Seu painel de progresso",
+    "microcopy": "O progresso, as entregas e o status da equipe ficam na sua conta. A conversa acontece no Discord.",
     "cards": {
       "account": {
-        "title": "Tu cuenta en Latin Hack",
-        "desc": "Panel con progreso, entregas, equipo y feedback.",
-        "cta": "Crear cuenta"
+        "title": "Sua conta no Latin Hack",
+        "desc": "Painel com progresso, entregas, equipe e feedback.",
+        "cta": "Criar conta"
       },
       "discord": {
         "title": "Discord",
-        "desc": "Anuncios, soporte técnico y networking.",
-        "cta": "Unirte al Discord",
+        "desc": "Anúncios, suporte técnico e networking.",
+        "cta": "Entrar no Discord",
         "secondary": "Abrir canal"
       }
     }
   },
   "MidCTA": {
-    "copy": "¿Listo para construir?",
-    "cta": "Crear cuenta"
+    "copy": "Pronto para construir?",
+    "cta": "Criar conta"
   },
   "Sponsors": {
     "title": "Sponsors",
-    "title2": "Partners",
-    "subtitle": "Confianza y ecosistema: quienes nos acompañan.",
-    "empty": "Pronto anunciaremos nuestros partners."
+    "title2": "Parceiros",
+    "subtitle": "Confiança e ecossistema: quem nos acompanha.",
+    "empty": "Anunciaremos os parceiros em breve."
   }
 }
