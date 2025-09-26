@@ -46,25 +46,39 @@ export default function Sponsors() {
     },
   });
 
-  useGSAP(() => {
+ useGSAP(
+  () => {
     const currentTl = tl.current;
     if (!currentTl) return;
-    currentTl.from(".sponsors-title", {
-      opacity: 0,
-      y: 50,
-      duration: 0.5,
-    });
-    currentTl.from(
-      ".sponsor-image",
+
+    currentTl.fromTo(
+      ".sponsors-title",
+      { opacity: 0, y: 50 },
       {
-        opacity: 0,
-        y: 50,
+        opacity: 1,
+        y: 0,
+        duration: 0.5,
+        immediateRender: false,
+        clearProps: "opacity,transform",
+      }
+    );
+
+    currentTl.fromTo(
+      ".sponsor-image",
+      { opacity: 0, y: 50 },
+      {
+        opacity: 1,
+        y: 0,
         duration: 0.5,
         stagger: 0.1,
+        immediateRender: false,
+        clearProps: "opacity,transform",
       },
       "<+0.3"
     );
-  });
+  },
+  { scope: containerRef }
+);
 
   return (
     <section className="margin-section" id="sponsors" ref={containerRef}>
@@ -113,7 +127,7 @@ export default function Sponsors() {
             <Title className="sponsors-title">{t("title2")}</Title>
 
             {/* ===== Sponsors 3: tres en una fila ===== */}
-            <div className="mx-auto w-full md:max-w-4xl grid grid-cols-2 md:grid-cols-3 gap-6 md:gap-x-10 md:gap-y-20 place-items-center">
+            <div className="mx-auto w-full md:max-w-4xl grid grid-cols-3  md:grid-cols-3 gap-6 md:gap-x-10 md:gap-y-20 place-items-center">
 
               {sponsors2.map((s) => {
                 const Img = (
