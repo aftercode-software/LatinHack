@@ -104,9 +104,10 @@ export default function Hero() {
         <span className="font-roboto-mono text-green-50 uppercase text-xl md:text-2xl hero-date z-10 invisible">
           {t("date")}
         </span>
+        <div className="mt-6"><img className="h-6 md:h-7" src="/bypolka.svg" alt="" /></div>
       </header>
 
-      <section className="relative isolate py-6 md:py-0">
+      <section className="relative isolate py-6 md:py-0 md:mt-8 mt-22">
         <img
           src="/globe.webp"
           alt=""

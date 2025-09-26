@@ -49,8 +49,8 @@ export default function Navbar() {
       ref={navRef}
       className="fixed top-0 left-0 right-0 z-40 bg-black/90 border-b-2 border-green/50 border-dashed"
     >
-      <Container className="flex flex-row justify-between items-center py-6 md:py-2">
-        <img src="/logo.png" alt="logo" className="h-12 md:h-20" />
+      <Container className="flex flex-row justify-between items-center py-6 md:py-2 ">
+        <img src="/logoheader.svg" alt="logo" className="md:pt-2 h-8 md:h-20" />
         <div className="flex flex-row items-center gap-4 md:gap-4">
           <div className="hidden lg:block">
             <LanguageSwitcher />

@@ -223,7 +223,8 @@
     "cta": "Criar conta"
   },
   "Sponsors": {
-    "title": "Sponsors e parceiros",
+    "title": "Sponsors",
+    "title2": "Parceiros",
     "subtitle": "Confiança e ecossistema: quem nos acompanha.",
     "empty": "Anunciaremos os parceiros em breve."
   }
